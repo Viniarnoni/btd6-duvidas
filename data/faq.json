@@ -1,0 +1,1408 @@
+{
+  "meta": {
+    "title": "BTD6 Dúvidas",
+    "description": "Perguntas frequentes para iniciantes em Bloons TD 6",
+    "gameVersion": "v55.2 (revisado em jul/2026)",
+    "lastReviewed": "2026-07-20",
+    "reviewPass": 6,
+    "disclaimer": "Projeto de fãs. Não afiliado à Ninja Kiwi. Conteúdo revisado contra patches recentes."
+  },
+  "categories": [
+    { "id": "inicio", "label": "Primeiros passos", "icon": "🎈" },
+    { "id": "meta", "label": "Meta atual", "icon": "📊" },
+    { "id": "torres", "label": "Torres", "icon": "🐵" },
+    { "id": "bloons", "label": "Bloons", "icon": "🎯" },
+    { "id": "modos", "label": "Modos", "icon": "🏆" },
+    { "id": "mapas", "label": "Mapas", "icon": "🗺️" },
+    { "id": "heroes", "label": "Heróis", "icon": "⭐" },
+    { "id": "economia", "label": "Economia", "icon": "💰" },
+    { "id": "erros", "label": "Erros comuns", "icon": "⚠️" },
+    { "id": "referencia", "label": "Referência rápida", "icon": "📋" }
+  ],
+  "faqs": [
+    {
+      "id": "primeira-torre",
+      "category": "inicio",
+      "question": "Qual torre colocar no round 1?",
+      "answer": "Em Medium/Hard, comece com Dart Monkey ($200) na primeira curva. Upgrade 0-2-0 (Triple Dart) nos rounds 2–4 cobre bem o early game. Alternativa: Ninja ($400) se já planeja build de ninja+camo. Coloque o herói no round 1–3 — ele ganha XP a cada round e fica mais forte no late game.",
+      "tags": ["round 1", "iniciante", "dart", "ninja"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "dificuldade-inicial",
+      "category": "inicio",
+      "question": "Qual dificuldade devo jogar primeiro?",
+      "answer": "Comece em Easy no mapa Monkey Meadows. Easy dá $850 inicial e 200 vidas, ideal para aprender. Depois Medium e Hard. Evite Impoppable até dominar camo (round 24), lead (~28) e MOAB (40–46 conforme dificuldade).",
+      "tags": ["easy", "monkey meadows", "iniciante"]
+    },
+    {
+      "id": "quantas-rodadas",
+      "category": "inicio",
+      "question": "Quantos rounds tem uma partida normal?",
+      "answer": "Partidas padrão vão até o round 100. Em Easy você pode vencer no round 40 com 'Easy Win', ou continuar até 100 e entrar no Freeplay (rounds infinitos, bloons cada vez mais fortes).",
+      "tags": ["rounds", "freeplay", "vitória"]
+    },
+    {
+      "id": "onde-colocar-torres",
+      "category": "inicio",
+      "question": "Onde posicionar as torres?",
+      "answer": "Priorize curvas, cruzamentos e trechos onde os bloons ficam mais tempo no alcance. Torres de alcance curto (Tack, Bomb) vão no meio do caminho; de alcance longo (Sniper, Sub) podem ficar mais flexíveis. Heróis que buffam torres (Obyn, Adora) ficam no centro da defesa.",
+      "tags": ["posicionamento", "mapa", "dica"]
+    },
+    {
+      "id": "meta-iniciante-2026",
+      "category": "meta",
+      "question": "Qual é o meta para iniciantes em 2026?",
+      "answer": "O core que não envelhece: herói cedo + poucas torres upgradadas + camo antes do 24 + lead antes do 28. Builds 2026: Dart/Boomerang early → Ninja (camo) → Alchemist (lead+buff). Heróis: Obyn/Sauda/Quincy para aprender; Geraldo endgame. Versão atual: v55.2 (jul/2026). v56 (ago/2026) trará Archer Monkey — revise FAQs após launch.",
+      "tags": ["meta", "2026", "v55", "v56", "iniciante"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "meta-core-comp",
+      "category": "meta",
+      "question": "Qual combinação de torres é meta no mid/late game?",
+      "answer": "O núcleo mais usado em Hard/CHIMPS: Ninja Monkey 0-4-0 (Grandmaster) + Alchemist 4-2-0 (Permanent Brew) buffando o ninja, com Monkey Village 0-3-2 (MIB) para lead/fortified/camo em torres adjacentes. Variantes: Spike Factory 0-2-5 no final do caminho para cleanup; Super Monkey ou Sun Temple como anchor de dano. Para iniciantes, versão simplificada: Ninja 2-0-0 + Alch 3-0-0 até round 60.",
+      "tags": ["meta", "ninja", "alchemist", "mib", "grandmaster"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "alchemist-420-vs-401",
+      "category": "meta",
+      "question": "Alchemist 4-2-0 ou 4-0-1 — qual usar?",
+      "answer": "4-2-0 (Permanent Brew): buff mais forte e duradouro — ideal para 1–2 torres principais (ninja grandmaster, sniper). Meta padrão em CHIMPS. 4-0-1 (Permanent Fire): buffa mais torres simultaneamente com potes mais rápidos — melhor quando você tem 3+ torres ao redor. Regra prática: 1–2 carries → 4-2-0; defesa espalhada → 4-0-1.",
+      "tags": ["alchemist", "420", "401", "meta", "buff"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "mib-o-que-e",
+      "category": "meta",
+      "question": "O que é MIB (Monkey Intelligence Bureau)?",
+      "answer": "Upgrade do Monkey Village no path middle tier 3 (build 0-3-2). Torres dentro do alcance do MIB podem popar lead, detectar camo e danificar bloons fortificados mesmo sem essas propriedades nativas. Essencial em late game e CHIMPS — permite buffar darts/snipers com Alchemist sem se preocupar com lead.",
+      "tags": ["mib", "village", "camo", "lead", "meta"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "quincy-meta-2026",
+      "category": "meta",
+      "question": "Quincy caiu no meta? Ainda vale usar?",
+      "answer": "Tier lists de endgame/chimps o colocam abaixo de Geraldo, Sauda e Adora — mas Quincy continua excelente para iniciantes: gratuito, simples, detecta camo em nível alto, habilidade de chuva de flechas anti-grouped. Buffs recentes (v10+) melhoraram Storm of Arrows vs MOABs. Use sem medo enquanto aprende; troque para heróis S-tier quando for para Expert/CHIMPS avançado.",
+      "tags": ["quincy", "meta", "herói", "iniciante"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "geraldo-meta",
+      "category": "meta",
+      "question": "Geraldo é meta? Iniciante deve usar?",
+      "answer": "Geraldo é S-tier no meta 2026 — loja de itens (Reuse Reality, Sharpening Stone, Paragon do Dart, etc.) redefine runs avançadas. Porém exige conhecer itens, timing e economia. Desbloqueie aos level 20+ e domine Hard antes de mainear. Patch v51 reduziu custo do Rabbit ($1.750). Não é herói 'colocar e esquecer' como Quincy.",
+      "tags": ["geraldo", "meta", "loja", "avançado"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "acompanhar-patches",
+      "category": "meta",
+      "question": "Como saber se uma dica ainda vale após um patch?",
+      "answer": "Confira patch notes oficiais (menu do jogo ou r/btd6). Ninja Kiwi patcha a cada ~4–6 semanas. Torre/herói mais rebalanceados: Geraldo, Ninja, Alchemist, Dart Paragon. Este site registra revisões em data/meta-review.json. Desconfie de guias com builds de antes de 2024 sem data de atualização.",
+      "tags": ["patch", "balance", "atualização", "meta"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "hero-quando",
+      "category": "heroes",
+      "question": "Quando devo colocar o herói?",
+      "answer": "Round 1–3, sempre que possível. Heróis ganham XP por round completado (não gasta seu cash). Quanto antes, mais níveis até o round 80–100. Esperar round 10+ é erro comum — você perde poder de habilidade no mid game.",
+      "tags": ["herói", "xp", "round 1"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "hero-iniciante",
+      "category": "heroes",
+      "question": "Qual herói é melhor para iniciantes?",
+      "answer": "Quincy (grátis): simples e confiável. Obyn (level 28): brambles + buff em magia/druidas, Wall of Trees salva erros — muito recomendado em 2026. Sauda (level 25): domina early game em mapas terrestres. Evite Geraldo e Benjamin até entender economia. Pat Fusty e Churchill são divertidos mas menos versáteis para aprender.",
+      "tags": ["quincy", "obyn", "sauda", "herói"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "sauda-meta",
+      "category": "heroes",
+      "question": "Sauda ainda é boa em 2026?",
+      "answer": "Sim — S-tier em mapas terrestres com curvas. Habilidade de blades no early limpa rounds barato, ideal para CHIMPS budget e farming XP de mapa. Fraca em mapas aquáticos sem terra adjacente. Meta CHIMPS barato: Sauda + algumas torres de suporte.",
+      "tags": ["sauda", "meta", "chimps", "herói"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "adora-quando",
+      "category": "heroes",
+      "question": "Quando usar Adora?",
+      "answer": "Adora escala absurdamente no late game — transformação e Sun Temple synergy. Melhor quando você já sabe fazer economia e chegar ao round 60+ com cash sobrando. Combo meta: Adora no centro + Ninja-Alch buffados + Sun Temple. Iniciantes: deixe para depois de vencer vários mapas Hard.",
+      "tags": ["adora", "late game", "sun temple", "herói"]
+    },
+    {
+      "id": "benjamin-quando",
+      "category": "heroes",
+      "question": "Benjamin vale a pena?",
+      "answer": "Benjamin gera cash passivo (Skimming) e pode retornar bloons — ótimo em Hard round 100 e Freeplay onde economia importa. Fraco em CHIMPS early (precisa de defesa real primeiro). Meta econômico: Benjamin + farms + defesa mínima até round 40, depois investir.",
+      "tags": ["benjamin", "economia", "farm", "herói"]
+    },
+    {
+      "id": "psi-corvus-resumo",
+      "category": "heroes",
+      "question": "Psi e Corvus — resumo rápido",
+      "answer": "Psi (level 30): estuna bloons e deleta uns específicos — forte vs DDTs e grouped, popular em CHIMPS avançado. Corvus (level 30): invoca minions via skull — versátil, curva média. Ambos são A/S-tier em mãos experientes; iniciantes podem ignorar no início.",
+      "tags": ["psi", "corvus", "herói", "ddt"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "camo-o-que-e",
+      "category": "bloons",
+      "question": "O que são bloons camo?",
+      "answer": "Bloons invisíveis que torres sem detecção não enxergam. Primeiro camo significativo: round 24 (Hard/Impoppable). Soluções: Ninja nativo, Wizard com upgrade, Sub com sonar, Village com camo detection, ou MIB.",
+      "tags": ["camo", "round 24", "invisível"]
+    },
+    {
+      "id": "camo-solucao",
+      "category": "bloons",
+      "question": "Como lidar com camo no round 24?",
+      "answer": "Meta budget: Ninja Monkey 0-0-1+ (detecta camo nativo) — coloque até round 12–20. Alternativas: Wizard 0-0-2, Sub com Periscope (0-0-2), ou Village 0-2-0 (Radar Scanner). Sauda e Quincy ganham detecção camo em certos níveis de herói. Nunca chegue no 24 sem plano.",
+      "tags": ["camo", "ninja", "wizard", "round 24"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "lead-o-que-e",
+      "category": "bloons",
+      "question": "O que são bloons de chumbo (lead)?",
+      "answer": "Bloons cinza imunes a dano perfurante fraco e explosivo fraco. Dardos comuns não funcionam (exceto Juggernaut/Crossbow). Aparecem ~round 28–30. Precisa de magia, fogo, Alchemist, Bomb forte, ou MIB buffando torres perfurantes.",
+      "tags": ["lead", "chumbo", "round 28"]
+    },
+    {
+      "id": "lead-solucao",
+      "category": "bloons",
+      "question": "Como destruir bloons de chumbo?",
+      "answer": "Opções meta: Alchemist (ácido ou buff), Wizard 2-0-0+, Bomb 0-0-3 (Heavy Bombs). Combo clássico iniciante: Ninja + Alchemist — ninja pega camo, alch derrete lead. Late game: MIB no village resolve lead para todas torres nearby.",
+      "tags": ["lead", "alchemist", "wizard", "bomb"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "moab",
+      "category": "bloons",
+      "question": "O que é um MOAB e quando aparece?",
+      "answer": "MOAB é o primeiro bloon 'boss' — muito HP. Aparece no round 40 (Easy/Medium) ou round 46 (Hard/Impoppable). Precisa dano concentrado: Ninja 0-4-0, Sniper 0-2-5, Wizard Lord, ou habilidades de herói. MOAB solto no round 40/46 é a causa #1 de derrota de iniciantes.",
+      "tags": ["moab", "round 40", "round 46", "boss"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "bfb-zomg-ddt",
+      "category": "bloons",
+      "question": "O que são BFB, ZOMG e DDT?",
+      "answer": "BFB (~round 60): MOAB maior. ZOMG (~round 80): ainda maior — exige dano pesado. DDT (~round 90+): rápido, camo, lead, alto HP — o mais traiçoeiro. Anti-DDT meta: Psi, Ninja Master, Spike Storm, ou MOAB Glue + concentrated damage.",
+      "tags": ["bfb", "zomg", "ddt", "late game"]
+    },
+    {
+      "id": "fortificado",
+      "category": "bloons",
+      "question": "O que significa bloon fortificado (preto)?",
+      "answer": "Bloons fortificados têm muito mais HP. Aparecem em rounds altos. Alchemist (Unstable Concoction, Acid Pool), Ice Shards, ou MIB + torres de alto DPS ajudam. Em CHIMPS, anti-fortified antes do round 80 evita surpresas.",
+      "tags": ["fortified", "hp", "late game"]
+    },
+    {
+      "id": "chimps-o-que-e",
+      "category": "modos",
+      "question": "O que significa CHIMPS?",
+      "answer": "Modo hardcore: No Continues, Hearts lost (1 vida), Income (sem farms/banana income), Monkey Knowledge, Powers, Selling. Cada letra é uma restrição. Medalha negra no mapa — prova de domínio. Só tente após vencer Hard normalmente.",
+      "tags": ["chimps", "modo", "desafio"]
+    },
+    {
+      "id": "chimps-quando",
+      "category": "modos",
+      "question": "Quando tentar CHIMPS?",
+      "answer": "Depois de vencer o mapa em Hard, dominar camo/lead/MOAB e ter estratégia testada. Primeiros CHIMPS fáceis: Monkey Meadows, Tree Stump (com guia). Meta budget 2026: Sauda ou Obyn + Ninja-Alch. Não é para o primeiro dia.",
+      "tags": ["chimps", "iniciante", "estratégia"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "modos-diferenca",
+      "category": "modos",
+      "question": "Qual a diferença entre Easy, Medium, Hard e Impoppable?",
+      "answer": "Easy: +cash, +vidas, bloons mais lentos. Medium: padrão. Hard: menos cash, mais pressão, camo round 24. Impoppable: 1 vida, bloons mais rápidos/fortes, menos cash. Cada vitória dá medalha e XP de mapa — repita dificuldades maiores no mesmo mapa.",
+      "tags": ["easy", "hard", "impoppable", "dificuldade"]
+    },
+    {
+      "id": "deflation",
+      "category": "modos",
+      "question": "O que é modo Deflation?",
+      "answer": "$20.000 fixos, sem income por pops. Meta clássico: Sniper 0-2-5 + Village. Modo avançado — exige planejamento total do cash. Não recomendado para iniciantes.",
+      "tags": ["deflation", "modo", "avançado"]
+    },
+    {
+      "id": "rogue-legends",
+      "category": "modos",
+      "question": "O que é Rogue Legends?",
+      "answer": "Modo roguelike adicionado em updates recentes (v49+): runs com artefatos, party de torres/heróis aleatórios e escolhas entre rounds. Meta próprio, separado do BTD6 clássico. Balance patches frequentes em starter teams (Geraldo, Quincy, Obyn). Divertido mas não substitui aprender o jogo base.",
+      "tags": ["rogue legends", "modo", "2025", "artefato"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "poucas-torres-upgrades",
+      "category": "erros",
+      "question": "Devo comprar muitas torres baratas ou poucas com upgrade?",
+      "answer": "Poucas torres bem upgradadas — regra #1 do meta 2026. Tier 3–4 >> várias tier 1. Erro clássico: 10 torres fracas. Exceção: Druid spam com Obyn (estratégia específica). Venda torres early quando fizer sentido (não em CHIMPS).",
+      "tags": ["upgrade", "economia", "erro"]
+    },
+    {
+      "id": "vender-torres",
+      "category": "economia",
+      "question": "Posso vender torres?",
+      "answer": "Sim, exceto CHIMPS e modos com 'No Selling'. Recupera ~70% do investimento. Útil para converter darts early em ninja/alch mid game. MK 'Better Sell Deals' aumenta retorno.",
+      "tags": ["vender", "sell", "chimps"]
+    },
+    {
+      "id": "monkey-knowledge",
+      "category": "economia",
+      "question": "O que é Monkey Knowledge (MK)?",
+      "answer": "Upgrades permanentes com Monkey Money. Prioridade meta para iniciantes: Extra Starting Cash → Heroísm → upgrades do herói que você usa → torres favoritas. Desabilitado em CHIMPS.",
+      "tags": ["monkey knowledge", "mk", "mm"]
+    },
+    {
+      "id": "monkey-money",
+      "category": "economia",
+      "question": "Como ganhar Monkey Money (MM)?",
+      "answer": "Mapas, desafios diários, Odysseys, Boss Events, achievements, colecionáveis. Não precisa pagar. Hard/Impoppable/CHIMPS dão mais XP de mapa; eventos dão instas.",
+      "tags": ["monkey money", "mm", "farm"]
+    },
+    {
+      "id": "farm-quando",
+      "category": "economia",
+      "question": "Quando usar Banana Farm?",
+      "answer": "Depois que a defesa segura rounds 30–40 sozinha. Meta path: 3-2-0 (Marketplace) para eficiência, ou 2-3-0 para mais slots. Ótimo Hard 100 e Freeplay. Inútil em CHIMPS (sem income). Benjamin acelera farm.",
+      "tags": ["banana farm", "320", "income", "late game"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "village-utilidade",
+      "category": "torres",
+      "question": "Para que serve Monkey Village?",
+      "answer": "Buffa torres (alcance, dano, velocidade), reduz custo de upgrades, detecta camo (0-2-0), e MIB (0-3-2) dá lead+camo+fortified detection. Meta CHIMPS: quase todo build late tem Village 2-2-0 ou 0-3-2. Essencial, não opcional.",
+      "tags": ["village", "buff", "camo", "mib"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "ninja-alchemist",
+      "category": "torres",
+      "question": "Por que Ninja + Alchemist é tão recomendado?",
+      "answer": "Core do meta BTD6: Ninja detecta camo + DPS; Alchemist derrete lead e buffa (+dano permanent brew). Progressão iniciante: Ninja 2-0-0 + Alch 3-0-0 até round 60. Meta avançado: Ninja 0-4-0 + Alch 4-2-0 + Village MIB. Funciona em 80%+ dos mapas terrestres.",
+      "tags": ["ninja", "alchemist", "combo", "meta"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "dart-monkey",
+      "category": "torres",
+      "question": "Dart Monkey ainda vale a pena em 2026?",
+      "answer": "Sim no early: 0-2-0 Triple Dart até round 30. Path 5 Crossbow Master é meta CHIMPS budget. Paragon Dart foi nerfeado vs bosses no v52 (menos dano boss, mais dano normal) — ainda viável em Freeplay. Venda darts quando transicionar para ninja/sniper mid game.",
+      "tags": ["dart", "triple dart", "crossbow", "paragon"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "sniper-monkey",
+      "category": "torres",
+      "question": "Sniper Monkey é bom para iniciantes?",
+      "answer": "Excelente. Ignora linha de visão, forte vs MOABs com 0-2-5 (Elite Defender). Base $300 Medium. Meta Deflation e anti-boss. Combine com Alch 4-2-0 para single-target carry. Menos versátil que Ninja no early (sem camo nativo).",
+      "tags": ["sniper", "moab", "elite defender", "025"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "wizard-monkey",
+      "category": "torres",
+      "question": "Wizard Monkey serve para quê?",
+      "answer": "Lead early (2-0-0 Fire), camo (0-0-2), grouped (Wall of Fire). Wizard Phoenix 4-0-2 é budget anti-MOAB. Fraco sozinho vs DDTs — combine com Village/Ninja. Obyn buffa wizards significativamente.",
+      "tags": ["wizard", "magia", "lead", "fire"]
+    },
+    {
+      "id": "boomerang-early",
+      "category": "torres",
+      "question": "Boomerang Monkey no early game — meta 2026?",
+      "answer": "Recomendado em guias 2026: segundo tower round 6–8, upgrade 2-0-0 (Red Hot Boomerangs) para pierce natural. Complementa Dart na curva oposta. Path 2-0-4 (MOAB Domination) é anti-boss budget. Bom antes de investir em Ninja.",
+      "tags": ["boomerang", "early", "meta", "pierce"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "glue-gunner",
+      "category": "torres",
+      "question": "Glue Gunner — meta ou meme?",
+      "answer": "Meta real: Glue 0-2-5 (Bloon Solver); Glue 2-0-4 (Relentless Glue) para stall. v55: Glue Strike 5 camadas, CD 40s. Glue Storm dura 20s (texto corrigido v55.2). Sinergia Ice/Glue/Churchill stun.",
+      "tags": ["glue", "bloon solver", "meta", "v55"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "beast-handler",
+      "category": "torres",
+      "question": "Beast Handler — vale a pena?",
+      "answer": "Torre de suporte/controle adicionada em updates recentes. Path 0-2-4 (Orca) popular no meta 2026 para stall e DPS. Requer micro (posicionar beasts). Intermediário — aprenda Ninja-Alch primeiro.",
+      "tags": ["beast handler", "orca", "meta", "stall"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "desperado-mermonkey",
+      "category": "torres",
+      "question": "Desperado e Mermonkey — o que são?",
+      "answer": "Torres novas (Magic/Military). Desperado (v55): rifle prioriza alvos distantes; pistola cobre deadzone de 40 unidades — menos confuso que antes. Mermonkey: torre aquática com harmonics. Consulte patch notes v55+ para builds atuais.",
+      "tags": ["desperado", "mermonkey", "v55", "torre"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "spike-factory-meta",
+      "category": "torres",
+      "question": "Spike Factory — meta build?",
+      "answer": "Sempre no FINAL do caminho. Meta: 0-2-5 (Perma-Spike) para cleanup de DDTs e bloons que escapam. Spike Storm (habilidade) é emergency button vs MOAB rushes. Defesa secundária essencial em CHIMPS late — não substitui DPS principal.",
+      "tags": ["spike", "025", "perma spike", "cleanup", "meta"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "super-monkey-meta",
+      "category": "torres",
+      "question": "Super Monkey — qual path seguir?",
+      "answer": "Path 3 (Dark Champion/Legend) ou Path 1 (Sun Avatar → Sun Temple) para late game. Sun Temple (2-0-3 + sacrifices) é anchor de Freeplay. Caro — só invista com economia estável round 60+. Adora sinergiza com Sun Temple.",
+      "tags": ["super monkey", "sun temple", "late game", "meta"]
+    },
+    {
+      "id": "dartling-gunner",
+      "category": "torres",
+      "question": "Dartling Gunner meta?",
+      "answer": "Path 4-0-2 (MAD) ou 2-0-4 (Plasma Accelerator) para DPS contínuo. Precisa de rastreamento do mouse (micro). Forte em mapas com long straight lines. Paragon Dartling existe — endgame. Curva média; não primeira torre.",
+      "tags": ["dartling", "mad", "dps", "meta"]
+    },
+    {
+      "id": "paragon-o-que-e",
+      "category": "torres",
+      "question": "O que é Paragon?",
+      "answer": "Tier 6 — funde tier 5 da mesma classe. v55: Engineer Paragon mais suporte (menos dano boss, -$50k custo); Wizard Paragon -200 boss flame; Bomb Paragon buffado vs bosses; Druid Paragon economy melhor. Ignore até dominar Hard.",
+      "tags": ["paragon", "tier 6", "freeplay", "v55"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "paragon-ballistic",
+      "category": "meta",
+      "question": "Paragon Ballistic Bunker (Mortar) — relevante?",
+      "answer": "Adicionado v51.0 (2025). Paragon do Mortar Monkey — forte em Boss Events e Freeplay. Requer investimento massivo. Meta boss farm, não iniciante. Se jogar Boss Events, veja guias pós-v51.",
+      "tags": ["paragon", "mortar", "ballistic bunker", "v51"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "mapa-iniciante",
+      "category": "mapas",
+      "question": "Qual mapa jogar primeiro?",
+      "answer": "Monkey Meadows ou Skull Tweak (novo v55, remake de Skull Peak do BTD5) — ambos Beginner, ideais para aprender. Depois: Tree Stump, Cub. Evite Expert até dominar Hard em 10+ mapas Intermediate.",
+      "tags": ["monkey meadows", "skull tweak", "mapa", "v55"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "mapas-multiplos-caminhos",
+      "category": "mapas",
+      "question": "Mapas com 2+ caminhos — o que muda?",
+      "answer": "Prefira alcance global: Sniper, Ace, Sub, Dartling. Ou defesa dedicada por lane. Village central entre caminhos maximiza MIB/buffs. Sauda e Ace perdem valor relativo; Ninja-Alch por lane funciona.",
+      "tags": ["multi path", "mapa", "sniper"]
+    },
+    {
+      "id": "mapas-aquaticos",
+      "category": "mapas",
+      "question": "Mapas com muita água — o que muda?",
+      "answer": "Submarino, Buccaneer, Mermonkey e Carrier Flagship brilham. Sauda perde valor (habilidade terrestre). Priorize torres aquáticas + camo via Sub 0-0-2 (Sonar). Peninsula e Cargo são bons para praticar.",
+      "tags": ["agua", "sub", "buccaneer", "mapa"]
+    },
+    {
+      "id": "perdi-round-40",
+      "category": "erros",
+      "question": "Perdi no round 40 ou 46 — o que faltou?",
+      "answer": "MOAB! Round 40 (Easy/Med) ou 46 (Hard). Causas: torres tier 1–2 demais, sem camo (24), sem lead (28), herói tarde. Solução: Ninja 0-4-0 ou Wizard Phoenix ou Sniper 0-2-3+ antes do MOAB. Use habilidade de herói no MOAB.",
+      "tags": ["round 40", "round 46", "moab", "derrota"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "perdi-round-24",
+      "category": "erros",
+      "question": "Perdi no round 24 — por quê?",
+      "answer": "Camo passou ileso. Coloque Ninja (idealmente antes do round 20), Wizard 0-0-2, ou Village Radar antes do 24. Em Hard/Impoppable camo é garantido neste round.",
+      "tags": ["round 24", "camo", "derrota"]
+    },
+    {
+      "id": "perdi-round-28",
+      "category": "erros",
+      "question": "Perdi no round 28–30 — por quê?",
+      "answer": "Lead bloons. Darts/boomerangs sem upgrade não funcionam. Adicione Alchemist, Wizard Fire, ou Bomb Heavy antes do 28.",
+      "tags": ["round 28", "lead", "derrota"]
+    },
+    {
+      "id": "nao-usar-habilidade",
+      "category": "erros",
+      "question": "Erro: não usar habilidade do herói",
+      "answer": "Habilidades têm cooldown — use proativamente, não só em pânico. Obyn Wall of Trees: use todo cooldown round 30+. Quincy Rapid Shot: salve para MOAB. Sauda blades: spamma no early. Esquecer habilidade = perder rounds 'de graça'.",
+      "tags": ["habilidade", "herói", "erro", "cooldown"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "poderes-yellow",
+      "category": "inicio",
+      "question": "O que é o botão amarelo (raio) na partida?",
+      "answer": "Powers consumíveis (Monkey Boost, Thrive, Super Monkey Storm). Comprados com MM ou eventos. Iniciantes podem ignorar. Desabilitados em CHIMPS.",
+      "tags": ["powers", "habilidade", "mm"]
+    },
+    {
+      "id": "fast-track",
+      "category": "inicio",
+      "question": "Devo usar Fast Track (acelerar rounds)?",
+      "answer": "Só com defesa estável. Iniciantes: velocidade normal até round 40+. Fast Track economiza tempo mas pune defesas incompletas.",
+      "tags": ["fast track", "velocidade", "dica"]
+    },
+    {
+      "id": "coop",
+      "category": "inicio",
+      "question": "Co-op ajuda iniciantes?",
+      "answer": "Sim — aprenda vendo builds de outros. Menos XP/MM que solo. Boss Events co-op são meta para recompensas. Quick Match ou amigos.",
+      "tags": ["co-op", "multiplayer", "aprender"]
+    },
+    {
+      "id": "insta-monkeys",
+      "category": "economia",
+      "question": "O que são Insta Monkeys?",
+      "answer": "Torres pré-upgradadas, uso único por partida. Farm via eventos/Odyssey/chests. Guarde tier 4–5 para Impoppable/Expert. Insta Alch 4-2-0 + Ninja 0-4-0 carrega CHIMPS.",
+      "tags": ["insta", "colecionável", "evento"]
+    },
+    {
+      "id": "odyssey",
+      "category": "modos",
+      "question": "O que é Odyssey?",
+      "answer": "3–5 mapas seguidos com regras especiais e limite de torres. Recompensas: instas, trofeus. Dificuldade alta — tente após dominar Hard em vários mapas.",
+      "tags": ["odyssey", "evento", "desafio"]
+    },
+    {
+      "id": "boss-event",
+      "category": "modos",
+      "question": "O que são Boss Events?",
+      "answer": "Eventos periódicos vs boss com HP massivo. Defenda bloons + cause dano ao boss. Co-op popular. Meta: builds especializadas (Paragons, Elite Defender, MOAB Eliminator). Veja guias atuais quando evento estiver live.",
+      "tags": ["boss", "evento", "co-op"]
+    },
+    {
+      "id": "freeplay",
+      "category": "modos",
+      "question": "O que acontece depois do round 100?",
+      "answer": "Freeplay infinito — bloons escalam HP/speed. Farm cash → Paragons → push rounds. Logs com meta Temple consegue 500+. Opcional; medalha round 100 já é vitória.",
+      "tags": ["freeplay", "round 100", "paragon"]
+    },
+    {
+      "id": "crosspath",
+      "category": "torres",
+      "question": "O que significa 2-0-5 ou 0-2-5 nos upgrades?",
+      "answer": "3 paths: top-middle-bottom. Números = tier em cada path. Regra: só um path pode ser tier 3+. 0-2-5 = middle 2, bottom 5. Crosspaths menores (x-1-x ou x-x-1) são permitidos.",
+      "tags": ["upgrade", "crosspath", "build"]
+    },
+    {
+      "id": "prioridade-target",
+      "category": "torres",
+      "question": "First, Last, Strong, Close — qual usar?",
+      "answer": "First: padrão. Strong: MOABs/fortified. Close: torres de curto alcance. Last: estratégias de spike/storm específicas. MOAB-class: Strong. Iniciantes: First ou Strong.",
+      "tags": ["targeting", "first", "strong"]
+    },
+    {
+      "id": "ice-monkey",
+      "category": "torres",
+      "question": "Ice Monkey é útil?",
+      "answer": "Controle de crowd — congela bloons para outras torres. Meta: 2-4-0 (Absolute Zero ability) ou 0-1-2 early. Glue + Ice combo é stall meta. Suporte, não DPS principal.",
+      "tags": ["ice", "freeze", "suporte", "glue"]
+    },
+    {
+      "id": "bomb-shooter",
+      "category": "torres",
+      "question": "Bomb Shooter vale a pena?",
+      "answer": "Grouped + lead (0-0-3 Heavy Bombs). 0-2-4 MOAB Assassin para bosses. Patch v55: Paragon Bomb (BOMB) buffado vs bosses (+3500 main hit) — meta Boss Events. Striker Jones sinergiza. Sem camo nativo.",
+      "tags": ["bomb", "explosivo", "lead", "paragon", "v55"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "ace-pilot",
+      "category": "torres",
+      "question": "Ace Pilot é bom para iniciantes?",
+      "answer": "2-0-3 (D.O.U. Bloons) é budget anti-MOAB. Ace exige micro (posição do patrol). Mapas retos favorecem; multi-lane penaliza. Iniciantes: Ninja/Sniper são mais simples.",
+      "tags": ["ace", "aviao", "torre"]
+    },
+    {
+      "id": "druid",
+      "category": "torres",
+      "question": "Druid Monkey — quantos preciso?",
+      "answer": "Druid spam (vários 0-2-2) + Obyn = CHIMPS budget clássico em mapas específicos. Não é primeira estratégia — aprenda Ninja-Alch antes. Obyn buffa druidas significativamente.",
+      "tags": ["druid", "obyn", "spam", "chimps"]
+    },
+    {
+      "id": "submarino",
+      "category": "torres",
+      "question": "Submarino precisa de água?",
+      "answer": "Sim — só em tiles d'água. 0-0-2 Sonar detecta camo. 0-3-2 Bloonripper é DPS aquático forte. Em mapas sem água, use Ninja para camo.",
+      "tags": ["sub", "agua", "camo", "sonar"]
+    },
+    {
+      "id": "spike-factory",
+      "category": "torres",
+      "question": "Spike Factory — onde colocar?",
+      "answer": "Último tile do caminho — sempre. Spikes = cleanup, não defesa primária. Veja também 'Spike Factory — meta build?' para upgrades.",
+      "tags": ["spike", "final", "cleanup"]
+    },
+    {
+      "id": "mortar",
+      "category": "torres",
+      "question": "Mortar é difícil de usar?",
+      "answer": "Mira manual em área — curva de aprendizado. 4-0-2 The Big One para grouped. Paragon Ballistic Bunker (v51) para endgame. Striker Jones sinergiza. Iniciantes: Wizard/Bomb são mais simples.",
+      "tags": ["mortar", "area", "avançado", "paragon"]
+    },
+    {
+      "id": "engie",
+      "category": "torres",
+      "question": "Engineer Monkey faz o quê?",
+      "answer": "Sentries, foam (camo), cleansing. 0-3-2 overdrive em CHIMPS. Paragon Master Builder (v55): papel suporte — menos DPS boss, mais barato ($600k). Não prioridade para iniciantes.",
+      "tags": ["engineer", "sentry", "paragon", "v55"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "helipilot",
+      "category": "torres",
+      "question": "Heli Pilot — quando usar?",
+      "answer": "3-2-0 Apache Dartship ou 4-0-2 Downdraft para controle. Posicionamento móvel único. Meta niche — Ninja-Alch cobre a maioria dos casos. Mapas com muitos caminhos curtos favorecem heli.",
+      "tags": ["heli", "apache", "torre"]
+    },
+    {
+      "id": "tack-shooter",
+      "category": "torres",
+      "question": "Tack Shooter — ainda meta?",
+      "answer": "4-0-2 (Blade Shooter) ou 2-0-4 (Ring of Fire) em spots centrais de mapas circulares (Tree Stump!). Inútil em mapas sem good spot central. Alto DPS situacional.",
+      "tags": ["tack", "blade shooter", "tree stump", "meta"]
+    },
+    {
+      "id": "buccaneer",
+      "category": "torres",
+      "question": "Monkey Buccaneer — resumo",
+      "answer": "Torre aquática: path 5 (Carrier Flagship) ou 0-5-0 (Naval TSG). Brickell hero sinergiza. Mapas water-heavy. 0-0-2 upgrade dá camo detection aquática. Iniciantes em mapas terrestres: ignore.",
+      "tags": ["buccaneer", "agua", "brickell", "naval"]
+    },
+    {
+      "id": "etienne-chimps",
+      "category": "heroes",
+      "question": "Etienne — por que aparece em guias CHIMPS?",
+      "answer": "Etienne coloca drones que atacam globalmente + camo detection em nível alto + ability de nuke. CHIMPS budget star em alguns mapas. Requer entender posição de drones. Alternativa: Quincy/Ninja-Alch mais simples.",
+      "tags": ["etienne", "chimps", "drone", "herói"]
+    },
+    {
+      "id": "collection-event",
+      "category": "economia",
+      "question": "O que são Collection Events?",
+      "answer": "Eventos sazonais: jogue mapas específicos para ganhar instas, trofeus e itens de coleção. Expert maps dão mais pontos. Farm passivo de instas — vale a pena participar mesmo como iniciante em Easy.",
+      "tags": ["collection", "evento", "insta", "farm"]
+    },
+    {
+      "id": "daily-challenge",
+      "category": "modos",
+      "question": "Daily Challenge e Advanced Challenge?",
+      "answer": "Daily: mapa + regras aleatórias, recompensa MM. Advanced (AC): desafio difícil sem continuar — recompensa maior. Ótimo para aprender restrições. Não afetam progresso de mapa.",
+      "tags": ["daily", "challenge", "mm", "ac"]
+    },
+    {
+      "id": "contested-territory",
+      "category": "modos",
+      "question": "O que é Contested Territory?",
+      "answer": "Modo guild/clan: mapas compartilhados, contribuição coletiva, recompensas exclusivas. Endgame social — ignore até level 30+ e guild ativa. Meta competitivo separado.",
+      "tags": ["ct", "clan", "endgame", "modo"]
+    },
+    {
+      "id": "soul-obyn",
+      "category": "heroes",
+      "question": "Skins de herói (ex: Soul Obyn) mudam gameplay?",
+      "answer": "Não — skins são cosméticas apenas. Mesmas habilidades e stats. Trophy Store vende skins por MM/ trofeus.",
+      "tags": ["skin", "cosmético", "obyn", "trophy store"]
+    },
+    {
+      "id": "double-cash",
+      "category": "economia",
+      "question": "Double Cash Mode vale comprar?",
+      "answer": "Facilita muito farm de MM/XP em mapas Hard — dá o dobro de cash por pops. Conveniente, não obrigatório. CHIMPS e competição desabilitam. Iniciantes free-to-play não precisam.",
+      "tags": ["double cash", "premium", "farm"]
+    },
+    {
+      "id": "sandbox-mode",
+      "category": "inicio",
+      "question": "Sandbox Mode — para que serve?",
+      "answer": "Modo livre: cash infinito, spawn bloons manual, testar builds. Perfeito para praticar posicionamento e testar estratégias antes de CHIMPS. Desbloqueia cedo — use para experimentar.",
+      "tags": ["sandbox", "teste", "prática", "modo"]
+    },
+    {
+      "id": "medalhas-mapa",
+      "category": "inicio",
+      "question": "Como funcionam medalhas de mapa?",
+      "answer": "Cada mapa: Easy (bronze) → Medium → Hard → Impoppable → CHIMPS (preto). Medalha = venceu naquela dificuldade. Black Border = CHIMPS sem continues. Meta longo prazo: Black Border todos mapas ( anos de jogo).",
+      "tags": ["medalha", "black border", "chimps", "progresso"]
+    },
+    {
+      "id": "level-account",
+      "category": "inicio",
+      "question": "Level da conta — o que desbloqueia?",
+      "answer": "Level sobe com XP de partidas. Desbloqueia: torres (todas ~level 20), heróis (Quincy 1, Gwendolin 10, Striker 20, Sauda 25, Obyn 28, etc.), modos e dificuldades. Não apressar — jogue mapas naturalmente.",
+      "tags": ["level", "desbloqueio", "herói", "xp"]
+    },
+    {
+      "id": "dan-dmonke",
+      "category": "heroes",
+      "question": "Dan D'Monke — o novo herói (v55)?",
+      "answer": "Herói v55.0 (Support), formas alternativas (skin Prince Adam/He-Man). v55.1–55.2: vários bugfixes (transformação, range, buff Rabble Rouser, blowback). Mecânicas ainda sendo mapeadas pela comunidade. Iniciantes: Quincy/Obyn/Sauda primeiro; teste Dan em Easy/Skull Tweak.",
+      "tags": ["dan d'monke", "v55", "herói", "he-man"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "skull-tweak",
+      "category": "mapas",
+      "question": "Skull Tweak — como jogar o mapa novo?",
+      "answer": "Mapa Beginner da v55 (remake de Skull Peak do BTD5). Crânio central bloqueia linha de visão — prefira torres que ignoram LOS: Sniper, Ace, Heli, ou torres na curva antes do crânio. Estratégia iniciante: 2 Darts → Ninja (camo) → Alch → upgrades mid. Ótimo para farmar XP/MM. v55.1 corrigiu visual de zombie bloons.",
+      "tags": ["skull tweak", "v55", "mapa", "los", "beginner"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "merchantman-cash",
+      "category": "meta",
+      "question": "Merchantman ganha dano por cash guardado (v55)?",
+      "answer": "Patch v55: Merchantman (xx3) com +$10.000 cash = ×2 dano. Favored Trades (xx4) com +$50.000 = ×3 dano. Trade-off: guardar cash para combate vs investir em economia. Meta niche em water maps — não substitui Ninja-Alch, mas relevante em Buccaneer builds.",
+      "tags": ["merchantman", "buccaneer", "economia", "v55", "meta"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "regrow-bloons",
+      "category": "bloons",
+      "question": "O que são bloons regrow (regenerativos)?",
+      "answer": "Bloons que regeneram camadas se não forem destruídos rápido — verde com ícone circular. Aparecem mid game. Precisa de DPS suficiente ou Engineer foam/cleansing. Wizard Fire e grouped damage funcionam. Regrow + camo (round 45+) é combinação perigosa.",
+      "tags": ["regrow", "regenerativo", "verde", "bloons"]
+    },
+    {
+      "id": "purple-ceramic",
+      "category": "bloons",
+      "question": "Roxo (purple) e cerâmica (ceramic) — diferença?",
+      "answer": "Purple: imune a energia/plasma/laser — countered por sharp/explosive. Ceramic: muitas camadas, lento, filhos fortes quando quebra. Ceramic aparece ~round 40+. Pat Fusty (v55 buff) e torres de alto pierce ajudam vs ceramic. Purple raro early — mais em rounds altos.",
+      "tags": ["purple", "ceramic", "bloons", "pierce"]
+    },
+    {
+      "id": "ezili-hero",
+      "category": "heroes",
+      "question": "Ezili — quando usar?",
+      "answer": "Heroína debuff: remove camo/regrow, totem, anti-MOAB ability. Descrição oficial (v55.2) confirma detecção camo nativa. Útil Boss Events (Lych) e modos específicos. Tier list geral baixa — nicho, não generalista.",
+      "tags": ["ezili", "herói", "debuff", "camo", "v55"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "gwendolin-hero",
+      "category": "heroes",
+      "question": "Gwendolin — resumo",
+      "answer": "Buffa torres fire/explosive (Fireball, Cocktail). Sinergiza com Wizard, Bomb, Mortar. Scientist Gwendolin (skin) existe em Rogue Legends. Boa em mapas grouped. Desbloqueia level 10. Iniciantes: Striker Jones é similar mas foca Bomb/Mortar.",
+      "tags": ["gwendolin", "fire", "herói"]
+    },
+    {
+      "id": "silas-hero",
+      "category": "heroes",
+      "question": "Silas — quem é?",
+      "answer": "Herói de gelo (level 30+): mecânica 'rimed' → freeze → explosão. v55.2: descrição oficial inclui detecção camo. Sinergia com Ice/Druid. Meta em consolidação — veteranos.",
+      "tags": ["silas", "herói", "ice", "camo", "v55"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "churchill-v55",
+      "category": "heroes",
+      "question": "Captain Churchill melhorou no v55?",
+      "answer": "Sim — patch v55: Churchill agora dá bônus de dano vs bloons stunned (além de camo, lead, fortified). Sinergia forte com Ice Monkey, Glue Gunner e Pat Fusty (Big Squeeze stun). Tank hero — caro early mas scales bem.",
+      "tags": ["churchill", "stun", "v55", "herói"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "pat-fusty-v55",
+      "category": "heroes",
+      "question": "Pat Fusty vale mais após v55?",
+      "answer": "Buffs v55: mais range early, Rallying Roar +dano mid, mais pierce late, Big Squeeze (lv20) agora stuna área 5s. Pat + Glue/Ice + Churchill = stall meta reforçado. Ainda não é herói #1 para iniciantes, mas mais viável.",
+      "tags": ["pat fusty", "stun", "v55", "herói"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "brickell-hero",
+      "category": "heroes",
+      "question": "Admiral Brickell — para quê?",
+      "answer": "Herói aquático: buffa Sub/Buccaneer, ability Naval TSG, Homeland Defense em late. Meta water maps e Boss Events co-op. Mapas sem água: sem valor. Desbloqueia level 40. Combine com Carrier Flagship ou Sub 0-5-0.",
+      "tags": ["brickell", "agua", "naval", "herói"]
+    },
+    {
+      "id": "striker-jones",
+      "category": "heroes",
+      "question": "Striker Jones — resumo",
+      "answer": "Buffa Bomb Shooter e Mortar Monkey (+damage, ability resets cooldowns). Level 20. Ótimo em mapas com good bomb spots. CHIMPS budget com MOAB Eliminator/Bomb meta. Desbloqueia level 20 — alternativa a Gwendolin para explosive.",
+      "tags": ["striker jones", "bomb", "mortar", "herói"]
+    },
+    {
+      "id": "los-blocking",
+      "category": "mapas",
+      "question": "O que é line-of-sight (LOS) bloqueado?",
+      "answer": "Obstáculos (crânio, casas, rochas) bloqueiam visão de torres que precisam ver o caminho. Sniper, Ace, Heli e Mortar são afetados. Sub/Buccaneer em água contornam. Skull Tweak é mapa didático para aprender LOS — posicione antes do obstáculo ou use torres globais.",
+      "tags": ["los", "line of sight", "mapa", "sniper"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "expert-maps",
+      "category": "mapas",
+      "question": "Mapas Expert — quando tentar?",
+      "answer": "Expert (Muddy Puddles, #ouch, Chutes, etc.): layout cruel, pouco espaço, mecânicas especiais. Tente após Black CHIMPS em vários Intermediate ou seguindo guias específicos. Odyssey stage 2 (v55+) reduziu chance de Expert — mais Beginner no early Odyssey.",
+      "tags": ["expert", "mapa", "dificuldade", "ouch"]
+    },
+    {
+      "id": "half-cash",
+      "category": "modos",
+      "question": "O que é Half Cash mode?",
+      "answer": "Medalha extra no mapa: você recebe metade do cash por pops. Dobra a dificuldade econômica. Tente só após vencer Impoppable no mapa. Estratégias CHIMPS budget funcionam como base.",
+      "tags": ["half cash", "modo", "medalha", "economia"]
+    },
+    {
+      "id": "alternate-bloons",
+      "category": "modos",
+      "question": "Alternate Bloons Rounds (ABR)?",
+      "answer": "Medalha: composição de bloons diferente a cada round (ex: MOAB early, camo lead). Exige flexibilidade e detecção versátil. MIB + Ninja-Alch cobre muitos casos. Tente após Hard normal no mapa.",
+      "tags": ["abr", "alternate", "medalha", "modo"]
+    },
+    {
+      "id": "reverse-mode",
+      "category": "modos",
+      "question": "Reverse mode — o que muda?",
+      "answer": "Bloons entram pelo EXIT e saem pelo START — caminho invertido. Spike Factory no 'novo final' (antigo spawn). Reposicione toda defesa. Medalha extra; tente após vencer Hard.",
+      "tags": ["reverse", "modo", "medalha"]
+    },
+    {
+      "id": "race-event",
+      "category": "modos",
+      "question": "O que são Race Events?",
+      "answer": "Competição contra tempo: complete rounds o mais rápido possível com build pré-planejada. Recompensas em MM/trofeus. Meta competitivo separado — veja replays de top players. Não essencial para iniciantes.",
+      "tags": ["race", "evento", "competitivo", "speed"]
+    },
+    {
+      "id": "monkey-teams",
+      "category": "inicio",
+      "question": "Monkey Teams — o que é?",
+      "answer": "Modificador semanal: só pode usar torres de 4 classes aleatórias (Primary, Military, etc.). Força variedade — aprenda todas as classes. Recompensas bonus MM. Check r/btd6 para combos da semana.",
+      "tags": ["monkey teams", "weekly", "modificador"]
+    },
+    {
+      "id": "spectre-nerf-v55",
+      "category": "meta",
+      "question": "Ace Spectre/Fortress ainda vale após v55?",
+      "answer": "Nerf v55: Spectre darts 8→6 dmg, Flying Fortress +$5k custo. Save-up para Fortress ficou menos trivial. Ainda viável em mapas retos, mas não domina como antes. Heli Apache alternativa em alguns mapas.",
+      "tags": ["ace", "spectre", "fortress", "v55", "nerf"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "boomerang-permacharge-v55",
+      "category": "meta",
+      "question": "Boomerang Permacharge mudou no v55?",
+      "answer": "v55: ability Permacharge base +10 dmg (antes +8 com crosspath). Path 0-5-2 menos obrigatório — 2-5-0 mais competitivo. Relevante para late game boomerang builds.",
+      "tags": ["boomerang", "permacharge", "v55"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "quest-mode",
+      "category": "modos",
+      "question": "O que são Quests?",
+      "answer": "Missões com narrativa e regras fixas (ex: He-Man Quest v55). Recompensas únicas (powers, cosmetics). Single-player story content — jogável anytime após desbloquear. Dificuldade variável; leia regras antes.",
+      "tags": ["quest", "he-man", "modo", "v55"]
+    },
+    {
+      "id": "tower-classes",
+      "category": "inicio",
+      "question": "Primary, Military, Magic, Support — o que significa?",
+      "answer": "4 classes de torres: Primary (Dart, Boomerang, Tack...), Military (Sniper, Ace, Sub...), Magic (Wizard, Super, Ninja, Alch, Druid), Support (Farm, Spike, Village, Engineer). Sun Temple absorve sacrifices dessas classes. Monkey Teams restringe 4 classes por semana.",
+      "tags": ["classes", "primary", "military", "magic", "support"]
+    },
+    {
+      "id": "free-monkeys-mk",
+      "category": "economia",
+      "question": "Free Tower e Starting Tower do MK?",
+      "answer": "Monkey Knowledge pode dar torre grátis no round 1 (Free Dart/Boomerang etc.) e desconto na primeira torre. Meta MK early: Extra Starting Cash > Free Tower da sua estratégia > Heroísm. Reseta em CHIMPS (sem MK).",
+      "tags": ["mk", "free tower", "starting", "economia"]
+    },
+    {
+      "id": "bad-elite",
+      "category": "modos",
+      "question": "BAD e Elite Bloon — o que são?",
+      "answer": "BAD (Big Airship of Doom): bloon enorme endgame Freeplay/Boss. Elite Bloons: variantes com HP multiplicado em modos Elite (Boss Elite, etc.). Exigem paragons, abilities e maxed DPS. Iniciantes não encontram em runs normais até Freeplay deep.",
+      "tags": ["bad", "elite", "freeplay", "boss"]
+    },
+    {
+      "id": "shattering-shells-v552",
+      "category": "meta",
+      "question": "Shattering Shells remove regrow (v55.2)?",
+      "answer": "Sim — patch v55.2: Mortar 4-xx (Shattering Shells / Blooncineration) decamo blast agora remove propriedade Regrow de qualquer bloon. Relevante vs Lych Boss e waves regrow+camo. Meta Boss/niche — não early game.",
+      "tags": ["shattering shells", "mortar", "regrow", "v55", "lych"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "sun-temple-como",
+      "category": "torres",
+      "question": "Sun Temple — como funciona?",
+      "answer": "Super Monkey tier 4 (2-0-3 Sun Temple): absorve torres tier 3+ dentro do alcance como 'sacrifice' para ganhar poderes (Primary/Military/Magic/Support). Máx 3 sacrifices de classes diferentes = True Sun God depois. Caro ($20k+), late game round 70+. Adora buffa temples.",
+      "tags": ["sun temple", "sacrifice", "super monkey", "late game"]
+    },
+    {
+      "id": "boss-tipos",
+      "category": "modos",
+      "question": "Quais são os Boss Bloons?",
+      "answer": "Boss Events rotativos: Bloonarius (HP massivo), Lych (skeleton/regrow, voador), Dreadbloon (escudos lead), Vortex (tornado puxa projéteis), Phayze (radar jam), Blastapopoulos (híbrido). Cada boss exige build diferente — veja guia quando evento estiver ativo. Co-op recomendado.",
+      "tags": ["boss", "bloonarius", "lych", "vortex", "evento"]
+    },
+    {
+      "id": "overclock-energizer",
+      "category": "torres",
+      "question": "Overclock e Energizer — o que fazem?",
+      "answer": "Engineer Monkey: Overclock (4-xx) acelera uma torre drasticamente por tempo limitado — meta CHIMPS para burst vs MOAB/DDT. Energizer (5-xx) buffa permanentemente herói e torres nearby (+XP herói, +attack speed). Suporte avançado; Overclock é skill-based.",
+      "tags": ["engineer", "overclock", "energizer", "buff"]
+    },
+    {
+      "id": "juggernaut-vs-crossbow",
+      "category": "torres",
+      "question": "Juggernaut ou Crossbow Master?",
+      "answer": "Path 4 Juggernaut (4-0-0+): pierce infinito em cerâmica, projétil ricocheteia — budget anti-grouped. Path 5 Crossbow Master (0-0-5): single-target DPS extremo — meta CHIMPS em mapas retos. Early: 0-2-0 Triple Dart; mid: escolha path conforme mapa.",
+      "tags": ["dart", "juggernaut", "crossbow", "build"]
+    },
+    {
+      "id": "sub-first-strike",
+      "category": "torres",
+      "question": "Submarino 0-5-0 First Strike — vale?",
+      "answer": "First Strike dispara míssil nuclear no cooldown — delete MOABs/BFBs. Meta anti-boss e ability burst. Caro; requer water tile. Path alternativo: 0-3-2 Bloonripper para DPS contínuo aquático. Brickell sinergiza.",
+      "tags": ["sub", "first strike", "moab", "agua"]
+    },
+    {
+      "id": "village-220-vs-mib",
+      "category": "torres",
+      "question": "Village 2-2-0 ou 0-3-2 (MIB)?",
+      "answer": "2-2-0: Jungle Drums (+damage) + Monkey Town (desconto) — economia e DPS. 0-3-2 MIB: detection lead/camo/fortified — essencial CHIMPS late. Meta late: ambos — MIB para carries, 2-2-0 para buff global. Iniciantes: 0-2-0 Radar primeiro para camo.",
+      "tags": ["village", "mib", "jungle drums", "build"]
+    },
+    {
+      "id": "mapas-intermediate",
+      "category": "mapas",
+      "question": "Bons mapas Intermediate para progredir?",
+      "answer": "Após Beginner: Cub, Park Path, Tree Stump, Peninsula (água), Hedge, In the Loop. Intermediate ensina espaço limitado e múltiplos caminhos. Vencer Hard em 5–10 Intermediate antes de Expert. Logs e Cub são favoritos da comunidade para XP.",
+      "tags": ["intermediate", "mapa", "cub", "logs"]
+    },
+    {
+      "id": "insta-tiers",
+      "category": "economia",
+      "question": "Insta Monkey tier 0–5 — o que significa?",
+      "answer": "Número = maior tier do upgrade path da insta. Insta 2-0-0 Dart = dart pré-upgradada. Tier 4–5 instas são valiosas (ex: Alch 4-2-0, Ninja 0-4-0). Use em Impoppable/Expert/CHIMPS difíceis. Não desperdice insta T5 em Easy.",
+      "tags": ["insta", "tier", "colecionável"]
+    },
+    {
+      "id": "powers-uteis",
+      "category": "inicio",
+      "question": "Quais Powers são úteis para iniciantes?",
+      "answer": "Thrive (+cash temporário), Monkey Boost (+speed torres), Super Monkey Storm (delete emergência), Cash Drop. Ganhe em achievements/eventos. CHIMPS desabilita powers. Não dependa deles — use como rede de segurança no round 40/46.",
+      "tags": ["powers", "thrive", "boost", "mm"]
+    },
+    {
+      "id": "trophy-store",
+      "category": "inicio",
+      "question": "Trophy Store — o que comprar?",
+      "answer": "Cosméticos (skins herói, pets, avatares) comprados com trofeus de Odysseys/Events. Zero impacto em gameplay — puramente visual. Priorize MM para MK e heróis; trofeus vêm naturalmente jogando eventos.",
+      "tags": ["trophy store", "cosmético", "trofeu"]
+    },
+    {
+      "id": "tech-bot",
+      "category": "torres",
+      "question": "Tech Bot — para que serve?",
+      "answer": "Colocável (power-up): reativa automaticamente habilidades de torres/heróis nearby no cooldown. Meta AFK farm e Boss Events longos. Não essencial para aprender — quality of life avançado.",
+      "tags": ["tech bot", "ability", "automação"]
+    },
+    {
+      "id": "regrow-camo-combo",
+      "category": "bloons",
+      "question": "Regrow + Camo juntos — como counterar?",
+      "answer": "Combinação perigosa (~round 45+): bloons invisíveis que regeneram. Precisa detecção camo E DPS alto simultâneo. Ninja Master, Wizard Shimmer, Engineer foam, ou MIB + torre rápida. Shattering Shells (v55.2) remove regrow em area.",
+      "tags": ["regrow", "camo", "combo", "round 45"]
+    },
+    {
+      "id": "black-border",
+      "category": "modos",
+      "question": "Black Border vs vitória CHIMPS normal?",
+      "answer": "CHIMPS vitória = medalha preta no mapa. Black Border = completou CHIMPS sem usar Continue (sem pagar vidas/MM). Black Border é o prestige máximo por mapa. Continues quebram border — reinicie se quiser border.",
+      "tags": ["black border", "chimps", "continue", "medalha"]
+    },
+    {
+      "id": "obyn-estrategia",
+      "category": "heroes",
+      "question": "Obyn — estratégia básica",
+      "answer": "Coloque round 1–3 no centro. Brambles (habilidade) segura rounds early/mid barato. Wall of Trees bloqueia wave inteira — use no cooldown, não só emergência. Buffa druidas/wizards/ninjas de magia. Combo budget CHIMPS: Obyn + 3-0-2 Ninja + 3-0-0 Alch.",
+      "tags": ["obyn", "brambles", "wall of trees", "estratégia"]
+    },
+    {
+      "id": "moab-glue",
+      "category": "torres",
+      "question": "MOAB Glue e Glue Strike — quando usar?",
+      "answer": "Glue 4-xx abilities: Glue Strike (slow debuff em area, v55: 5 camadas) e Glue Storm (tela inteira 20s). MOAB Glue (upgrade path) slow em MOAB-class. Use vs MOAB rushes ou DDTs enquanto DPS principal mata. Suporte — não substitui carries.",
+      "tags": ["glue", "moab glue", "glue strike", "ability"]
+    },
+    {
+      "id": "homeland-defense",
+      "category": "heroes",
+      "question": "Homeland Defense — o que é?",
+      "answer": "Ability do Monkey Village tier 5 (xx5): buffa massivamente todas torres no mapa por curto período. Meta Boss Events e round 90+ burst. Brickell pode manter uptime alto. Caro — late game only.",
+      "tags": ["homeland", "village", "ability", "boss"]
+    },
+    {
+      "id": "beast-handler-detalhe",
+      "category": "torres",
+      "question": "Beast Handler — paths principais",
+      "answer": "Beast Handler controla 'beasts' que atacam bloons. Path 0-2-4 Orca: stall + DPS popular v54–55. Path 1: birds para grouped. Requer micro (mover beasts). Intermediário — após dominar Ninja-Alch.",
+      "tags": ["beast handler", "orca", "stall", "meta"]
+    },
+    {
+      "id": "continues-chimps",
+      "category": "erros",
+      "question": "Usei Continue no CHIMPS — perdi Black Border?",
+      "answer": "Sim. Continue invalida Black Border naquela run. Você ainda ganha medalha CHIMPS se vencer, mas sem border dourado/prestige. Para Black Border: restart ao morrer, sem continues.",
+      "tags": ["continue", "black border", "chimps", "erro"]
+    },
+    {
+      "id": "xp-hero-vs-account",
+      "category": "inicio",
+      "question": "XP do herói vs XP da conta — diferença?",
+      "answer": "XP da conta (barra superior): sobe level global, desbloqueia torres/heróis/modos. XP do herói (in-game, por partida): sobe level do herói só naquela run — reseta cada partida. Por isso colocar herói cedo importa dentro da partida.",
+      "tags": ["xp", "herói", "level", "conta"]
+    },
+    {
+      "id": "v56-preview",
+      "category": "meta",
+      "question": "O que vem no update v56 (ago/2026)?",
+      "answer": "Confirmado pela Ninja Kiwi (patch v53 notes): nova torre Archer Monkey (Primary) e skin de herói para Corvus. Lançamento previsto agosto/2026. Esta base será revisada na v56 — builds Primary e meta de herói podem mudar. Até lá, v55.2 permanece referência válida.",
+      "tags": ["v56", "archer monkey", "corvus", "futuro", "2026"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "geraldo-shop-essencial",
+      "category": "heroes",
+      "question": "Geraldo — itens essenciais da loja",
+      "answer": "Itens meta da shop Geraldo: Reuse Reality (coloca torre T4 de graça 1x), Sharpening Stone (buff paragon), See Invisibility Potions (camo temporário), Pet Rabbit (early cash). Timing importa — estoque limitado por partida. Domine Hard antes de mainear Geraldo.",
+      "tags": ["geraldo", "loja", "reuse reality", "meta"]
+    },
+    {
+      "id": "chimps-primeiro-mapa",
+      "category": "modos",
+      "question": "Primeiro CHIMPS — qual mapa e build?",
+      "answer": "Monkey Meadows ou Tree Stump. Build budget 2026: Sauda ou Obyn → Ninja 2-0-0 (camo) → Alch 3-0-0 (lead) → upgrades mid → Spike 0-2-5 end. Siga guia passo-a-passo no YouTube/r/btd6 se travar. Black Border opcional no primeiro.",
+      "tags": ["chimps", "monkey meadows", "tree stump", "budget"]
+    },
+    {
+      "id": "impoppable-dicas",
+      "category": "modos",
+      "question": "Impoppable — dicas (1 vida)",
+      "answer": "1 vida só — zero margem de erro. Tenha camo+lead antes do 24/28. MOAB round 40/46: habilidade de herói pronta. Spike factory end game ajuda. MK ativo (não funciona em CHIMPS mas funciona aqui). Teste em Hard antes.",
+      "tags": ["impoppable", "1 vida", "dica"]
+    },
+    {
+      "id": "coop-iniciante",
+      "category": "inicio",
+      "question": "Co-op — dicas para iniciantes",
+      "answer": "Cada jogador controla metade do mapa (4 players) ou zonas (2 players). Comunique camo/lead coverage. Um jogador pode focar economy, outro DPS. Boss Events co-op: meta para recompensas. Quick Match — observe builds dos veteranos.",
+      "tags": ["co-op", "multiplayer", "iniciante", "boss"]
+    },
+    {
+      "id": "pierce-vs-damage",
+      "category": "inicio",
+      "question": "Pierce vs Damage — o que importa?",
+      "answer": "Pierce = quantos bloons o projétil atravessa (Boomerang, Juggernaut, Ace). Damage = dano por hit (Sniper, Crossbow). Grouped early: pierce. MOABs/DDTs: damage concentrado. Meta combina ambos: Ninja (pierce+speed) + Alch buff (damage).",
+      "tags": ["pierce", "damage", "mecânica", "iniciante"]
+    },
+    {
+      "id": "golden-bloon",
+      "category": "inicio",
+      "question": "Golden Bloon — o que é?",
+      "answer": "Bloon dourado raro que aparece aleatoriamente durante partidas (exceto CHIMPS). Pop para ganhar Monkey Money, XP ou trofeus. Priorize matar quando aparecer — bônus grátis. Não muda estratégia de defesa.",
+      "tags": ["golden bloon", "mm", "bonus"]
+    },
+    {
+      "id": "wizard-phoenix",
+      "category": "torres",
+      "question": "Wizard Phoenix e Wizard Lord",
+      "answer": "Phoenix (4-0-2): rebirth anti-grouped, budget mid game. Wizard Lord (5-0-0): DPS mágico forte, meta em alguns CHIMPS. Fire Wizard (2-0-0) derrete lead early. Weak solo vs MOAB — combine com Alch/Ninja.",
+      "tags": ["wizard", "phoenix", "wizard lord", "fire"]
+    },
+    {
+      "id": "alchemist-unstable",
+      "category": "torres",
+      "question": "Alchemist Unstable Concoction — vale?",
+      "answer": "Path 1-3-0+: bloons explodem ao morrer, chain reaction vs grouped/MOAB layers. Meta Freeplay e alguns Boss setups. Laggy em excesso (10–20 max). Nerfado em versões antigas para Temple meta — ainda situacional.",
+      "tags": ["alchemist", "unstable", "freeplay", "chain"]
+    },
+    {
+      "id": "mk-prioridade-lista",
+      "category": "economia",
+      "question": "Monkey Knowledge — ordem de prioridade",
+      "answer": "1) Extra Starting Cash (Primary). 2) Heroísm / específico do herói que você usa. 3) Big Monkey Business (desconto T4). 4) Come On Everybody (buff village). 5) Torre favorita (Ninja/Alch discounts). MK reseta em CHIMPS.",
+      "tags": ["mk", "prioridade", "knowledge", "economia"]
+    },
+    {
+      "id": "road-items",
+      "category": "mapas",
+      "question": "Road Items e water — posso colocar torres?",
+      "answer": "Road Items (bancos, caixas no caminho): removíveis com MM ou deixados — bloqueiam tiles. Water tiles: só torres aquáticas (Sub, Buccaneer, Mermonkey). Pontoon power coloca torre terrestre na água (consumível). Planeje layout antes de começar.",
+      "tags": ["road items", "agua", "pontoon", "mapa"]
+    },
+    {
+      "id": "boss-rush",
+      "category": "modos",
+      "question": "Boss Rush — o que é?",
+      "answer": "Modo evento: enfrente vários bosses em sequência com regras especiais. Recompensas exclusivas. Exige builds otimizadas por boss type — paragons e abilities. Co-op recomendado. Consulte guias quando evento estiver live.",
+      "tags": ["boss rush", "evento", "co-op"]
+    },
+    {
+      "id": "fortified-moab",
+      "category": "bloons",
+      "question": "MOAB fortificado — o que muda?",
+      "answer": "MOAB-class fortificado tem ~3× HP. Aparece em rounds altos e Expert maps. Precisa DPS pesado: Ninja Master, Sniper Elite, MOAB Eliminator, Glue Solver. Alchemist debuff e Churchill +4 vs fortified ajudam.",
+      "tags": ["fortified", "moab", "hp", "late game"]
+    },
+    {
+      "id": "sauda-early",
+      "category": "heroes",
+      "question": "Sauda — como usar no early game",
+      "answer": "Coloque round 1 na curva. Habilidade Leaping Sword limpa grouped barato (cooldown curto early). Passiva blades orbita — DPS gratuito rounds 1–20. Em mapas sem curva adjacente perde valor. Upgrade herói naturalmente — não neglect.",
+      "tags": ["sauda", "leaping sword", "early", "herói"]
+    },
+    {
+      "id": "quincy-abilities",
+      "category": "heroes",
+      "question": "Quincy — habilidades principais",
+      "answer": "Passive: exploding arrow cada 3º tiro (AOE). Rapid Shot (lv3): burst DPS — salve para MOAB round 40/46. Storm of Arrows (lv10+): chuva global — grouped e MOABs. Detecta camo em level alto. Simples e eficaz para iniciantes.",
+      "tags": ["quincy", "rapid shot", "storm", "habilidade"]
+    },
+    {
+      "id": "tree-stump-meta",
+      "category": "mapas",
+      "question": "Tree Stump — por que é popular?",
+      "answer": "Mapa circular com stump central — Tack Shooter 4-0-2/2-0-4 no centro domina. Também funciona Sauda, Obyn+druid, Ninja-Alch. CHIMPS favorito da comunidade. Intermediate — tente após Monkey Meadows Hard.",
+      "tags": ["tree stump", "tack", "mapa", "chimps"]
+    },
+    {
+      "id": "freeplay-basico",
+      "category": "modos",
+      "question": "Freeplay — estratégia básica",
+      "answer": "Pós-round 100: farm Banana Farms agressivo, suba para Paragons (tier 6), Sun Temples, Spike Storm spam. Bloons escalam infinitamente — meta Logs 500+ rounds. Opcional; medalha round 100 já conta vitória.",
+      "tags": ["freeplay", "farm", "paragon", "late game"]
+    },
+    {
+      "id": "revisao-base",
+      "category": "meta",
+      "question": "Como esta base de conhecimento é mantida?",
+      "answer": "Revisões cruzam Blooncyclopedia, patch notes oficiais e consenso r/btd6. Versão alvo: latest stable (v55.2 em jul/2026). Log em data/meta-review.json. Entradas sensíveis têm lastReviewed. Revisar a cada major patch (próximo: v56 ago/2026).",
+      "tags": ["meta", "manutenção", "patch", "confiabilidade"],
+      "lastReviewed": "2026-07-20"
+    },
+    {
+      "id": "restriction-modes",
+      "category": "modos",
+      "question": "Primary Only / Military Only — o que são?",
+      "answer": "Medalhas alternativas: restringem quais classes de torre você pode usar (só Primary, só Military, etc.). Force criatividade — estude torres dessa classe. Tente após vencer CHIMPS normal no mapa ou quando dominar a classe.",
+      "tags": ["primary only", "military only", "medalha", "restrição"]
+    },
+    {
+      "id": "sniper-elite-path",
+      "category": "torres",
+      "question": "Sniper 0-2-5 vs 2-0-5 — qual path?",
+      "answer": "0-2-5 Elite Defender: full auto, rapid fire, meta Deflation e anti-MOAB budget. 2-0-5 Full Metal Jacket: pierce + damage, melhor vs grouped ceramics. Meta geral: 0-2-5 para carry single-target. Ambos precisam Alch/MIB para lead.",
+      "tags": ["sniper", "025", "elite defender", "205", "build"]
+    },
+    {
+      "id": "rounds-dificeis",
+      "category": "referencia",
+      "question": "Quais rounds são famosos por serem difíceis?",
+      "answer": "Round 40/46: MOAB. 51: rainbow grouped. 63: grouped ceramics+lead. 76: camo regrow fortified. 78: ZOMG preview. 90: DDTs. 95: double DDT. 99: grouped fortified. Antecipe upgrades 2–3 rounds antes — não reaja no último segundo.",
+      "tags": ["rounds", "63", "76", "90", "ddt", "referência"]
+    },
+    {
+      "id": "camo-por-dificuldade",
+      "category": "referencia",
+      "question": "Camo, lead e MOAB — tabela por dificuldade",
+      "answer": "Camo significativo: round 24 (Hard+). Lead: ~28–30. MOAB: round 40 (Easy/Med), 46 (Hard/Impoppable). DDT: ~90+. Impoppable: bloons mais rápidos — mesmos rounds, menos tempo de reação. Easy: camo mais tardio e fraco.",
+      "tags": ["camo", "lead", "moab", "tabela", "referência"]
+    },
+    {
+      "id": "counter-bloon-chart",
+      "category": "referencia",
+      "question": "Referência rápida — bloon → counter",
+      "answer": "Camo: Ninja, Sub sonar, Wizard shimmer, Village radar/MIB. Lead: Alch, Wizard fire, Bomb heavy, MIB. MOAB+: Sniper Elite, Ninja Master, MOAB Eliminator, abilities. Regrow: high DPS, Engineer foam, Shattering Shells. Purple: sharp/explosive (não energy). Ceramic: pierce ou high DPS.",
+      "tags": ["counter", "referência", "camo", "lead", "moab"]
+    },
+    {
+      "id": "boss-lych-counter",
+      "category": "modos",
+      "question": "Boss Lych — como counterar?",
+      "answer": "Lych rouba vida quando morre e spawna esqueletos/regrow. Priorize burst damage (não slow prolongado). Shattering Shells (v55.2) remove regrow. Ezili é counter clássico. Evite defenses que deixam bloons vivos demais — mate rápido.",
+      "tags": ["lych", "boss", "regrow", "ezili"]
+    },
+    {
+      "id": "boss-vortex-counter",
+      "category": "modos",
+      "question": "Boss Vortex — como counterar?",
+      "answer": "Vortex cria tornado que puxa projéteis. Prefira dano global/abilities: Spike Storm, First Strike, Psi, Homeland, paragons. Torres de projétil perdem eficiência durante tornado — timing de abilities é chave.",
+      "tags": ["vortex", "boss", "tornado", "ability"]
+    },
+    {
+      "id": "boss-phayze-counter",
+      "category": "modos",
+      "question": "Boss Phayze — como counterar?",
+      "answer": "Phayze aplica Radar Jam — desabilita targeting de torres temporariamente. Dan D'Monke/He-Man imune (v55.1 fix). Use abilities durante jam, ou torres com targeting alternativo. Co-op ajuda dividir pressão.",
+      "tags": ["phayze", "boss", "radar jam"]
+    },
+    {
+      "id": "boss-bloonarius-counter",
+      "category": "modos",
+      "question": "Boss Bloonarius — como counterar?",
+      "answer": "HP gigante, spawna filhos constantemente. DPS sustentado + cleanup (Spike 0-2-5). Paragons e Elite Defender excelentes. Co-op meta — farm cash e scale damage. Long fight — prepare economy mid game.",
+      "tags": ["bloonarius", "boss", "hp", "paragon"]
+    },
+    {
+      "id": "boss-dreadbloon-counter",
+      "category": "modos",
+      "question": "Boss Dreadbloon — como counterar?",
+      "answer": "Dreadbloon tem escudos lead e spawna rocks que bloqueiam torres. Lead detection obrigatória. MOAB Eliminator e burst anti-shield. Posicione torres fora do path das rocks ou venda/rebuy.",
+      "tags": ["dreadbloon", "boss", "lead", "shield"]
+    },
+    {
+      "id": "vtsg-tsg",
+      "category": "torres",
+      "question": "Sun Temple vs True Sun God (VTSG)?",
+      "answer": "Sun Temple (4-xx Super): 1 sacrifice de cada classe max. True Sun God (VTSG): Sun Temple + 3 Sun Avatars (3-0-2 Super) + $100k+ sacrificados. VTSG é endgame Freeplay/Boss — extremamente caro. Iniciantes: ignore até dominar Freeplay.",
+      "tags": ["vtsg", "sun temple", "true sun god", "late game"]
+    },
+    {
+      "id": "paragon-requisitos",
+      "category": "torres",
+      "question": "Quantas torres preciso para Paragon?",
+      "answer": "Tier 6 exige múltiplas tier 5 da mesma torre + cash massivo (varia por torre, ~$100k–650k). Quanto mais T5 sacrificadas antes do paragon, mais forte (degree). Só Freeplay/modos especiais com cash infinito. Farm antes de tentar.",
+      "tags": ["paragon", "degree", "tier 5", "requisito"]
+    },
+    {
+      "id": "adora-dark",
+      "category": "heroes",
+      "question": "Adora — Dark vs True Sun Goddess",
+      "answer": "Adora absorve pop count para transformar: Dark Adora (mid) → True Sun Goddess (late, perto de Sun Temple). Quanto mais pops, mais forte. Jogue partidas longas (Hard 100+). Sinergia Sun Temple obrigatória em late. Não é herói de partida curta.",
+      "tags": ["adora", "dark", "transformation", "late game"]
+    },
+    {
+      "id": "moab-eliminator",
+      "category": "torres",
+      "question": "MOAB Eliminator (Bomb 0-2-4)?",
+      "answer": "Ability do Bomb Shooter: míssil que deleta MOAB-class por cash. Meta budget anti-MOAB em CHIMPS. Striker Jones reseta cooldown. Posicione Bomb no centro. Complemento, não substituto de DPS contínuo.",
+      "tags": ["bomb", "moab eliminator", "ability", "chimps"]
+    },
+    {
+      "id": "ice-super-ceramic",
+      "category": "torres",
+      "question": "Ice Monkey Super Ceramic — meta?",
+      "answer": "Path 2-4-0 (Super Ceramic): congela e quebra ceramic eficientemente. Combo com Glue/Ice stall meta. Absolute Zero (5-xx) ability para emergency. Suporte mid-late — não resolve camo sozinho.",
+      "tags": ["ice", "super ceramic", "stall", "ceramic"]
+    },
+    {
+      "id": "trade-empire-navarch",
+      "category": "torres",
+      "question": "Trade Empire e Navarch — economia aquática",
+      "answer": "Buccaneer xx5 Trade Empire: income massivo de merchantmen chain. Navarch 0-5-0: platform colocável + DPS naval. Meta water maps late game. v55: Merchantman/Favored Trades ganham dano com cash guardado. Brickell acelera.",
+      "tags": ["buccaneer", "trade empire", "navarch", "economia", "v55"]
+    },
+    {
+      "id": "logs-mapa",
+      "category": "mapas",
+      "question": "Logs — por que é famoso?",
+      "answer": "Mapa retilíneo longo — ideal Freeplay (records 500+ rounds). Tack no centro, Sun Temples, Paragons. Intermediate. Ótimo para farmar XP e testar late game. CHIMPS também popular com Ninja-Alch.",
+      "tags": ["logs", "freeplay", "mapa", "late game"]
+    },
+    {
+      "id": "peninsula-mapa",
+      "category": "mapas",
+      "question": "Peninsula — dicas",
+      "answer": "Mapa aquático em forma de península. Sub 0-0-2+ essencial para camo na água. Sauda fraca (pouca curva terrestre). Carrier Flagship ou Sub spam meta. Bom para aprender torres aquáticas em Intermediate.",
+      "tags": ["peninsula", "agua", "sub", "mapa"]
+    },
+    {
+      "id": "comunidade-recursos",
+      "category": "inicio",
+      "question": "Onde buscar estratégias atualizadas?",
+      "answer": "r/btd6 (Reddit) — megathreads de patch. Blooncyclopedia/Bloons Wiki — stats e patch notes. YouTube: ISAB, JazItUp, Syntech, Kynmaren — guias CHIMPS. Sempre confira data do vídeo vs versão atual (v55.2).",
+      "tags": ["comunidade", "reddit", "wiki", "guia", "youtube"]
+    },
+    {
+      "id": "mobile-vs-pc",
+      "category": "inicio",
+      "question": "Mobile vs PC — diferença?",
+      "answer": "Mesmo jogo, progresso cross-save via Ninja Kiwi account. PC: mouse preciso, melhor para micro (Dartling, Mortar). Mobile: joga anywhere, touch ok para casual. PC lidera records competitivos; mobile 100% viável para aprender.",
+      "tags": ["mobile", "pc", "steam", "cross-save"]
+    },
+    {
+      "id": "atalhos-qol",
+      "category": "inicio",
+      "question": "Atalhos e qualidade de vida",
+      "answer": "Space: fast forward (quando desbloqueado). Esc ou botão pause. Clique direito ou hotkey para upgrade/sell (configurável). '1'-'0' para abilities de torres. Shift+click: set targeting. Veja Settings → Hotkeys para personalizar.",
+      "tags": ["atalho", "hotkey", "pause", "fast forward"]
+    },
+    {
+      "id": "odyssey-dicas",
+      "category": "modos",
+      "question": "Odyssey — dicas práticas",
+      "answer": "Leia restrições antes de começar (limite de torres/heróis). Instas permitidos — use T4/T5 wisely. Mapa 1 mais fácil que mapa 5 — conserve abilities. v55: stage 2 favorece mapas Beginner. Recompensas valem para insta collection.",
+      "tags": ["odyssey", "insta", "evento", "dica"]
+    },
+    {
+      "id": "collection-farm",
+      "category": "economia",
+      "question": "Como farmar Collection Events eficiente?",
+      "answer": "Jogue Expert maps com bonus tokens (mais pontos). Easy/Standard se iniciante — ainda ganha progresso. Co-op dobra diversão e speed. Meta: completar milestones para instas T4/T5. Evento limitado — priorize se quiser instas.",
+      "tags": ["collection", "farm", "insta", "evento"]
+    },
+    {
+      "id": "2mpc-explicado",
+      "category": "meta",
+      "question": "O que significa 2MPC ou 3TC?",
+      "answer": "Jargão avançado CHIMPS: 2MPC = 2 Monkeys Pop Count (só 2 torres podem dar pops, resto suporte). 3TC = 3 Towers CHIMPS (máx 3 torres). Desafios self-imposed da comunidade — ignore até dominar CHIMPS normal.",
+      "tags": ["2mpc", "3tc", "chimps", "jargão", "avançado"]
+    },
+    {
+      "id": "psi-habilidade",
+      "category": "heroes",
+      "question": "Psi — habilidade principal",
+      "answer": "Psi estuna bloons e pode deletar tipos específicos (incl. MOAB-class em level alto). Meta anti-DDT e grouped. Coloque onde bloons passam devagar. Level 30 unlock. Curva média — forte mas requer timing.",
+      "tags": ["psi", "stun", "delete", "ddt", "herói"]
+    },
+    {
+      "id": "corvus-skull",
+      "category": "heroes",
+      "question": "Corvus — como funciona?",
+      "answer": "Corvus usa skull para invocar minions (ataques automáticos). Recolha skull entre waves. Minions escalam com level. Versátil em multi-lane. Skin prevista v56. Desbloqueia level 30 — intermediário/avançado.",
+      "tags": ["corvus", "skull", "minions", "herói", "v56"]
+    },
+    {
+      "id": "benjamin-skimming",
+      "category": "heroes",
+      "question": "Benjamin — como farmar com Skimming",
+      "answer": "Benjamin level 1+: Skimming adiciona $1 por pop (escala com level). Jogue Hard 100/Freplay — pops acumulam cash passivo. Round 40 ability: troca lives por cash ou vice-versa. Defesa mínima early, scale late. Anti-CHIMPS early (sem income).",
+      "tags": ["benjamin", "skimming", "farm", "economia"]
+    },
+    {
+      "id": "etienne-placement",
+      "category": "heroes",
+      "question": "Etienne — posicionamento de drones",
+      "answer": "Etienne controla 3 drones que atacam globalmente. Posicione Etienne central — drones seguem targeting. Level alto: camo detection e nuke ability. CHIMPS budget star em mapas pequenos. Alternativa: Quincy/Ninja-Alch mais simples.",
+      "tags": ["etienne", "drone", "posicionamento", "chimps"]
+    },
+    {
+      "id": "rogue-legends-basico",
+      "category": "modos",
+      "question": "Rogue Legends — básico para iniciantes",
+      "answer": "Modo roguelike separado: runs com artefatos aleatórios, party de torres/heróis pré-set, escolhas entre rounds. Meta próprio — balance patches frequentes (v49–55). Divertido mas NÃO substitui aprender BTD6 clássico. Acesse pelo menu principal.",
+      "tags": ["rogue legends", "roguelike", "artefato", "modo"]
+    },
+    {
+      "id": "lag-performance",
+      "category": "erros",
+      "question": "Jogo lagando no late game — o que fazer?",
+      "answer": "Freeplay 200+ com muitas torres/projectiles causa lag (normal). Reduza gráficos em Settings. Evite 20+ Unstable Alchemists. Steam/Desktop geralmente mais estável que mobile antigo. Menos visual effects ajuda.",
+      "tags": ["lag", "performance", "freeplay", "mobile"]
+    },
+    {
+      "id": "daily-login",
+      "category": "economia",
+      "question": "Daily login e recompensas",
+      "answer": "Login diário dá bonus MM, instas ou powers (rotativo). Monkey Bank acumula se não coletar. Streak não é crítico mas free value. Colete pelo menu principal — 30 segundos/dia.",
+      "tags": ["daily", "login", "mm", "recompensa"]
+    },
+    {
+      "id": "mermonkey-basico",
+      "category": "torres",
+      "question": "Mermonkey — básico",
+      "answer": "Torre aquática (Magic): ataques sonar/harmonic. Precisa water tile. Alternativa ao Sub em alguns mapas. The Final Harmonic (5-xx) late game aquático. v55.2 bugfix em trance hero buff. Ainda niche — Sub/Ninja-Alch cobrem maioria.",
+      "tags": ["mermonkey", "agua", "magic", "torre"]
+    },
+    {
+      "id": "spike-storm",
+      "category": "torres",
+      "question": "Spike Storm (Spike Factory ability)?",
+      "answer": "Ability tier 4+: lança spikes globais por cash — delete emergência vs MOAB/DDT rush. Meta CHIMPS round 90+. Complementa Perma-Spike (0-2-5). Use quando DPS principal falha momentaneamente.",
+      "tags": ["spike storm", "spike factory", "ability", "ddt"]
+    },
+    {
+      "id": "como-comecar-jogo",
+      "category": "inicio",
+      "question": "Nunca joguei — por onde começo?",
+      "answer": "Abra o jogo → toque em Play → escolha Monkey Meadows → dificuldade Easy → herói Quincy (já vem grátis) → Start. Siga o tutorial deste site na aba Tutoriais. Não precisa entender tudo de uma vez.",
+      "tags": ["começar", "primeira vez", "iniciante", "monkey meadows"]
+    },
+    {
+      "id": "o-que-significa-upgrades",
+      "category": "inicio",
+      "question": "O que significa 0-2-0 ou números nas torres?",
+      "answer": "São os três caminhos de melhoria de cada torre. 0-2-0 = nenhuma melhoria no caminho da esquerda, duas no do meio, zero na direita. Toque na torre → aparecem os botões de upgrade (setas ou círculos). Compre de cima para baixo em cada caminho.",
+      "tags": ["upgrade", "0-2-0", "melhoria", "numeros"]
+    },
+    {
+      "id": "como-pausar",
+      "category": "inicio",
+      "question": "Como pausar o jogo?",
+      "answer": "Toque no botão de pausa (geralmente no canto superior). No celular, pode ser um ícone de duas barras. No PC, tecla Espaço ou P também pausam. Use para pensar antes de comprar torres.",
+      "tags": ["pausar", "pause", "parar"]
+    },
+    {
+      "id": "como-vender-torre",
+      "category": "inicio",
+      "question": "Como vender uma torre que comprei errado?",
+      "answer": "Toque na torre → procure o botão de venda (ícone de lixeira ou $ com seta). Você recebe parte do dinheiro de volta, não tudo. Só venda se realmente precisar do dinheiro agora.",
+      "tags": ["vender", "sell", "erro", "dinheiro"]
+    },
+    {
+      "id": "perdi-o-que-fazer",
+      "category": "erros",
+      "question": "Perdi a partida — o que fazer?",
+      "answer": "Normal! Veja em qual round você morreu. Round 24 = faltou camo. Round 28 = faltou chumbo. Round 40/46 = balão grande. Tente de novo no mesmo mapa em Easy, seguindo o combo Ninja + Alquimista do site.",
+      "tags": ["perder", "derrota", "round", "tentar de novo"]
+    },
+    {
+      "id": "onde-colocar-torre",
+      "category": "inicio",
+      "question": "Onde colocar as torres no mapa?",
+      "answer": "Prefira curvas e trechos onde os balões passam devagar ou várias vezes. Evite cantos onde os balões passam rápido. O herói também precisa estar perto do caminho. Se o quadrado ficar verde ao arrastar, pode colocar ali.",
+      "tags": ["posição", "onde colocar", "curva", "mapa"]
+    },
+    {
+      "id": "botao-start-round",
+      "category": "inicio",
+      "question": "O que é o botão de play / Start Round?",
+      "answer": "É o botão que manda a próxima onda de balões começar. Você pode esperar comprar torres antes de apertar. Em Easy não tem pressa — monte sua defesa com calma nos primeiros rounds.",
+      "tags": ["start", "round", "play", "onda"]
+    },
+    {
+      "id": "dinheiro-amarelo",
+      "category": "economia",
+      "question": "O número amarelo no canto — o que é?",
+      "answer": "É seu dinheiro no jogo (cash). Cada torre e upgrade custa uma quantia. Você ganha dinheiro quando balões estouram. Não gaste tudo de uma vez — guarde para Ninja (camo) e Alquimista (chumbo).",
+      "tags": ["dinheiro", "cash", "amarelo", "economia"]
+    },
+    {
+      "id": "tutorial-site-como-usar",
+      "category": "inicio",
+      "question": "Como usar este site?",
+      "answer": "Aba Começar: visão geral. Aba Tutoriais: passo a passo de combos e mapas — toque no card e role para ler. Aba Perguntas: digite sua dúvida na caixa de busca ou escolha um assunto nos botões coloridos.",
+      "tags": ["site", "tutorial", "como usar", "ajuda"]
+    },
+    {
+      "id": "town-center-mapa",
+      "category": "mapas",
+      "question": "Town Center — bom para iniciantes?",
+      "answer": "Sim! É o mapa do tutorial oficial do jogo (cidade com praça). Caminho simples. Use depois de Monkey Meadows. Combo Ninja + Alquimista funciona bem. Jogue Easy primeiro.",
+      "tags": ["town center", "mapa", "iniciante", "cidade"]
+    },
+    {
+      "id": "in-the-loop-mapa",
+      "category": "mapas",
+      "question": "In the Loop — dicas básicas",
+      "answer": "Mapa em forma de laço (círculo). Os balões passam duas vezes pelo mesmo trecho — ótimo para torres na parte interna do loop. Dificuldade Beginner. Use Ninja + Alch. Bom passo após Tree Stump.",
+      "tags": ["in the loop", "mapa", "loop", "beginner"]
+    }
+  ]
+}

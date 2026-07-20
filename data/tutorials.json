@@ -1,0 +1,228 @@
+{
+  "startHere": {
+    "title": "Primeira vez aqui?",
+    "intro": "Este site ajuda você a jogar Bloons TD 6 sem precisar entender termos difíceis. Escolha uma opção abaixo.",
+    "steps": [
+      {
+        "icon": "1️⃣",
+        "title": "Abra a aba Tutoriais",
+        "text": "Lá você vê passo a passo o que fazer em cada mapa e quais torres comprar."
+      },
+      {
+        "icon": "2️⃣",
+        "title": "Use os botões grandes",
+        "text": "Toque em \"Combo fácil\" ou no nome de um mapa. As instruções aparecem em ordem."
+      },
+      {
+        "icon": "3️⃣",
+        "title": "Dúvidas soltas?",
+        "text": "Na aba Perguntas, digite palavras como camo, round 24 ou MOAB na caixa de busca."
+      }
+    ]
+  },
+  "combos": [
+    {
+      "id": "combo-facil-ninja-alch",
+      "title": "Combo fácil: Ninja + Alquimista",
+      "badge": "Recomendado para começar",
+      "difficulty": "Fácil",
+      "hero": "Quincy (grátis) ou Obyn",
+      "worksOn": "Quase todos os mapas terrestres",
+      "why": "O Ninja enxerga bloons camuflados. O Alquimista derrete bloons de chumbo e deixa o Ninja mais forte.",
+      "steps": [
+        { "when": "Round 1", "do": "Coloque seu herói bem perto do caminho dos balões." },
+        { "when": "Round 1–2", "do": "Compre um Dart Monkey ($200) na primeira curva do caminho." },
+        { "when": "Round 3–4", "do": "Melhore o Dart para 0-2-0 (toque nele → escolha upgrades do caminho de cima até o terceiro)." },
+        { "when": "Até round 12", "do": "Compre um Ninja Monkey perto do caminho." },
+        { "when": "Até round 20", "do": "Compre um Alchemist ao lado do Ninja." },
+        { "when": "Round 24", "do": "Você já está pronto para camuflagem — o Ninja resolve." },
+        { "when": "Round 28", "do": "Chumbo resolvido — o Alquimista resolve." },
+        { "when": "Round 40 ou 46", "do": "Use a habilidade do herói no balão grande (MOAB). Melhore Ninja e Alch antes disso." }
+      ],
+      "tip": "Não compre muitas torres baratas. É melhor ter poucas torres bem melhoradas."
+    },
+    {
+      "id": "combo-dart-boomerang",
+      "title": "Combo early: Dart + Bumerangue",
+      "badge": "Primeiras vitórias",
+      "difficulty": "Muito fácil",
+      "hero": "Quincy",
+      "worksOn": "Mapas simples (Monkey Meadows, Skull Tweak)",
+      "why": "Barato e forte no começo. Bom para aprender sem se preocupar com camo ainda.",
+      "steps": [
+        { "when": "Round 1", "do": "Herói + Dart Monkey na curva." },
+        { "when": "Round 2–4", "do": "Melhore Dart para 0-2-0." },
+        { "when": "Round 6–8", "do": "Compre Boomerang Monkey na segunda curva." },
+        { "when": "Round 10", "do": "Melhore Boomerang para 2-0-0." },
+        { "when": "Round 12+", "do": "Adicione Ninja (camo) antes do round 24." },
+        { "when": "Round 20+", "do": "Adicione Alchemist (chumbo) antes do round 28." }
+      ],
+      "tip": "Quando tiver Ninja + Alch, pode vender os Darts se precisar de dinheiro."
+    },
+    {
+      "id": "combo-sauda-facil",
+      "title": "Combo com Sauda (herói forte)",
+      "badge": "Se já desbloqueou Sauda (level 25)",
+      "difficulty": "Fácil",
+      "hero": "Sauda",
+      "worksOn": "Mapas com curvas (Tree Stump, muitos terrestres)",
+      "why": "Sauda mata muito no começo sozinha. Você economiza dinheiro para torres depois.",
+      "steps": [
+        { "when": "Round 1", "do": "Coloque Sauda numa curva — ela precisa de balões passando perto." },
+        { "when": "Round 1–10", "do": "Use a habilidade dela (espada) sempre que ficar pronta." },
+        { "when": "Round 12", "do": "Adicione Ninja para camo (round 24)." },
+        { "when": "Round 18", "do": "Adicione Alchemist para chumbo (round 28)." },
+        { "when": "Round 30+", "do": "Melhore Ninja e Alch. Sauda já faz muito dano." }
+      ],
+      "tip": "Em mapas com muita água e pouca terra, Sauda é fraca — use Ninja+Alch."
+    },
+    {
+      "id": "combo-meta-avancado",
+      "title": "Combo forte do meta (avançado)",
+      "badge": "Depois de vencer Hard",
+      "difficulty": "Avançado",
+      "hero": "Geraldo, Adora ou Obyn",
+      "worksOn": "Hard, CHIMPS, mapas difíceis",
+      "why": "O combo mais usado por jogadores experientes em 2026. Muito dano no meio e fim de jogo.",
+      "steps": [
+        { "when": "Early", "do": "Mesmo início: Ninja + Alch básicos até round 30." },
+        { "when": "Mid", "do": "Ninja até 0-4-0 (Grandmaster). Alch até 4-2-0 (Permanent Brew)." },
+        { "when": "Mid", "do": "Monkey Village 0-3-2 (MIB) perto das torres principais." },
+        { "when": "Late", "do": "Spike Factory 0-2-5 no FINAL do caminho (último quadrado)." },
+        { "when": "Round 90+", "do": "Prepare anti-DDT — Glue ou habilidades do herói." }
+      ],
+      "tip": "Não tente isso no primeiro dia. Aprenda o combo fácil antes."
+    }
+  ],
+  "maps": [
+    {
+      "id": "monkey-meadows",
+      "title": "Monkey Meadows",
+      "badge": "Comece aqui",
+      "difficulty": "Muito fácil",
+      "mode": "Jogue em Easy primeiro",
+      "summary": "O primeiro mapa do jogo. Caminho largo e simples. Perfeito para aprender.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Antes de começar", "do": "Escolha dificuldade Easy e herói Quincy." },
+        { "when": "Round 1–30", "do": "Siga o tutorial \"Combo fácil: Ninja + Alquimista\"." },
+        { "when": "Round 40", "do": "Em Easy, o balão grande (MOAB) vem no round 40. Tenha Ninja melhorado." },
+        { "when": "Vitória", "do": "Pode parar no round 40 (Easy Win) ou ir até 100 para mais prática." }
+      ],
+      "nextMap": "Skull Tweak ou Tree Stump"
+    },
+    {
+      "id": "skull-tweak",
+      "title": "Skull Tweak",
+      "badge": "Mapa novo (2026)",
+      "difficulty": "Fácil",
+      "mode": "Easy ou Medium",
+      "summary": "Tem um crânio no meio que bloqueia a visão. Use torres que não precisam ver em linha reta: Ninja, Sniper ou Alquimista.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Herói + Dart antes do crânio (onde o caminho é reto)." },
+        { "when": "Round 12", "do": "Ninja — funciona bem aqui porque não depende de linha de visão." },
+        { "when": "Round 20", "do": "Alchemist ao lado do Ninja." },
+        { "when": "Dica", "do": "Evite colocar torres atrás do crânio sem motivo — elas não enxergam." }
+      ],
+      "nextMap": "Tree Stump"
+    },
+    {
+      "id": "tree-stump",
+      "title": "Tree Stump",
+      "badge": "Favorito da comunidade",
+      "difficulty": "Fácil",
+      "mode": "Medium depois de vencer Easy",
+      "summary": "Mapa redondo com um toco no centro. Muito espaço para torres ao redor do toco.",
+      "useCombo": "combo-sauda-facil",
+      "steps": [
+        { "when": "Round 1", "do": "Sauda ou Obyn no centro, perto do toco." },
+        { "when": "Round 10", "do": "Ninja + Alch como no combo fácil." },
+        { "when": "Alternativa", "do": "Tack Shooter no centro do toco (avançado) — só se já conhecer a torre." },
+        { "when": "CHIMPS", "do": "Mapa popular para primeira medalha preta. Use combo Sauda ou Obyn+Ninja+Alch." }
+      ],
+      "nextMap": "Logs ou Cub"
+    },
+    {
+      "id": "logs",
+      "title": "Logs",
+      "badge": "Mapa retinho",
+      "difficulty": "Médio",
+      "mode": "Hard quando estiver confiante",
+      "summary": "Caminho longo e reto. Ótimo para praticar e para jogos longos.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Herói no início do caminho." },
+        { "when": "Early", "do": "Ninja + Alch ao longo do caminho." },
+        { "when": "Mid", "do": "Melhore suas torres principais — caminho longo dá tempo." },
+        { "when": "Round 100+", "do": "Mapa famoso para Freeplay (jogo infinito). Opcional." }
+      ],
+      "nextMap": "Peninsula (se quiser aprender água)"
+    },
+    {
+      "id": "peninsula",
+      "title": "Peninsula",
+      "badge": "Mapa com água",
+      "difficulty": "Médio",
+      "mode": "Medium",
+      "summary": "Muita água. Sauda é fraca aqui. Use Submarino na água para camo.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Herói na parte de terra." },
+        { "when": "Round 10", "do": "Compre Submarino na água (precisa de quadrado azul)." },
+        { "when": "Round 12", "do": "Melhore Sub para 0-0-2 (detecta camo)." },
+        { "when": "Terra", "do": "Alchemist na terra para chumbo." },
+        { "when": "Dica", "do": "Torres de água só funcionam nos quadrados azuis." }
+      ],
+      "nextMap": "Outros mapas Intermediate"
+    },
+    {
+      "id": "cub",
+      "title": "Cub",
+      "badge": "Intermediate",
+      "difficulty": "Médio",
+      "mode": "Medium → Hard",
+      "summary": "Caminho em forma de cubo. Espaço moderado. Bom passo após Tree Stump.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Geral", "do": "Mesma lógica: herói cedo, Ninja camo, Alch chumbo." },
+        { "when": "Posição", "do": "Coloque torres nas curvas do quadrado." },
+        { "when": "Round 40+", "do": "Tenha upgrades tier 3 nas torres principais." }
+      ],
+      "nextMap": "Logs ou mapas Intermediate"
+    },
+    {
+      "id": "town-center",
+      "title": "Town Center",
+      "badge": "Mapa do tutorial do jogo",
+      "difficulty": "Muito fácil",
+      "mode": "Easy",
+      "summary": "Cidade com praça no meio. É o mapa que o próprio jogo usa para ensinar. Ideal depois de Monkey Meadows.",
+      "useCombo": "combo-dart-boomerang",
+      "steps": [
+        { "when": "Antes de começar", "do": "Easy + Quincy. Se o jogo oferecer tutorial, pode aceitar — este site complementa." },
+        { "when": "Round 1–10", "do": "Siga o combo Dart + Bumerangue: herói, Dart na curva, melhore para 0-2-0." },
+        { "when": "Round 12", "do": "Adicione Ninja antes do round 24 (camo)." },
+        { "when": "Round 20", "do": "Adicione Alquimista antes do round 28 (chumbo)." },
+        { "when": "Vitória", "do": "Round 40 em Easy já conta como vitória." }
+      ],
+      "nextMap": "In the Loop"
+    },
+    {
+      "id": "in-the-loop",
+      "title": "In the Loop",
+      "badge": "Balões passam 2 vezes",
+      "difficulty": "Fácil",
+      "mode": "Easy → Medium",
+      "summary": "Caminho em círculo. Torres no miolo do loop atacam os balões duas vezes. Muito eficiente.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Herói na entrada do loop." },
+        { "when": "Posição", "do": "Coloque Ninja e Alch na parte interna do círculo — mais tempo de tiro." },
+        { "when": "Round 12–20", "do": "Ninja + Alch como no combo fácil." },
+        { "when": "Dica", "do": "Não encha o mapa de torres baratas — poucas torres fortes no centro valem mais." }
+      ],
+      "nextMap": "Cub ou Logs"
+    }
+  ]
+}

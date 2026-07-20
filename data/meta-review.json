@@ -1,0 +1,99 @@
+{
+  "lastReviewed": "2026-07-20",
+  "reviewedGameVersion": "55.2",
+  "reviewPass": 5,
+  "reviewerNotes": "Revisão cruzada com Blooncyclopedia (v49–55), tier lists da comunidade e guias de iniciante 2026.",
+  "sources": [
+    "https://www.bloonswiki.com/",
+    "https://bloons.fandom.com/wiki/Bloons_TD_6",
+    "https://www.reddit.com/r/btd6/"
+  ],
+  "changelog": [
+    {
+      "date": "2026-07-20",
+      "version": "55.x",
+      "changes": [
+        "Corrigido preço do Dart ($200 Medium; $170 Easy)",
+        "Corrigida notação Triple Dart (0-2-0, não 0-0-2)",
+        "Atualizado meta de heróis (Geraldo/Sauda/Obyn/Quincy)",
+        "Expandido Ninja+Alch com builds 0-4-0 e 4-2-0",
+        "Adicionados MIB, Beast Handler, Glue, paragons recentes",
+        "Clarificado round do MOAB por dificuldade",
+        "+35 novas entradas na base"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "version": "55.1",
+      "pass": 2,
+      "changes": [
+        "Integrado patch v55.0/v55.1 (Dan D'Monke, Skull Tweak, Merchantman cash)",
+        "Atualizados paragons Engineer/Wizard/Bomb/Druid v55",
+        "Glue Strike, Desperado, Ace Spectre, Pat/Churchill rebalance",
+        "+24 entradas (heróis faltantes, bloons regrow/purple, modos medalha)",
+        "9 entradas existentes corrigidas para v55.1"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "version": "55.2",
+      "pass": 3,
+      "changes": [
+        "Versão alvo atualizada para v55.2 (latest stable)",
+        "Shattering Shells remove regrow (v55.2)",
+        "Dan D'Monke, Ezili, Silas, Glue Storm text fixes",
+        "+20 entradas: bosses, Sun Temple, Overclock, mapas Intermediate",
+        "Black Border, insta tiers, regrow+camo, Obyn strategy"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "version": "55.2",
+      "pass": 4,
+      "changes": [
+        "Confirmado v55.2 como latest stable (v56 previsto ago/2026)",
+        "Adicionado preview v56 (Archer Monkey, Corvus skin)",
+        "Geraldo shop, CHIMPS budget, Impoppable, co-op, MK priority",
+        "Wizard Phoenix, Unstable Alch, Tree Stump meta, Sniper paths",
+        "+20 entradas; meta-iniciante-2026 atualizado com nota v56"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "version": "55.2",
+      "pass": 5,
+      "changes": [
+        "Nova categoria Referência rápida (rounds, counters, tabela camo/lead)",
+        "Counters individuais por Boss (Lych, Vortex, Phayze, Bloonarius, Dreadbloon)",
+        "VTSG, Paragon reqs, MOAB Eliminator, Trade Empire/Navarch",
+        "Mapas Logs/Peninsula, comunidade, mobile vs PC, atalhos",
+        "Odyssey, Collection farm, 2MPC jargon, Psi/Corvus/Benjamin/Etienne",
+        "+30 entradas úteis (expansão livre)"
+      ]
+    }
+  ],
+  "nextReviewTriggers": [
+    "Nova versão major (56.0+)",
+    "Balance patch em Ninja, Alchemist ou Geraldo",
+    "Novo herói ou torre principal",
+    "Relatos de respostas incorretas pela comunidade"
+  ],
+  "entriesUpdated": [
+    "primeira-torre",
+    "hero-iniciante",
+    "ninja-alchemist",
+    "dart-monkey",
+    "sniper-monkey",
+    "village-utilidade",
+    "perdi-round-40",
+    "moab",
+    "farm-quando",
+    "desperado-mermonkey",
+    "glue-gunner",
+    "bomb-shooter",
+    "paragon-o-que-e",
+    "mapa-iniciante",
+    "engie"
+  ],
+  "entriesDeprecated": []
+}
