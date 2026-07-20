@@ -176,6 +176,142 @@ body {
   margin: -0.5rem 0 1rem;
 }
 
+.tower-guide-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  margin-bottom: 1.75rem;
+}
+
+.tower-guide-card {
+  display: flex;
+  gap: 0.85rem;
+  align-items: flex-start;
+  background: var(--white);
+  border: 2px solid var(--border);
+  border-left: 4px solid var(--chip, var(--orange));
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+}
+
+.tower-guide-icon {
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.tower-guide-card h3 {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 0.2rem;
+}
+
+.tower-guide-card p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.tower-chips {
+  margin: 0.75rem 0 1rem;
+}
+
+.tower-chips-label {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  margin-bottom: 0.45rem;
+}
+
+.tower-chips-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.tower-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--chip) 12%, white);
+  border: 2px solid color-mix(in srgb, var(--chip) 35%, white);
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.tower-chip-icon {
+  font-size: 1.1rem;
+}
+
+.map-visual {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem;
+  border-radius: var(--radius);
+  margin-bottom: 0.75rem;
+  background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+}
+
+.map-visual-intermediate {
+  background: linear-gradient(135deg, #fff8e1, #ffe082);
+}
+
+.map-visual-advanced {
+  background: linear-gradient(135deg, #fff3e0, #ffb74d);
+}
+
+.map-visual-expert {
+  background: linear-gradient(135deg, #ffebee, #ef9a9a);
+}
+
+.map-visual-letter {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--text);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.map-visual-label {
+  font-weight: 800;
+  font-size: 1.05rem;
+}
+
+.visual-hint {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+  line-height: 1.45;
+}
+
+.wiki-links {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 0.85rem;
+}
+
+.wiki-links a {
+  color: var(--orange-dark);
+}
+
+.wiki-note {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+}
+
 .tier-group {
   margin-bottom: 1.75rem;
 }

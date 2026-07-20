@@ -1,7 +1,7 @@
 {
   "lastReviewed": "2026-07-20",
   "reviewedGameVersion": "55.2",
-  "reviewPass": 11,
+  "reviewPass": 12,
   "reviewerNotes": "Revisão cruzada com Blooncyclopedia (v49–55), tier lists da comunidade e guias de iniciante 2026.",
   "sources": [
     "https://www.bloonswiki.com/",
@@ -140,6 +140,18 @@
         "metaStatus em todos os mapas; passos extras em Beginner curtos",
         "Estratégias: lista completa de mapas, progressão Easy→CHIMPS, Dan D'Monke v55",
         "Monkey Meadow título oficial"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "version": "55.2",
+      "pass": 12,
+      "changes": [
+        "MVP visual: guia de 10 torres com ícones + chips nos combos/mapas",
+        "Link Ver foto na Wiki em cada mapa (sem hospedar assets oficiais)",
+        "Preview visual por categoria de mapa (Beginner→Expert)",
+        "6 tutoriais CHIMPS: Meadow, Tree Stump, Town Center, Cubism, Logs, In the Loop",
+        "Estratégia reconhecer torres para iniciantes"
       ]
     }
   ],

@@ -45,6 +45,40 @@ function setupMeta() {
   }
 }
 
+function renderTowerChips(towerIds) {
+  if (!towerIds?.length || !tutorialData.towerGuide) return "";
+  const guide = new Map(tutorialData.towerGuide.map((t) => [t.id, t]));
+  const chips = towerIds
+    .map((id) => {
+      const t = guide.get(id);
+      if (!t) return "";
+      return `<span class="tower-chip" style="--chip:${t.color}" title="${escapeHtml(t.tip)}">
+        <span class="tower-chip-icon">${t.icon}</span>
+        <span class="tower-chip-name">${escapeHtml(t.name)}</span>
+      </span>`;
+    })
+    .join("");
+  if (!chips) return "";
+  return `<div class="tower-chips"><p class="tower-chips-label">Torres deste guia:</p><div class="tower-chips-row">${chips}</div></div>`;
+}
+
+function renderTowerGuide() {
+  const el = document.getElementById("tower-guide");
+  if (!el || !tutorialData.towerGuide) return;
+  el.innerHTML = tutorialData.towerGuide
+    .map(
+      (t) => `
+    <article class="tower-guide-card" style="--chip:${t.color}">
+      <span class="tower-guide-icon">${t.icon}</span>
+      <div>
+        <h3>${escapeHtml(t.name)}</h3>
+        <p>${escapeHtml(t.tip)}</p>
+      </div>
+    </article>`
+    )
+    .join("");
+}
+
 function setupWelcome() {
   const sh = tutorialData.startHere;
   document.getElementById("welcome-intro").textContent = sh.intro;
@@ -61,6 +95,7 @@ function setupWelcome() {
       </li>`
     )
     .join("");
+  renderTowerGuide();
 }
 
 function setupTabs() {
@@ -261,6 +296,19 @@ function openTutorial(id) {
       advanced: "Advanced",
       expert: "Expert",
     };
+    const tierClass = item.tier || "beginner";
+    html += `
+      <div class="map-visual map-visual-${escapeHtml(tierClass)}" aria-hidden="true">
+        <span class="map-visual-letter">${escapeHtml((item.title || "?").charAt(0))}</span>
+        <span class="map-visual-label">${escapeHtml(tierNames[item.tier] || "")}</span>
+      </div>`;
+    if (item.visualHint) {
+      html += `<p class="visual-hint">${escapeHtml(item.visualHint)}</p>`;
+    }
+    if (item.wikiUrl) {
+      html += `<p class="wiki-links">📷 <a href="${escapeHtml(item.wikiUrl)}" target="_blank" rel="noopener">Ver foto do mapa na Wiki</a>
+        <span class="wiki-note">(abre em nova aba — imagens oficiais do jogo)</span></p>`;
+    }
     html += `
       <p class="detail-meta"><strong>Categoria:</strong> ${escapeHtml(tierNames[item.tier] || item.tier || "—")}</p>
       <p class="detail-meta"><strong>Dificuldade:</strong> ${escapeHtml(item.difficulty)}</p>
@@ -269,6 +317,7 @@ function openTutorial(id) {
     const linkedCombo = tutorialData.combos.find((c) => c.id === item.useCombo);
     if (linkedCombo) {
       html += `<p class="detail-combo-link">💡 Combo principal: <button type="button" class="inline-link" data-open-combo="${linkedCombo.id}">${escapeHtml(linkedCombo.title)}</button></p>`;
+      html += renderTowerChips(linkedCombo.towers);
     }
     if (item.altCombo) {
       const alt = tutorialData.combos.find((c) => c.id === item.altCombo);
@@ -283,13 +332,18 @@ function openTutorial(id) {
     const linkedCombo = tutorialData.combos.find((c) => c.id === item.useCombo);
     if (linkedCombo) {
       html += `<p class="detail-combo-link">💡 Build sugerido: <button type="button" class="inline-link" data-open-combo="${linkedCombo.id}">${escapeHtml(linkedCombo.title)}</button></p>`;
+      html += renderTowerChips(linkedCombo.towers);
+    }
+    if (item.mapRef) {
+      html += `<p class="detail-combo-link">🗺️ Mapa: <button type="button" class="inline-link" data-open-combo="${escapeHtml(item.mapRef)}">Abrir tutorial do mapa</button></p>`;
     }
   } else {
     html += `
       <p class="detail-meta"><strong>Dificuldade:</strong> ${escapeHtml(item.difficulty)}</p>
       <p class="detail-meta"><strong>Herói:</strong> ${escapeHtml(item.hero)}</p>
       <p class="detail-meta"><strong>Funciona em:</strong> ${escapeHtml(item.worksOn)}</p>
-      <p class="detail-summary">${escapeHtml(item.why)}</p>`;
+      <p class="detail-summary">${escapeHtml(item.why || item.summary || "")}</p>`;
+    html += renderTowerChips(item.towers);
   }
 
   html += `<h3 class="steps-title">Passo a passo</h3><ol class="step-list">`;
