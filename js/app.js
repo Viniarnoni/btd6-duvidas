@@ -140,6 +140,7 @@ function createCategoryButton(id, label) {
 function renderTutorialLists() {
   const comboList = document.getElementById("combo-list");
   const mapList = document.getElementById("map-list");
+  const modeList = document.getElementById("mode-list");
 
   comboList.innerHTML = tutorialData.combos
     .map(
@@ -167,6 +168,21 @@ function renderTutorialLists() {
     )
     .join("");
 
+  if (modeList && tutorialData.modes) {
+    modeList.innerHTML = tutorialData.modes
+      .map(
+        (m) => `
+    <button type="button" class="tutorial-card tutorial-card-mode" data-id="${m.id}" data-type="mode">
+      <span class="tutorial-badge">${escapeHtml(m.badge)}</span>
+      <h3>${escapeHtml(m.title)}</h3>
+      <p class="tutorial-difficulty">${escapeHtml(m.difficulty)}</p>
+      <p class="tutorial-summary">${escapeHtml(m.summary)}</p>
+      <span class="tutorial-cta">Toque para ver passo a passo →</span>
+    </button>`
+      )
+      .join("");
+  }
+
   document.querySelectorAll(".tutorial-card").forEach((card) => {
     card.addEventListener("click", () => openTutorial(card.dataset.id));
   });
@@ -175,14 +191,20 @@ function renderTutorialLists() {
 function openTutorial(id) {
   const combo = tutorialData.combos.find((c) => c.id === id);
   const map = tutorialData.maps.find((m) => m.id === id);
-  const item = combo || map;
+  const mode = tutorialData.modes?.find((m) => m.id === id);
+  const item = combo || map || mode;
   if (!item) return;
 
   const detail = document.getElementById("tutorial-detail");
   const content = document.getElementById("tutorial-detail-content");
   const isMap = !!map;
+  const isMode = !!mode;
 
   let html = `<h2>${escapeHtml(item.title)}</h2>`;
+
+  if (item.metaStatus) {
+    html += `<p class="meta-status">${escapeHtml(item.metaStatus)}</p>`;
+  }
 
   if (isMap) {
     html += `
@@ -192,6 +214,14 @@ function openTutorial(id) {
     const linkedCombo = tutorialData.combos.find((c) => c.id === item.useCombo);
     if (linkedCombo) {
       html += `<p class="detail-combo-link">💡 Use o combo: <button type="button" class="inline-link" data-open-combo="${linkedCombo.id}">${escapeHtml(linkedCombo.title)}</button></p>`;
+    }
+  } else if (isMode) {
+    html += `
+      <p class="detail-meta"><strong>Dificuldade:</strong> ${escapeHtml(item.difficulty)}</p>
+      <p class="detail-summary">${escapeHtml(item.summary)}</p>`;
+    const linkedCombo = tutorialData.combos.find((c) => c.id === item.useCombo);
+    if (linkedCombo) {
+      html += `<p class="detail-combo-link">💡 Combo sugerido: <button type="button" class="inline-link" data-open-combo="${linkedCombo.id}">${escapeHtml(linkedCombo.title)}</button></p>`;
     }
   } else {
     html += `
@@ -222,6 +252,7 @@ function openTutorial(id) {
   detail.classList.remove("hidden");
   document.getElementById("combo-section")?.classList.add("hidden");
   document.getElementById("map-section")?.classList.add("hidden");
+  document.getElementById("mode-section")?.classList.add("hidden");
   document.querySelector("#panel-tutorials .panel-hint")?.classList.add("hidden");
 
   content.querySelectorAll("[data-open-combo]").forEach((btn) => {
@@ -237,6 +268,7 @@ function hideTutorialDetail() {
   detail.classList.add("hidden");
   document.getElementById("combo-section")?.classList.remove("hidden");
   document.getElementById("map-section")?.classList.remove("hidden");
+  document.getElementById("mode-section")?.classList.remove("hidden");
   document.querySelector("#panel-tutorials .panel-hint")?.classList.remove("hidden");
 }
 

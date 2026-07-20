@@ -39,7 +39,8 @@
         { "when": "Round 28", "do": "Chumbo resolvido — o Alquimista resolve." },
         { "when": "Round 40 ou 46", "do": "Use a habilidade do herói no balão grande (MOAB). Melhore Ninja e Alch antes disso." }
       ],
-      "tip": "Não compre muitas torres baratas. É melhor ter poucas torres bem melhoradas."
+      "tip": "Não compre muitas torres baratas. É melhor ter poucas torres bem melhoradas.",
+      "metaStatus": "✅ v55.2 — Ninja+Alch sem nerf. Core do meta, ainda recomendado."
     },
     {
       "id": "combo-dart-boomerang",
@@ -57,7 +58,8 @@
         { "when": "Round 12+", "do": "Adicione Ninja (camo) antes do round 24." },
         { "when": "Round 20+", "do": "Adicione Alchemist (chumbo) antes do round 28." }
       ],
-      "tip": "Quando tiver Ninja + Alch, pode vender os Darts se precisar de dinheiro."
+      "tip": "Quando tiver Ninja + Alch, pode vender os Darts se precisar de dinheiro.",
+      "metaStatus": "✅ v55.2 — Dart 0-2-0 e Boomerang 2-0-0 ainda fortes no early. Transição para Ninja+Alch continua padrão."
     },
     {
       "id": "combo-sauda-facil",
@@ -74,7 +76,8 @@
         { "when": "Round 18", "do": "Adicione Alchemist para chumbo (round 28)." },
         { "when": "Round 30+", "do": "Melhore Ninja e Alch. Sauda já faz muito dano." }
       ],
-      "tip": "Em mapas com muita água e pouca terra, Sauda é fraca — use Ninja+Alch."
+      "tip": "Em mapas com muita água e pouca terra, Sauda é fraca — use Ninja+Alch.",
+      "metaStatus": "✅ v55.2 — Sauda continua S-tier em mapas terrestres com curvas."
     },
     {
       "id": "combo-meta-avancado",
@@ -86,12 +89,72 @@
       "why": "O combo mais usado por jogadores experientes em 2026. Muito dano no meio e fim de jogo.",
       "steps": [
         { "when": "Early", "do": "Mesmo início: Ninja + Alch básicos até round 30." },
-        { "when": "Mid", "do": "Ninja até 0-4-0 (Grandmaster). Alch até 4-2-0 (Permanent Brew)." },
+        { "when": "Mid (budget)", "do": "Alternativa mais barata até round 60: Ninja 2-0-0 + Alch 3-0-0 — ainda funciona em v55.2." },
+        { "when": "Mid (meta)", "do": "Ninja até 0-4-0 (Grandmaster). Alch até 4-2-0 (Permanent Brew) — ideal para 1 torre principal." },
         { "when": "Mid", "do": "Monkey Village 0-3-2 (MIB) perto das torres principais." },
         { "when": "Late", "do": "Spike Factory 0-2-5 no FINAL do caminho (último quadrado)." },
-        { "when": "Round 90+", "do": "Prepare anti-DDT — Glue ou habilidades do herói." }
+        { "when": "Round 90+", "do": "Prepare anti-DDT — Glue 2-0-4, Psi ou habilidades do herói." }
       ],
-      "tip": "Não tente isso no primeiro dia. Aprenda o combo fácil antes."
+      "tip": "Não tente isso no primeiro dia. Aprenda o combo fácil antes. Permanent Brew (4-2-0) é para 1–2 torres fortes; se tiver várias torres, use Alch 4-0-1.",
+      "metaStatus": "✅ v55.2 — Grandmaster + Perma Brew intactos. Glue buffado no v55."
+    },
+    {
+      "id": "combo-obyn-ninja-alch",
+      "title": "Combo CHIMPS barato: Obyn + Ninja + Alch",
+      "badge": "Primeira medalha preta",
+      "difficulty": "Médio",
+      "hero": "Obyn (level 28)",
+      "worksOn": "Monkey Meadows, Tree Stump, mapas Beginner",
+      "why": "Obyn ajuda com magia e tem Wall of Trees para salvar erros. Ninja+Alch cobre camo e chumbo — combo budget mais usado em CHIMPS iniciante em 2026.",
+      "steps": [
+        { "when": "Round 1", "do": "Obyn no centro ou numa curva boa." },
+        { "when": "Round 1–6", "do": "Dart 0-2-0 ou Wizard 2-0-0 para chumbo early (Wizard pega fogo no round 3+)." },
+        { "when": "Round 12", "do": "Ninja Monkey para camo (round 24)." },
+        { "when": "Round 20", "do": "Alchemist ao lado do Ninja." },
+        { "when": "Round 30–50", "do": "Melhore Ninja para 2-0-0 e Alch para 3-0-0 — suficiente até MOABs." },
+        { "when": "Round 60+", "do": "Ninja 0-4-0 + Alch 4-2-0 se sobrar dinheiro. Use Wall of Trees do Obyn em rounds grouped." },
+        { "when": "Round 90+", "do": "Adicione Spike Factory 0-2-5 no fim do caminho para DDTs." }
+      ],
+      "tip": "CHIMPS = sem vender torres, sem habilidades de dinheiro, 1 vida só. Vá com calma — não precisa rushar rounds.",
+      "metaStatus": "✅ v55.2 — Obyn continua top tier para aprender. Build budget 2-0-0/3-0-0 validada."
+    },
+    {
+      "id": "combo-sub-alch-agua",
+      "title": "Combo para mapas com água: Sub + Alch",
+      "badge": "Peninsula, Off the Coast",
+      "difficulty": "Médio",
+      "hero": "Quincy ou Obyn (Sauda é fraca na água)",
+      "worksOn": "Mapas com quadrados azuis (água)",
+      "why": "Submarino na água detecta camo com upgrade barato. Alquimista na terra derrete chumbo. Funciona onde Ninja+Alch terrestre não alcança bem.",
+      "steps": [
+        { "when": "Round 1", "do": "Herói na terra, perto do caminho." },
+        { "when": "Round 6–10", "do": "Dart ou Sniper na terra para early game." },
+        { "when": "Round 10", "do": "Compre Monkey Sub no quadrado azul (água)." },
+        { "when": "Round 12", "do": "Melhore Sub para 0-0-2 (sonar — vê camo)." },
+        { "when": "Round 20", "do": "Alchemist na terra para chumbo (round 28)." },
+        { "when": "Mid game", "do": "Sub 3-0-0 ou 4-0-0 para mais dano. Alch 3-0-0 buffando o Sub." },
+        { "when": "Alternativa", "do": "Mermonkey em água (v55.2) — mais avançado, Sub ainda é mais simples para iniciantes." }
+      ],
+      "tip": "Torres só entram em quadrados azuis na água. Se o mapa tiver pouca terra, priorize Sub cedo.",
+      "metaStatus": "✅ v55.2 — Sub camo (0-0-2) intacto. Sauda continua fraca em mapas aquáticos — evite."
+    },
+    {
+      "id": "combo-sniper-alch",
+      "title": "Combo Sniper + Alch (mapas sem visão)",
+      "badge": "Skull Tweak, mapas com obstáculos",
+      "difficulty": "Médio",
+      "hero": "Quincy ou Geraldo",
+      "worksOn": "Mapas com obstáculos que bloqueiam linha de visão",
+      "why": "Sniper ignora obstáculos — atira de longe sem precisar ver o caminho. Com Alch buffando, mata MOABs bem. Meta Deflation e anti-boss budget.",
+      "steps": [
+        { "when": "Round 1", "do": "Herói + Sniper ($300) num ponto com alcance no caminho." },
+        { "when": "Round 8–12", "do": "Segundo Sniper ou Ninja para camo (round 24)." },
+        { "when": "Round 20", "do": "Alchemist entre os Snipers." },
+        { "when": "Round 28", "do": "Chumbo resolvido pelo Alch. Melhore Sniper para 2-0-0 (Full Metal Jacket)." },
+        { "when": "Late", "do": "Sniper 0-2-5 (Elite Defender) — forte vs MOABs. Alch 4-2-0 buffando." }
+      ],
+      "tip": "Sniper não detecta camo nativamente — sempre tenha Ninja, Sub ou Village perto.",
+      "metaStatus": "✅ v55.2 — Sniper 0-2-5 e Elite Defender ainda meta anti-MOAB. Sem nerf relevante."
     }
   ],
   "maps": [
@@ -223,6 +286,160 @@
         { "when": "Dica", "do": "Não encha o mapa de torres baratas — poucas torres fortes no centro valem mais." }
       ],
       "nextMap": "Cub ou Logs"
+    },
+    {
+      "id": "balance",
+      "title": "Balance",
+      "badge": "Intermediate clássico",
+      "difficulty": "Médio",
+      "mode": "Medium → Hard",
+      "summary": "Três caminhos paralelos. Escolha um caminho principal e concentre torres nas curvas.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Herói no caminho do meio (geralmente o mais longo)." },
+        { "when": "Early", "do": "Ninja + Alch no caminho central — não espalhe demais nos 3 caminhos." },
+        { "when": "Round 24/28", "do": "Camo e chumbo cobertos pelo combo principal." },
+        { "when": "Round 40+", "do": "Adicione torre barata nos caminhos laterais só se balões escaparem." }
+      ],
+      "nextMap": "Four Circles ou Bazaar"
+    },
+    {
+      "id": "four-circles",
+      "title": "Four Circles",
+      "badge": "4 caminhos em círculo",
+      "difficulty": "Médio",
+      "mode": "Medium",
+      "summary": "Quatro círculos separados. Cada um precisa de defesa — bom para aprender economia.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Herói no círculo com caminho mais longo." },
+        { "when": "Round 1–15", "do": "Defenda 1 círculo bem antes de gastar nos outros." },
+        { "when": "Round 20", "do": "Ninja + Alch no círculo principal." },
+        { "when": "Round 30+", "do": "Copie defesa mínima (Ninja ou Wizard) nos outros círculos." },
+        { "when": "Dica", "do": "Erro comum: tentar defender os 4 círculos igualmente desde o round 1." }
+      ],
+      "nextMap": "Cub ou Balance"
+    },
+    {
+      "id": "bazaar",
+      "title": "Bazaar",
+      "badge": "Intermediate",
+      "difficulty": "Médio",
+      "mode": "Hard (quando confiante)",
+      "summary": "Mapa com cruzamento central denso. Torres no centro atingem vários trechos.",
+      "useCombo": "combo-sauda-facil",
+      "steps": [
+        { "when": "Round 1", "do": "Sauda ou Obyn no cruzamento central." },
+        { "when": "Round 10", "do": "Ninja + Alch perto do centro." },
+        { "when": "Posição", "do": "Tack Shooter no centro (avançado) — só se já conhece a torre." },
+        { "when": "Round 40+", "do": "Melhore torres centrais — muito valor por quadrado aqui." }
+      ],
+      "nextMap": "Alpine Run ou Logs"
+    },
+    {
+      "id": "alpine-run",
+      "title": "Alpine Run",
+      "badge": "Intermediate",
+      "difficulty": "Médio",
+      "mode": "Medium → Hard",
+      "summary": "Caminho sinuoso na montanha. Muitas curvas — bom para Ninja e Sauda.",
+      "useCombo": "combo-sauda-facil",
+      "steps": [
+        { "when": "Round 1", "do": "Sauda numa curva apertada." },
+        { "when": "Round 12–20", "do": "Ninja + Alch nas curvas seguintes." },
+        { "when": "Round 40", "do": "MOAB em Hard vem round 46 — tenha Ninja melhorado antes." }
+      ],
+      "nextMap": "Peninsula ou Off the Coast"
+    },
+    {
+      "id": "off-the-coast",
+      "title": "Off the Coast",
+      "badge": "Aprenda mapas aquáticos",
+      "difficulty": "Médio",
+      "mode": "Medium",
+      "summary": "Quase tudo é água. Pouca terra — ideal para praticar Sub + Alch.",
+      "useCombo": "combo-sub-alch-agua",
+      "steps": [
+        { "when": "Antes", "do": "NÃO use Sauda como herói principal — ela é fraca aqui." },
+        { "when": "Round 1", "do": "Obyn ou Quincy na pequena faixa de terra." },
+        { "when": "Round 10", "do": "Sub na água com upgrade 0-0-2 (camo)." },
+        { "when": "Round 20", "do": "Alch na terra para chumbo." },
+        { "when": "Mid", "do": "Melhore Sub para mais dano. Adicione segundo Sub se necessário." }
+      ],
+      "nextMap": "Peninsula"
+    }
+  ],
+  "modes": [
+    {
+      "id": "modo-chimps-primeira",
+      "title": "CHIMPS — sua primeira medalha preta",
+      "badge": "Modo especial",
+      "difficulty": "Desafiador (vale a pena!)",
+      "summary": "CHIMPS = sem vender, sem dinheiro extra, sem habilidades fortes, 1 vida. Medalha preta no mapa. Tente só depois de vencer Hard.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "steps": [
+        { "when": "Antes de começar", "do": "Vença o mapa em Hard primeiro. Escolha Monkey Meadows ou Tree Stump." },
+        { "when": "Regras", "do": "1 vida só. Não pode vender torres. Sem poderes. Sem Monkey Knowledge. Herói É permitido — use Obyn ou Sauda." },
+        { "when": "Round 1–30", "do": "Siga o combo Obyn + Ninja + Alch. Não venda nenhuma torre!" },
+        { "when": "Round 40/46", "do": "MOAB — use habilidade do Obyn (Wall of Trees) se precisar." },
+        { "when": "Round 90+", "do": "DDTs — tenha Spike Factory 0-2-5 ou Glue. Paciência!" },
+        { "when": "Vitória", "do": "Medalha preta no mapa. Parabéns — você dominou o básico do jogo." }
+      ],
+      "tip": "Primeira tentativa pode falhar — normal. Veja em qual round morreu e ajuste.",
+      "metaStatus": "✅ v55.2 — Tree Stump e Monkey Meadows ainda mapas CHIMPS iniciante padrão."
+    },
+    {
+      "id": "modo-impoppable",
+      "title": "Impoppable — quando subir de Hard",
+      "badge": "Modo difícil",
+      "difficulty": "Difícil",
+      "summary": "1 vida só, menos dinheiro, bloons mais fortes. Próximo passo depois de Hard. Mesmas torres, mais cuidado.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Antes", "do": "Vença Hard no mapa. Impoppable usa a mesma estratégia, mas sem margem de erro." },
+        { "when": "Round 1", "do": "Herói round 1 — obrigatório. Quincy, Obyn ou Sauda." },
+        { "when": "Round 12–20", "do": "Ninja + Alch no timing normal (antes do 24 e 28)." },
+        { "when": "Round 46", "do": "MOAB vem no round 46 em Impoppable — prepare upgrades tier 3+." },
+        { "when": "Dica", "do": "Não apresse rounds — monte defesa com calma. 1 vida = qualquer escape mata." }
+      ],
+      "tip": "Se falhar no round 46, melhore Ninja antes do MOAB na próxima tentativa.",
+      "metaStatus": "✅ v55.2 — Ninja+Alch continua suficiente para Impoppable em mapas Beginner."
+    },
+    {
+      "id": "modo-boss-evento",
+      "title": "Boss Event — básico para iniciantes",
+      "badge": "Evento semanal",
+      "difficulty": "Variável",
+      "summary": "Bosses gigantes aparecem em rounds especiais. Cada boss precisa de estratégia diferente. Co-op ajuda muito.",
+      "useCombo": "combo-meta-avancado",
+      "steps": [
+        { "when": "Antes", "do": "Boss Events aparecem no menu principal quando ativos. Normal mode ou co-op." },
+        { "when": "Bloonarius", "do": "Boss de muito HP — precisa dano constante. Ninja-Alch + Sniper 0-2-5." },
+        { "when": "Lych", "do": "Boss voador que revive bloons — Shattering Shells (Mortar) remove regrow no v55.2. Ezili ajuda." },
+        { "when": "Vortex", "do": "Puxa projéteis — torres de ataque rápido (Ninja) funcionam melhor que projéteis lentos." },
+        { "when": "Dreadbloon", "do": "Escudos de chumbo — Alch e MIB essenciais." },
+        { "when": "Phayze", "do": "Jam radar — Village MIB e torres sem depender de radar." },
+        { "when": "Dica", "do": "Iniciante? Jogue co-op — outro jogador ajuda na defesa normal enquanto você foca no boss." }
+      ],
+      "tip": "Não precisa vencer boss no primeiro evento. Participe pela recompensa e experiência.",
+      "metaStatus": "✅ v55.2 — Shattering Shells agora remove regrow (buff vs Lych). Boss balance pass v55.2."
+    },
+    {
+      "id": "modo-deflation",
+      "title": "Deflation — pouco dinheiro, muita estratégia",
+      "badge": "Modo avançado",
+      "difficulty": "Difícil",
+      "summary": "Você começa com dinheiro limitado e ganha pouco por round. Precisa de combos baratos e eficientes.",
+      "useCombo": "combo-sniper-alch",
+      "steps": [
+        { "when": "Antes", "do": "Só tente depois de vencer Impoppable em alguns mapas. Não é para iniciantes." },
+        { "when": "Round 1", "do": "Cada dollar conta. Sniper ($300) ou Ninja ($400) — escolha 1 torre forte." },
+        { "when": "Round 6–10", "do": "Alch o mais cedo possível — buff vale ouro em Deflation." },
+        { "when": "Mid", "do": "Não compre torres extras sem necessidade. Upgrade > quantidade." },
+        { "when": "Round 40+", "do": "Sniper 0-2-5 ou Ninja 0-4-0 — carries baratos com Alch 4-2-0." }
+      ],
+      "tip": "Deflation ensina economia. Perder é parte do aprendizado.",
+      "metaStatus": "✅ v55.2 — Sniper+Alch e Ninja+Alch ainda meta Deflation budget."
     }
   ]
 }
