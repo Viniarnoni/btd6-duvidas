@@ -1,7 +1,7 @@
 {
   "lastReviewed": "2026-07-20",
   "reviewedGameVersion": "55.2",
-  "reviewPass": 8,
+  "reviewPass": 9,
   "reviewerNotes": "Revisão cruzada com Blooncyclopedia (v49–55), tier lists da comunidade e guias de iniciante 2026.",
   "sources": [
     "https://www.bloonswiki.com/",
@@ -105,6 +105,17 @@
         "Logs e Cub enriquecidos com passos detalhados",
         "Trilha Beginner→Expert com nextMap encadeado",
         "Meta v55.2 revalidado — Etienne/Geared, Sub aquático, Sauda evitar em água"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "version": "55.2",
+      "pass": 9,
+      "changes": [
+        "+15 mapas: Downstream, Firing Range, Rake, Cracked, Moon Landing, Haunted, Spice Islands, Chutes, High Finance, Cornfield, Another Brick, Cargo, X Factor, Infernal, Dark Castle",
+        "+7 estratégias: High Finance, Cornfield, primeiro Expert, árvores Dark Castle, caminhos alternados, espaço apertado, trilha completa",
+        "Trilha Expert: Infernal → Dark Castle (comunidade: Experts de entrada)",
+        "Avisos claros em Advanced/Expert — não para o primeiro dia"
       ]
     }
   ],

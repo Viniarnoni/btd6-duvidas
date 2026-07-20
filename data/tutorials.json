@@ -671,7 +671,259 @@
         { "when": "Round 20", "do": "Alch compartilhado ou 2 Alchs centralizados." },
         { "when": "Aviso", "do": "Se Four Circles ainda é difícil, Quad vai esperar." }
       ],
-      "nextMap": "Mapas Expert avançados"
+      "nextMap": "Infernal (Expert mais fácil) ou Dark Castle"
+    },
+    {
+      "id": "downstream",
+      "title": "Downstream",
+      "badge": "Intermediate",
+      "difficulty": "Médio",
+      "mode": "Medium → Hard",
+      "summary": "Rio com corrente. Caminho longo — bom para Ninja+Alch. Terra nas margens.",
+      "useCombo": "combo-facil-ninja-alch",
+      "altCombo": "combo-sub-alch-agua",
+      "steps": [
+        { "when": "Round 1", "do": "Herói na margem com a melhor curva." },
+        { "when": "Round 12–20", "do": "Ninja + Alch na mesma margem." },
+        { "when": "Água", "do": "Sub 0-0-2 se quiser reforçar camo no rio." },
+        { "when": "Round 40+", "do": "Caminho longo = tempo para upgrades. Melhore Ninja antes do MOAB." }
+      ],
+      "nextMap": "Firing Range ou Rake"
+    },
+    {
+      "id": "firing-range",
+      "title": "Firing Range",
+      "badge": "Intermediate",
+      "difficulty": "Médio",
+      "mode": "Medium",
+      "summary": "Campo de tiro com caminho em U. Sniper e Ninja funcionam bem — espaço aberto.",
+      "useCombo": "combo-sniper-alch",
+      "altCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Quincy ou Obyn no fundo do U." },
+        { "when": "Round 6", "do": "Sniper no centro — alcance pega o caminho todo." },
+        { "when": "Round 12", "do": "Ninja para camo (Sniper sozinho não vê camo)." },
+        { "when": "Round 20", "do": "Alch entre Sniper e Ninja." }
+      ],
+      "nextMap": "Moon Landing ou Cracked"
+    },
+    {
+      "id": "rake",
+      "title": "Rake",
+      "badge": "Intermediate — multi-path",
+      "difficulty": "Médio",
+      "mode": "Hard",
+      "summary": "Vários caminhos como dentes de ancinho. Aplique a estratégia multi-caminho: um lane forte primeiro.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Herói no caminho mais longo / central." },
+        { "when": "Round 1–20", "do": "Ninja + Alch completos nesse caminho." },
+        { "when": "Round 25+", "do": "Ninja barato nos outros dentes do rake." },
+        { "when": "Erro", "do": "Dividir dinheiro em 4–5 caminhos no round 1 — perde em todos." }
+      ],
+      "nextMap": "One Two Tree ou Karts and Darts"
+    },
+    {
+      "id": "cracked",
+      "title": "Cracked",
+      "badge": "Intermediate",
+      "difficulty": "Médio",
+      "mode": "Medium → Hard",
+      "summary": "Terreno rachado com curvas boas. Sauda e Ninja brilham. Passo fácil após Alpine Run.",
+      "useCombo": "combo-sauda-facil",
+      "steps": [
+        { "when": "Round 1", "do": "Sauda na melhor curva do rachado." },
+        { "when": "Round 12–20", "do": "Ninja + Alch nas curvas seguintes." },
+        { "when": "Round 40", "do": "MOAB — habilidade da Sauda + Ninja melhorado." }
+      ],
+      "nextMap": "Haunted ou Spice Islands"
+    },
+    {
+      "id": "moon-landing",
+      "title": "Moon Landing",
+      "badge": "Intermediate",
+      "difficulty": "Médio",
+      "mode": "Medium",
+      "summary": "Lua com crateras. Espaço aberto, caminho sinuoso. Bom para praticar Hard.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Herói numa curva da cratera principal." },
+        { "when": "Round 12–20", "do": "Ninja + Alch no anel interno da cratera." },
+        { "when": "Posição", "do": "Evite cantos sem caminho — foque onde balões passam." },
+        { "when": "Round 40+", "do": "Tier 3 antes do MOAB." }
+      ],
+      "nextMap": "Haunted ou Chutes"
+    },
+    {
+      "id": "haunted",
+      "title": "Haunted",
+      "badge": "Intermediate — névoa",
+      "difficulty": "Médio",
+      "mode": "Hard",
+      "summary": "Casa mal-assombrada. Névoa/obstáculos atrapalham visão — Ninja e Sniper ajudam.",
+      "useCombo": "combo-sniper-alch",
+      "altCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Obyn ou Quincy em spot aberto (teste o alcance verde)." },
+        { "when": "Round 10", "do": "Ninja perto do caminho — não depende de linha reta." },
+        { "when": "Round 20", "do": "Alch + Sniper se precisar de mais dano no MOAB." },
+        { "when": "Dica", "do": "Se Dart não atira, está bloqueado — mude para Ninja." }
+      ],
+      "nextMap": "Spice Islands ou Cargo"
+    },
+    {
+      "id": "spice-islands",
+      "title": "Spice Islands",
+      "badge": "Intermediate + água",
+      "difficulty": "Médio",
+      "mode": "Medium → Hard",
+      "summary": "Ilhas com água entre elas. Mix terra/água — Sub nas ilhas azuis, Ninja na terra.",
+      "useCombo": "combo-sub-alch-agua",
+      "altCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Obyn na maior ilha de terra." },
+        { "when": "Round 10", "do": "Sub 0-0-2 na água entre ilhas." },
+        { "when": "Round 20", "do": "Alch na terra para chumbo." },
+        { "when": "Round 30+", "do": "Ninja na ilha se Sub sozinho não segura." }
+      ],
+      "nextMap": "Dockside ou Peninsula"
+    },
+    {
+      "id": "chutes",
+      "title": "Chutes",
+      "badge": "Intermediate",
+      "difficulty": "Médio",
+      "mode": "Hard",
+      "summary": "Tobogãs / chutes aceleram balões. Coloque torres ANTES da aceleração.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Herói antes dos chutes — onde balões ainda estão lentos." },
+        { "when": "Posição", "do": "Igual Spring Trap: evite spots depois da aceleração." },
+        { "when": "Round 12–20", "do": "Ninja + Alch no trecho lento." },
+        { "when": "Round 40+", "do": "DPS alto (tier 3+) para compensar velocidade." }
+      ],
+      "nextMap": "Spring Trap ou High Finance"
+    },
+    {
+      "id": "high-finance",
+      "title": "High Finance",
+      "badge": "Advanced — construa terreno",
+      "difficulty": "Difícil",
+      "mode": "Hard (depois de Intermediate)",
+      "summary": "Cidade em construção. Pouca terra no início — você COMPRA prédios para ganhar espaço. 2 caminhos alternados.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Antes", "do": "Vença 8+ Intermediate em Hard. Leia a estratégia de High Finance." },
+        { "when": "Round 1", "do": "Herói + Ninja no espaço inicial (cobre os 2 caminhos)." },
+        { "when": "Round 10–20", "do": "Alch. Só compre prédios baratos se precisar de espaço." },
+        { "when": "Economia", "do": "Não gaste tudo em prédios — defesa vem primeiro." },
+        { "when": "Round 40+", "do": "Espaço inicial costuma bastar para Ninja+Alch+Village." }
+      ],
+      "nextMap": "Cornfield ou Another Brick"
+    },
+    {
+      "id": "cornfield",
+      "title": "Cornfield",
+      "badge": "Advanced — milho bloqueia",
+      "difficulty": "Difícil",
+      "mode": "Hard",
+      "summary": "Milharal bloqueia visão. Você pode remover milho pagando. Ninja/Sniper ajudam sem limpar tudo.",
+      "useCombo": "combo-sniper-alch",
+      "altCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Herói em spot aberto (sem milho na frente)." },
+        { "when": "Round 10", "do": "Ninja — ataca perto, milho atrapalha menos." },
+        { "when": "Round 20", "do": "Alch. Remova milho só se Dart/Sniper precisarem de linha de visão." },
+        { "when": "Dica", "do": "Não limpe o mapa inteiro — cada milho custa dinheiro da defesa." }
+      ],
+      "nextMap": "Another Brick ou Cargo"
+    },
+    {
+      "id": "another-brick",
+      "title": "Another Brick",
+      "badge": "Advanced",
+      "difficulty": "Difícil",
+      "mode": "Hard",
+      "summary": "Muro / tijolos no meio. Espaço limitado. Poucas torres fortes no centro.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Obyn ou Sauda no melhor spot central." },
+        { "when": "Round 12–20", "do": "Ninja + Alch bem juntos — espaço apertado." },
+        { "when": "Regra", "do": "Upgrade > quantidade. Não encha o mapa." },
+        { "when": "Round 50+", "do": "Village MIB se couber perto das torres." }
+      ],
+      "nextMap": "Cargo ou X Factor"
+    },
+    {
+      "id": "cargo",
+      "title": "Cargo",
+      "badge": "Advanced + água",
+      "difficulty": "Difícil",
+      "mode": "Hard",
+      "summary": "Porto de carga com contêineres e água. Sub + Ninja. Contêineres bloqueiam visão.",
+      "useCombo": "combo-sub-alch-agua",
+      "altCombo": "combo-sniper-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Obyn na terra do cais." },
+        { "when": "Round 10", "do": "Sub 0-0-2 na água." },
+        { "when": "Round 20", "do": "Alch + Ninja em spots sem bloqueio de contêiner." },
+        { "when": "Erro", "do": "Dart atrás de contêiner = não atira." }
+      ],
+      "nextMap": "X Factor ou Infernal"
+    },
+    {
+      "id": "x-factor",
+      "title": "X Factor",
+      "badge": "Advanced — X no centro",
+      "difficulty": "Difícil",
+      "mode": "Hard",
+      "summary": "Caminhos em X cruzando no centro. Torre central atinge vários trechos — valor máximo.",
+      "useCombo": "combo-sauda-facil",
+      "altCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Sauda ou Obyn no cruzamento do X." },
+        { "when": "Round 10", "do": "Ninja + Alch no anel ao redor do centro." },
+        { "when": "Estratégia", "do": "Igual Bazaar — centro > bordas." },
+        { "when": "Round 40+", "do": "Melhore o núcleo central antes de espalhar." }
+      ],
+      "nextMap": "Infernal (primeiro Expert)"
+    },
+    {
+      "id": "infernal",
+      "title": "Infernal",
+      "badge": "Expert mais fácil",
+      "difficulty": "Difícil",
+      "mode": "Hard → CHIMPS (experiente)",
+      "summary": "Vulcão com 2 caminhos longos (alternam por round). Considerado o Expert mais fácil. Sniper e Ninja funcionam bem.",
+      "useCombo": "combo-sniper-alch",
+      "altCombo": "combo-meta-avancado",
+      "steps": [
+        { "when": "Antes", "do": "Vença High Finance / X Factor em Hard. Este é o Expert para começar." },
+        { "when": "Round 1", "do": "Geraldo, Obyn ou Sauda no centro entre os 2 caminhos." },
+        { "when": "Round 1–20", "do": "Ninja + Alch cobrindo ambos (ou Sniper central)." },
+        { "when": "Água", "do": "Há ilhas aquáticas — Sub ajuda em camo." },
+        { "when": "Round 40+", "do": "Caminhos longos = tempo. Melhore com calma." },
+        { "when": "CHIMPS", "do": "Primeiro Expert CHIMPS popular — use guia Obyn+Ninja+Alch." }
+      ],
+      "nextMap": "Dark Castle"
+    },
+    {
+      "id": "dark-castle",
+      "title": "Dark Castle",
+      "badge": "Expert clássico",
+      "difficulty": "Muito difícil",
+      "mode": "Hard (depois de Infernal)",
+      "summary": "Castelo com 4 entradas que se juntam. Caminho CURTO. Árvores escondem balões — você pode remover por $1000.",
+      "useCombo": "combo-meta-avancado",
+      "steps": [
+        { "when": "Antes", "do": "Vença Infernal em Hard. Dark Castle é o 2º Expert mais fácil." },
+        { "when": "Round 1", "do": "Herói no trecho convergente (onde os 4 caminhos se juntam)." },
+        { "when": "Árvores", "do": "Balões sob árvores são imunes. Remova 1–2 árvores se precisar ver — $1000 cada." },
+        { "when": "Round 12–20", "do": "Ninja + Alch no convergente. Spike no castelo (fim do caminho) no late." },
+        { "when": "Round 40+", "do": "Caminho curto = DPS alto obrigatório. Village MIB ajuda." },
+        { "when": "Aviso", "do": "Se Infernal ainda é apertado, espere um pouco." }
+      ],
+      "nextMap": "Muddy Puddles ou Quad"
     }
   ],
   "strategies": [
@@ -956,6 +1208,116 @@
       ],
       "tip": "Round 23 terminou? Compre Ninja ANTES de iniciar round 24.",
       "metaStatus": "✅ v55.2 — timing rounds críticos inalterado."
+    },
+    {
+      "id": "estrategia-high-finance",
+      "title": "High Finance — comprar terreno",
+      "badge": "Advanced especial",
+      "difficulty": "Avançado",
+      "summary": "Você começa com pouco espaço e COMPRA prédios para expandir. Defesa primeiro, prédios depois.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Espaço inicial", "do": "O começo já cobre os 2 caminhos — monte Ninja+Alch aí." },
+        { "when": "Prédios", "do": "Só compre se precisar encaixar Village ou Farm. Prédio barato primeiro." },
+        { "when": "Erro", "do": "Gastar $5000 em prédios no early e ficar sem Ninja no round 24." },
+        { "when": "Late", "do": "Com defesa estável, compre spots para Spike/Village." }
+      ],
+      "metaStatus": "✅ v55.2 — High Finance Advanced padrão; Ninja+Alch no espaço inicial ainda vale."
+    },
+    {
+      "id": "estrategia-cornfield",
+      "title": "Cornfield — milho e visão",
+      "badge": "Advanced",
+      "difficulty": "Avançado",
+      "summary": "Milho bloqueia linha de visão. Remover custa dinheiro. Prefira torres que não precisam ver longe.",
+      "useCombo": "combo-sniper-alch",
+      "steps": [
+        { "when": "Torres boas", "do": "Ninja (perto), Alch, Sniper (atira por cima). Mortar também." },
+        { "when": "Remover milho", "do": "Só quando Dart/Boomerang precisar — cada remoção custa cash." },
+        { "when": "Herói", "do": "Obyn ou Quincy em spot já aberto." },
+        { "when": "Erro", "do": "Limpar o milharal inteiro no early — fica sem dinheiro para upgrades." }
+      ],
+      "metaStatus": "✅ v55.2 — Cornfield Advanced; Ninja/Sniper estratégia padrão."
+    },
+    {
+      "id": "estrategia-primeiro-expert",
+      "title": "Seu primeiro mapa Expert",
+      "badge": "Trilha Expert",
+      "difficulty": "Avançado",
+      "summary": "Ordem recomendada: Infernal → Dark Castle → Muddy Puddles → Quad. Não pule direto no Quad.",
+      "useCombo": "combo-meta-avancado",
+      "steps": [
+        { "when": "Antes", "do": "Vença vários Advanced (High Finance, X Factor) em Hard." },
+        { "when": "1º", "do": "Infernal — caminhos longos, Expert mais fácil da comunidade." },
+        { "when": "2º", "do": "Dark Castle — curto mas convergente; Spike no fim ajuda." },
+        { "when": "3º", "do": "Muddy Puddles / Quad — multi-path curto; só depois." },
+        { "when": "Herói", "do": "Obyn ou Geraldo. Sauda só se tiver terra boa." }
+      ],
+      "tip": "Perder no Expert é normal. Veja o round e tente de novo no mesmo mapa.",
+      "metaStatus": "✅ v55.2 — Infernal e Dark Castle ainda Expert 'de entrada'."
+    },
+    {
+      "id": "estrategia-arvore-imune",
+      "title": "Árvores que escondem balões",
+      "badge": "Dark Castle",
+      "difficulty": "Avançado",
+      "summary": "Em Dark Castle, balões sob certas árvores ficam imunes. Remova a árvore por $1000 se precisar.",
+      "useCombo": "combo-meta-avancado",
+      "steps": [
+        { "when": "Sinal", "do": "Balões passam e suas torres não atacam — podem estar sob árvore." },
+        { "when": "Solução", "do": "Toque na árvore e pague $1000 para remover (se o mapa permitir)." },
+        { "when": "Economia", "do": "Remova 1–2 no máximo no early. Foque no trecho onde os caminhos se juntam." },
+        { "when": "Alternativa", "do": "Coloque torres depois das árvores, no convergente." }
+      ],
+      "metaStatus": "✅ v55.2 — mecânica Dark Castle inalterada."
+    },
+    {
+      "id": "estrategia-caminhos-alternados",
+      "title": "Caminhos que alternam por round",
+      "badge": "Infernal, High Finance",
+      "difficulty": "Intermediário",
+      "summary": "Round ímpar usa um caminho, round par usa outro. Torres no CENTRO cobrem os dois.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Posição", "do": "Coloque herói e Ninja onde alcançam AMBOS os lanes." },
+        { "when": "Erro", "do": "Defender só o caminho de cima — no round par você perde." },
+        { "when": "Sniper/Heli", "do": "Alcance longo ajuda (avançado). Iniciante: Ninja central + Alch." },
+        { "when": "Mapas", "do": "Infernal e High Finance usam isso. Observe 2 rounds antes de gastar tudo." }
+      ],
+      "metaStatus": "✅ v55.2 — layouts alternados; Ninja central ainda funciona."
+    },
+    {
+      "id": "estrategia-espaco-apertado",
+      "title": "Mapas com pouco espaço",
+      "badge": "Another Brick, Infernal",
+      "difficulty": "Intermediário",
+      "summary": "Poucos quadrados = cada torre precisa valer. Upgrade > spam.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Regra", "do": "3 torres tier 3–4 no melhor spot > 8 torres espalhadas." },
+        { "when": "Ordem", "do": "Herói → Ninja → Alch → Village se couber → Spike no fim." },
+        { "when": "Não faça", "do": "Encher com Dart barato. Sem espaço para o que importa." },
+        { "when": "Vender", "do": "Em Hard pode vender early para encaixar Village. Em CHIMPS, planeje desde o round 1." }
+      ],
+      "metaStatus": "✅ v55.2 — princípio de space management permanente."
+    },
+    {
+      "id": "estrategia-trilha-completa",
+      "title": "Trilha completa: Beginner → Expert",
+      "badge": "Roteiro do site",
+      "difficulty": "Essencial",
+      "summary": "Ordem sugerida para subir de nível sem frustração.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "1. Beginner", "do": "Meadows → Town Center → Quiet Street → Tree Stump → In the Loop." },
+        { "when": "2. Intermediate", "do": "Cub → Balance → Downstream → Firing Range → Cracked → Chutes." },
+        { "when": "3. Água", "do": "Peninsula → Dockside → Spice Islands → Off the Coast." },
+        { "when": "4. Advanced", "do": "High Finance → Cornfield → X Factor → Cargo." },
+        { "when": "5. Expert", "do": "Infernal → Dark Castle → Muddy Puddles → Quad." },
+        { "when": "Regra", "do": "Vença Hard no nível atual antes de subir." }
+      ],
+      "tip": "Pule Expert se Intermediate ainda derruba você — sem pressa.",
+      "metaStatus": "✅ v55.2 — trilha alinhada à dificuldade oficial dos mapas."
     }
   ],
   "modes": [
