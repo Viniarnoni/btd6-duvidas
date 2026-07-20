@@ -70,6 +70,19 @@
         "Odyssey, Collection farm, 2MPC jargon, Psi/Corvus/Benjamin/Etienne",
         "+30 entradas úteis (expansão livre)"
       ]
+    },
+    {
+      "date": "2026-07-20",
+      "version": "55.2",
+      "pass": 6,
+      "changes": [
+        "+3 combos (Obyn CHIMPS, Sub água, Sniper obstáculos) — verificados v55.2",
+        "+5 mapas (Balance, Four Circles, Bazaar, Alpine Run, Off the Coast)",
+        "+4 modos (CHIMPS, Impoppable, Boss, Deflation)",
+        "metaStatus em todos combos — confirma viabilidade pós-patch",
+        "v55.2: Ninja/Alch sem nerf; Shattering Shells buff vs Lych; Sauda fraca em água confirmado"
+      ]
+    },
     {
       "date": "2026-07-20",
       "version": "55.2",
@@ -80,14 +93,6 @@
         "Nova seção Estratégias (curvas, multi-path, água, obstáculos, rounds 24/28/40, economia)",
         "UI reorganizada: Mapas → Estratégias → Combos → Modos (recolhido)",
         "Peninsula corrigido para combo Sub+Alch; Skull Tweak com alt Sniper"
-      ]
-    },
-      "changes": [
-        "+3 combos (Obyn CHIMPS, Sub água, Sniper obstáculos) — verificados v55.2",
-        "+5 mapas (Balance, Four Circles, Bazaar, Alpine Run, Off the Coast)",
-        "+4 modos (CHIMPS, Impoppable, Boss, Deflation)",
-        "metaStatus em todos combos — confirma viabilidade pós-patch",
-        "v55.2: Ninja/Alch sem nerf; Shattering Shells buff vs Lych; Sauda fraca em água confirmado"
       ]
     }
   ],
