@@ -53,8 +53,8 @@
         <button type="button" class="big-btn" data-goto="tutorials" data-focus="monkey-meadows">
           🗺️ Tutorial: primeiro mapa
         </button>
-        <button type="button" class="big-btn" data-goto="faq" data-search="camo">
-          👻 O que é camo?
+        <button type="button" class="big-btn" data-goto="tutorials" data-focus="estrategia-curvas">
+          🎯 Estratégia: curvas e posição
         </button>
         <button type="button" class="big-btn" data-goto="faq" data-search="moab">
           🎈 Balão grande (MOAB)
@@ -76,22 +76,29 @@
     <section class="panel hidden" id="panel-tutorials" aria-labelledby="tab-tutorials">
       <p class="panel-hint">Toque em um card para ver o passo a passo. Role para baixo dentro do card.</p>
 
-      <div class="tutorial-section" id="combo-section">
-        <h2 class="section-title">Combos fortes (fáceis de seguir)</h2>
-        <div class="tutorial-grid" id="combo-list"></div>
-      </div>
-
       <div class="tutorial-section" id="map-section">
-        <h2 class="section-title">Tutoriais por mapa</h2>
-        <p class="section-subtitle">Comece pelo Monkey Meadows e vá subindo aos poucos.</p>
+        <h2 class="section-title">🗺️ Mapas — passo a passo</h2>
+        <p class="section-subtitle">Comece por Monkey Meadows e siga a ordem sugerida em cada card.</p>
         <div class="tutorial-grid" id="map-list"></div>
       </div>
 
-      <div class="tutorial-section" id="mode-section">
-        <h2 class="section-title">Modos de jogo</h2>
-        <p class="section-subtitle">CHIMPS, Impoppable, Boss… quando estiver pronto para o próximo passo.</p>
-        <div class="tutorial-grid" id="mode-list"></div>
+      <div class="tutorial-section" id="strategy-section">
+        <h2 class="section-title">🎯 Estratégias que funcionam</h2>
+        <p class="section-subtitle">Curvas, camo, chumbo, água, MOAB… aprenda o porquê de cada decisão.</p>
+        <div class="tutorial-grid" id="strategy-list"></div>
       </div>
+
+      <div class="tutorial-section" id="combo-section">
+        <h2 class="section-title">🐵 Combos e builds</h2>
+        <p class="section-subtitle">Combinações de torres usadas nos mapas acima.</p>
+        <div class="tutorial-grid" id="combo-list"></div>
+      </div>
+
+      <details class="tutorial-section tutorial-section-collapsed" id="mode-section-wrap">
+        <summary class="section-title section-summary">Modos especiais (CHIMPS, Boss…)</summary>
+        <p class="section-subtitle">Para quando dominar mapas em Hard.</p>
+        <div class="tutorial-grid" id="mode-list"></div>
+      </details>
 
       <article class="tutorial-detail hidden" id="tutorial-detail" aria-live="polite">
         <button type="button" class="back-btn" id="tutorial-back">← Voltar para a lista</button>

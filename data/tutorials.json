@@ -5,13 +5,13 @@
     "steps": [
       {
         "icon": "1️⃣",
-        "title": "Abra a aba Tutoriais",
-        "text": "Lá você vê passo a passo o que fazer em cada mapa e quais torres comprar."
+        "title": "Escolha um mapa",
+        "text": "Na aba Tutoriais, abra a seção Mapas. Comece por Monkey Meadows e siga a ordem sugerida."
       },
       {
         "icon": "2️⃣",
-        "title": "Use os botões grandes",
-        "text": "Toque em \"Combo fácil\" ou no nome de um mapa. As instruções aparecem em ordem."
+        "title": "Veja a estratégia",
+        "text": "Cada mapa indica qual combo usar. A seção Estratégias explica o porquê — curvas, água, camo, etc."
       },
       {
         "icon": "3️⃣",
@@ -182,11 +182,12 @@
       "mode": "Easy ou Medium",
       "summary": "Tem um crânio no meio que bloqueia a visão. Use torres que não precisam ver em linha reta: Ninja, Sniper ou Alquimista.",
       "useCombo": "combo-facil-ninja-alch",
+      "altCombo": "combo-sniper-alch",
       "steps": [
         { "when": "Round 1", "do": "Herói + Dart antes do crânio (onde o caminho é reto)." },
-        { "when": "Round 12", "do": "Ninja — funciona bem aqui porque não depende de linha de visão." },
-        { "when": "Round 20", "do": "Alchemist ao lado do Ninja." },
-        { "when": "Dica", "do": "Evite colocar torres atrás do crânio sem motivo — elas não enxergam." }
+        { "when": "Round 12", "do": "Ninja — não precisa de linha de visão reta. Alternativa: Sniper ($300) se preferir." },
+        { "when": "Round 20", "do": "Alchemist ao lado do Ninja ou Sniper." },
+        { "when": "Dica", "do": "Evite colocar Dart/Sniper atrás do crânio — eles não enxergam através dele." }
       ],
       "nextMap": "Tree Stump"
     },
@@ -229,12 +230,12 @@
       "difficulty": "Médio",
       "mode": "Medium",
       "summary": "Muita água. Sauda é fraca aqui. Use Submarino na água para camo.",
-      "useCombo": "combo-facil-ninja-alch",
+      "useCombo": "combo-sub-alch-agua",
       "steps": [
-        { "when": "Round 1", "do": "Herói na parte de terra." },
-        { "when": "Round 10", "do": "Compre Submarino na água (precisa de quadrado azul)." },
+        { "when": "Round 1", "do": "Herói na parte de terra — Obyn ou Quincy, não Sauda." },
+        { "when": "Round 10", "do": "Compre Submarino na água (quadrado azul)." },
         { "when": "Round 12", "do": "Melhore Sub para 0-0-2 (detecta camo)." },
-        { "when": "Terra", "do": "Alchemist na terra para chumbo." },
+        { "when": "Round 20", "do": "Alchemist na terra para chumbo (round 28)." },
         { "when": "Dica", "do": "Torres de água só funcionam nos quadrados azuis." }
       ],
       "nextMap": "Outros mapas Intermediate"
@@ -366,7 +367,279 @@
         { "when": "Round 20", "do": "Alch na terra para chumbo." },
         { "when": "Mid", "do": "Melhore Sub para mais dano. Adicione segundo Sub se necessário." }
       ],
+      "nextMap": "Pat's Pond ou Streambed"
+    },
+    {
+      "id": "carved-path",
+      "title": "Carved Path",
+      "badge": "Beginner",
+      "difficulty": "Fácil",
+      "mode": "Easy → Medium",
+      "summary": "Caminho estreito esculpido na rocha. Poucos lugares para torres — cada quadrado vale ouro.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Herói na primeira curva disponível." },
+        { "when": "Posição", "do": "Priorize curvas — caminho estreito = balões passam perto por mais tempo." },
+        { "when": "Round 12–20", "do": "Ninja + Alch nos melhores quadrados. Não gaste em cantos ruins." },
+        { "when": "Round 40", "do": "MOAB em Easy round 40 — melhore Ninja antes." }
+      ],
+      "nextMap": "Spring Trap ou Hedge Park"
+    },
+    {
+      "id": "streambed",
+      "title": "Streambed",
+      "badge": "Rio no meio",
+      "difficulty": "Fácil",
+      "mode": "Medium",
+      "summary": "Caminho com rio/água no centro. Terra nas duas margens — Sauda funciona nas margens.",
+      "useCombo": "combo-sauda-facil",
+      "steps": [
+        { "when": "Round 1", "do": "Sauda ou Quincy na margem com melhor curva." },
+        { "when": "Round 10", "do": "Ninja + Alch na mesma margem primeiro." },
+        { "when": "Round 30+", "do": "Se balões escaparem, defesa mínima na outra margem." },
+        { "when": "Opcional", "do": "Sub no rio se houver quadrado azul — camo na água." }
+      ],
       "nextMap": "Peninsula"
+    },
+    {
+      "id": "spring-trap",
+      "title": "Spring Trap",
+      "badge": "Intermediate",
+      "difficulty": "Médio",
+      "mode": "Medium → Hard",
+      "summary": "Caminho com molas que aceleram balões. Torres precisam de alcance ou dano rápido.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Herói ANTES das molas — onde balões ainda estão lentos." },
+        { "when": "Posição", "do": "Evite torres depois das molas — balões passam rápido demais." },
+        { "when": "Round 12–20", "do": "Ninja + Alch antes das molas ou em curva logo após (Ninja aguenta)." },
+        { "when": "Round 40+", "do": "Upgrades tier 3 — DPS alto compensa velocidade extra." }
+      ],
+      "nextMap": "Karts and Darts"
+    },
+    {
+      "id": "hedge-park",
+      "title": "Hedge Park",
+      "badge": "Intermediate",
+      "difficulty": "Médio",
+      "mode": "Medium",
+      "summary": "Parque com sebes que bloqueiam visão em partes. Similar ao Skull Tweak — Ninja e Sniper funcionam bem.",
+      "useCombo": "combo-sniper-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Quincy ou Obyn em spot aberto." },
+        { "when": "Round 6", "do": "Sniper ou Ninja — ambos ignoram ou contornam sebes melhor que Dart." },
+        { "when": "Round 20", "do": "Alchemist para chumbo." },
+        { "when": "Dica", "do": "Teste arrastar torre — se o alcance fica verde sem bloqueio, o spot é bom." }
+      ],
+      "nextMap": "Bazaar ou Balance"
+    },
+    {
+      "id": "karts-and-darts",
+      "title": "Karts and Darts",
+      "badge": "2 caminhos",
+      "difficulty": "Médio",
+      "mode": "Hard",
+      "summary": "Dois caminhos paralelos (como pistas). Defenda um bem, depois replique no segundo.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 1", "do": "Herói no caminho de cima ou de baixo — escolha 1." },
+        { "when": "Round 1–20", "do": "Ninja + Alch completos em UM caminho antes de gastar no outro." },
+        { "when": "Round 30", "do": "Copie Ninja básico no segundo caminho." },
+        { "when": "Erro comum", "do": "Dividir dinheiro igual nos 2 caminhos desde round 1 — você perde nos dois." }
+      ],
+      "nextMap": "Four Circles"
+    },
+    {
+      "id": "pats-pond",
+      "title": "Pat's Pond",
+      "badge": "Avançado — muita água",
+      "difficulty": "Difícil",
+      "mode": "Hard (depois de vencer Off the Coast)",
+      "summary": "Quase só água, ilhas pequenas. Teste final de mapas aquáticos. Sub + Alch obrigatório.",
+      "useCombo": "combo-sub-alch-agua",
+      "steps": [
+        { "when": "Antes", "do": "Vença Off the Coast e Peninsula em Medium primeiro." },
+        { "when": "Round 1", "do": "Obyn na maior ilha. Nada de Sauda." },
+        { "when": "Round 8–12", "do": "Sub 0-0-2 na água — camo vem cedo." },
+        { "when": "Round 20", "do": "Alch na ilha para chumbo. Segundo Sub se tiver dinheiro." },
+        { "when": "Round 40+", "do": "Melhore Subs para tier 3+. Paciência — mapa difícil." }
+      ],
+      "nextMap": "Mapas Expert (só quando estiver muito confiante)"
+    },
+    {
+      "id": "muddy-puddles",
+      "title": "Muddy Puddles",
+      "badge": "Expert — só veteranos",
+      "difficulty": "Muito difícil",
+      "mode": "Hard/CHIMPS (experientes)",
+      "summary": "Dois caminhos muito curtos e rápidos. Mapa Expert clássico — NÃO recomendado para iniciantes.",
+      "useCombo": "combo-meta-avancado",
+      "steps": [
+        { "when": "Antes", "do": "Vença 15+ mapas Intermediate em Hard. Este mapa pune erros no round 6." },
+        { "when": "Round 1", "do": "Geraldo ou Sauda — herói que carrega early extremo." },
+        { "when": "Round 1–6", "do": "Defesa nos DOIS caminhos desde cedo — diferente de Balance." },
+        { "when": "Round 12", "do": "Ninja em cada caminho ou Village MIB central." },
+        { "when": "Aviso", "do": "Se ainda está aprendendo, ignore este mapa por enquanto — sem problema." }
+      ],
+      "nextMap": "Outros Expert maps"
+    }
+  ],
+  "strategies": [
+    {
+      "id": "estrategia-curvas",
+      "title": "Colocar torres em curvas",
+      "badge": "Estratégia #1",
+      "difficulty": "Essencial",
+      "summary": "Balões ficam mais tempo no alcance em curvas. Vale em quase todo mapa — Meadows, Alpine Run, Carved Path.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Por quê", "do": "Em reta, balões passam rápido. Em curva, a torre atira por mais tempo = mais dano." },
+        { "when": "Onde", "do": "Procure trechos em L, U ou círculo. Coloque Ninja/Alch no lado interno da curva." },
+        { "when": "Herói", "do": "Sauda e Quincy também querem curva — balões perto = mais dano." },
+        { "when": "Erro", "do": "Colocar torre no início/fim reto do mapa só porque é o primeiro quadrado verde." }
+      ],
+      "tip": "Logs é reto — aí o caminho LONGO compensa. Em mapas curtos, curva é ainda mais importante.",
+      "metaStatus": "✅ v55.2 — princípio universal, não muda com patch."
+    },
+    {
+      "id": "estrategia-multi-caminho",
+      "title": "Mapas com 2+ caminhos",
+      "badge": "Balance, Karts, Four Circles",
+      "difficulty": "Intermediário",
+      "summary": "Não tente defender tudo igual desde o round 1. Fortifique um caminho, depois copie nos outros.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 1–15", "do": "Escolha o caminho MAIS LONGO ou onde o herói alcança melhor." },
+        { "when": "Round 15–30", "do": "Ninja + Alch completos nesse caminho." },
+        { "when": "Round 30+", "do": "Defesa barata (Ninja 0-0-0 ou Wizard) nos outros caminhos." },
+        { "when": "Exceção", "do": "Muddy Puddles (Expert) exige os 2 caminhos cedo — mapa especial." }
+      ],
+      "tip": "Four Circles = mesma lógica, mas 4 círculos. Um de cada vez.",
+      "metaStatus": "✅ v55.2 — economia concentrada ainda meta em multi-path."
+    },
+    {
+      "id": "estrategia-agua",
+      "title": "Mapas com água",
+      "badge": "Peninsula, Off the Coast",
+      "difficulty": "Intermediário",
+      "summary": "Quadrados azuis = torres aquáticas. Sauda perde valor. Sub 0-0-2 resolve camo na água.",
+      "useCombo": "combo-sub-alch-agua",
+      "steps": [
+        { "when": "Herói", "do": "Obyn, Quincy ou Geraldo na terra. Evite Sauda em mapas aquáticos." },
+        { "when": "Round 10", "do": "Monkey Sub no azul — upgrade 0-0-2 para camo." },
+        { "when": "Round 20", "do": "Alchemist na terra para chumbo (round 28)." },
+        { "when": "Peninsula vs Off the Coast", "do": "Peninsula tem terra razoável. Off the Coast/Pat's Pond = quase só água — Subs são o core." }
+      ],
+      "tip": "Arraste torre sobre água — se ficar azul claro, pode colocar.",
+      "metaStatus": "✅ v55.2 — Sub camo intacto. Sauda fraca em água confirmado."
+    },
+    {
+      "id": "estrategia-obstaculos",
+      "title": "Obstáculos bloqueando visão",
+      "badge": "Skull Tweak, Hedge Park",
+      "difficulty": "Intermediário",
+      "summary": "Crânios, sebes e prédios bloqueiam Dart e Sniper. Ninja, Alchemist e Mortar ignoram ou contornam.",
+      "useCombo": "combo-sniper-alch",
+      "steps": [
+        { "when": "Torres boas", "do": "Ninja (ataca de perto), Alchemist (alcance curto mas ácido passa), Sniper (atira de longe POR CIMA)." },
+        { "when": "Torres ruins", "do": "Dart atrás de obstáculo = inútil. Tack também sofre." },
+        { "when": "Skull Tweak", "do": "Ninja ao lado do crânio, não atrás." },
+        { "when": "Alternativa", "do": "Mortar 0-2-0 — bom em mapas com obstáculo central (avançado)." }
+      ],
+      "metaStatus": "✅ v55.2 — Skull Tweak mapa novo v55, Ninja/Sniper estratégia padrão."
+    },
+    {
+      "id": "estrategia-round-camo",
+      "title": "Preparar round 24 (camo)",
+      "badge": "Round crítico",
+      "difficulty": "Essencial",
+      "summary": "Round 24 traz camuflagem em Hard/Impoppable. Sem detecção, você perde na hora.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Até round 12", "do": "Compre Ninja Monkey ($400)." },
+        { "when": "Alternativas", "do": "Wizard 0-0-2, Sub 0-0-2 (água), Village 0-2-0 (Radar Scanner)." },
+        { "when": "Round 24", "do": "Se Ninja está no caminho, você está seguro." },
+        { "when": "Easy/Medium", "do": "Camo vem mais tarde — mas habitue-se a ter Ninja cedo sempre." }
+      ],
+      "tip": "Quincy detecta camo no level 5 do herói — mas não conte só com isso.",
+      "metaStatus": "✅ v55.2 — round 24 camo inalterado. Ninja continua solução #1."
+    },
+    {
+      "id": "estrategia-round-lead",
+      "title": "Preparar round 28 (chumbo)",
+      "badge": "Round crítico",
+      "difficulty": "Essencial",
+      "summary": "Bloons cinza (chumbo) imunes a dardos comuns. Precisa fogo, magia ou Alquimista.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Até round 20", "do": "Compre Alchemist ($400) ou Wizard 2-0-0." },
+        { "when": "Round 28", "do": "Alch ao lado do Ninja — derrete chumbo E buffa o Ninja." },
+        { "when": "Alternativas", "do": "Bomb 0-0-3, Wizard com fogo, Mortar com Striker Jones." },
+        { "when": "Erro", "do": "Só Dart 0-2-0 sem Alch/Wizard — chumbo passa ileso." }
+      ],
+      "metaStatus": "✅ v55.2 — Alch lead popping intacto."
+    },
+    {
+      "id": "estrategia-round-moab",
+      "title": "Preparar round 40/46 (MOAB)",
+      "badge": "Balão grande",
+      "difficulty": "Essencial",
+      "summary": "Primeiro boss bloon — muito HP. Round 40 (Easy/Med) ou 46 (Hard/Impoppable).",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Round 35–39", "do": "Ninja tier 3+ ou use habilidade do herói (Quincy, Obyn)." },
+        { "when": "Round 40/46", "do": "Ative habilidade do herói quando MOAB entrar no alcance." },
+        { "when": "Depois", "do": "Melhore Ninja para 0-3-0+ ou adicione Sniper 0-2-0." },
+        { "when": "Erro #1", "do": "Chegar no MOAB com torres tier 1 — causa mais comum de derrota." }
+      ],
+      "metaStatus": "✅ v55.2 — MOAB rounds inalterados. Ninja 0-4-0 ainda carry."
+    },
+    {
+      "id": "estrategia-economia",
+      "title": "Poucas torres, muitos upgrades",
+      "badge": "Regra de ouro",
+      "difficulty": "Essencial",
+      "summary": "3 torres tier 3 vencem 10 torres tier 1. Meta 2026 inteiro gira em torno disso.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        { "when": "Early", "do": "1 Dart 0-2-0 + herói — suficiente até round 10–12." },
+        { "when": "Mid", "do": "Ninja + Alch upgradados > 4 torres sem upgrade." },
+        { "when": "Vender?", "do": "Em Easy/Hard pode vender Dart quando Ninja estiver pronto. CHIMPS = nunca venda." },
+        { "when": "Farm?", "do": "Banana Farm só depois de round 40+ e defesa estável — iniciante pode ignorar." }
+      ],
+      "tip": "Se perdeu com 15 torres fracas, tente de novo com 3 torres fortes.",
+      "metaStatus": "✅ v55.2 — princípio meta permanente."
+    },
+    {
+      "id": "estrategia-centro",
+      "title": "Mapas com cruzamento central",
+      "badge": "Bazaar, Tree Stump",
+      "difficulty": "Intermediário",
+      "summary": "Torre no centro atinge vários trechos do caminho. Máximo valor por quadrado.",
+      "useCombo": "combo-sauda-facil",
+      "steps": [
+        { "when": "Round 1", "do": "Herói no centro (Sauda, Obyn ou Tack avançado no toco)." },
+        { "when": "Round 10", "do": "Ninja + Alch no anel interno ao redor do centro." },
+        { "when": "Tree Stump", "do": "Toco no meio = coloque torres no círculo ao redor, não no toco (exceto Tack)." },
+        { "when": "Bazaar", "do": "Cruzamento denso = 1 torre forte no centro vale por 3 nas bordas." }
+      ],
+      "metaStatus": "✅ v55.2 — Tree Stump ainda mapa CHIMPS favorito."
+    },
+    {
+      "id": "estrategia-spike-final",
+      "title": "Spike Factory no fim do caminho",
+      "badge": "Late game",
+      "difficulty": "Avançado",
+      "summary": "Spikes no ÚLTIMO quadrado pegam balões que escaparam. Meta CHIMPS round 90+.",
+      "useCombo": "combo-meta-avancado",
+      "steps": [
+        { "when": "Quando", "do": "Depois de Ninja+Alch estáveis (round 50+). Não no round 1." },
+        { "when": "Onde", "do": "Último quadrado do caminho — balão morre ao passar." },
+        { "when": "Upgrade", "do": "0-2-5 Perma-Spike — acumula dano entre rounds." },
+        { "when": "Para quê", "do": "Cleanup de MOABs/DDTs que escaparam do DPS principal." }
+      ],
+      "tip": "Spikes no meio do mapa são menos eficientes — sempre no final.",
+      "metaStatus": "✅ v55.2 — Perma-Spike 0-2-5 meta CHIMPS intacto."
     }
   ],
   "modes": [

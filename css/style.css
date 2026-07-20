@@ -180,6 +180,34 @@ body {
   margin-bottom: 2rem;
 }
 
+.tutorial-section-collapsed {
+  margin-bottom: 1.5rem;
+}
+
+.section-summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.5rem 0;
+}
+
+.section-summary::-webkit-details-marker {
+  display: none;
+}
+
+.section-summary::before {
+  content: "▸ ";
+  color: var(--orange);
+  font-weight: 800;
+}
+
+details[open] .section-summary::before {
+  content: "▾ ";
+}
+
+.tutorial-card-strategy {
+  border-left: 4px solid var(--green);
+}
+
 /* Welcome */
 .welcome-box {
   background: var(--white);

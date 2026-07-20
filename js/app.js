@@ -140,20 +140,8 @@ function createCategoryButton(id, label) {
 function renderTutorialLists() {
   const comboList = document.getElementById("combo-list");
   const mapList = document.getElementById("map-list");
+  const strategyList = document.getElementById("strategy-list");
   const modeList = document.getElementById("mode-list");
-
-  comboList.innerHTML = tutorialData.combos
-    .map(
-      (c) => `
-    <button type="button" class="tutorial-card" data-id="${c.id}" data-type="combo">
-      <span class="tutorial-badge">${escapeHtml(c.badge)}</span>
-      <h3>${escapeHtml(c.title)}</h3>
-      <p class="tutorial-difficulty">Dificuldade: ${escapeHtml(c.difficulty)}</p>
-      <p class="tutorial-summary">${escapeHtml(c.why)}</p>
-      <span class="tutorial-cta">Toque para ver passo a passo →</span>
-    </button>`
-    )
-    .join("");
 
   mapList.innerHTML = tutorialData.maps
     .map(
@@ -163,6 +151,34 @@ function renderTutorialLists() {
       <h3>${escapeHtml(m.title)}</h3>
       <p class="tutorial-difficulty">${escapeHtml(m.difficulty)} · ${escapeHtml(m.mode)}</p>
       <p class="tutorial-summary">${escapeHtml(m.summary)}</p>
+      <span class="tutorial-cta">Toque para ver passo a passo →</span>
+    </button>`
+    )
+    .join("");
+
+  if (strategyList && tutorialData.strategies) {
+    strategyList.innerHTML = tutorialData.strategies
+      .map(
+        (s) => `
+    <button type="button" class="tutorial-card tutorial-card-strategy" data-id="${s.id}" data-type="strategy">
+      <span class="tutorial-badge">${escapeHtml(s.badge)}</span>
+      <h3>${escapeHtml(s.title)}</h3>
+      <p class="tutorial-difficulty">${escapeHtml(s.difficulty)}</p>
+      <p class="tutorial-summary">${escapeHtml(s.summary)}</p>
+      <span class="tutorial-cta">Toque para ver passo a passo →</span>
+    </button>`
+      )
+      .join("");
+  }
+
+  comboList.innerHTML = tutorialData.combos
+    .map(
+      (c) => `
+    <button type="button" class="tutorial-card" data-id="${c.id}" data-type="combo">
+      <span class="tutorial-badge">${escapeHtml(c.badge)}</span>
+      <h3>${escapeHtml(c.title)}</h3>
+      <p class="tutorial-difficulty">Build · ${escapeHtml(c.difficulty)}</p>
+      <p class="tutorial-summary">${escapeHtml(c.why)}</p>
       <span class="tutorial-cta">Toque para ver passo a passo →</span>
     </button>`
     )
@@ -188,17 +204,29 @@ function renderTutorialLists() {
   });
 }
 
+function tutorialSectionIds() {
+  return ["map-section", "strategy-section", "combo-section", "mode-section-wrap"];
+}
+
+function setTutorialSectionsHidden(hidden) {
+  tutorialSectionIds().forEach((id) => {
+    document.getElementById(id)?.classList.toggle("hidden", hidden);
+  });
+}
+
 function openTutorial(id) {
   const combo = tutorialData.combos.find((c) => c.id === id);
   const map = tutorialData.maps.find((m) => m.id === id);
+  const strategy = tutorialData.strategies?.find((s) => s.id === id);
   const mode = tutorialData.modes?.find((m) => m.id === id);
-  const item = combo || map || mode;
+  const item = combo || map || strategy || mode;
   if (!item) return;
 
   const detail = document.getElementById("tutorial-detail");
   const content = document.getElementById("tutorial-detail-content");
   const isMap = !!map;
   const isMode = !!mode;
+  const isStrategy = !!strategy;
 
   let html = `<h2>${escapeHtml(item.title)}</h2>`;
 
@@ -213,15 +241,21 @@ function openTutorial(id) {
       <p class="detail-summary">${escapeHtml(item.summary)}</p>`;
     const linkedCombo = tutorialData.combos.find((c) => c.id === item.useCombo);
     if (linkedCombo) {
-      html += `<p class="detail-combo-link">💡 Use o combo: <button type="button" class="inline-link" data-open-combo="${linkedCombo.id}">${escapeHtml(linkedCombo.title)}</button></p>`;
+      html += `<p class="detail-combo-link">💡 Combo principal: <button type="button" class="inline-link" data-open-combo="${linkedCombo.id}">${escapeHtml(linkedCombo.title)}</button></p>`;
     }
-  } else if (isMode) {
+    if (item.altCombo) {
+      const alt = tutorialData.combos.find((c) => c.id === item.altCombo);
+      if (alt) {
+        html += `<p class="detail-combo-link">↔️ Alternativa: <button type="button" class="inline-link" data-open-combo="${alt.id}">${escapeHtml(alt.title)}</button></p>`;
+      }
+    }
+  } else if (isStrategy || isMode) {
     html += `
-      <p class="detail-meta"><strong>Dificuldade:</strong> ${escapeHtml(item.difficulty)}</p>
+      <p class="detail-meta"><strong>Nível:</strong> ${escapeHtml(item.difficulty)}</p>
       <p class="detail-summary">${escapeHtml(item.summary)}</p>`;
     const linkedCombo = tutorialData.combos.find((c) => c.id === item.useCombo);
     if (linkedCombo) {
-      html += `<p class="detail-combo-link">💡 Combo sugerido: <button type="button" class="inline-link" data-open-combo="${linkedCombo.id}">${escapeHtml(linkedCombo.title)}</button></p>`;
+      html += `<p class="detail-combo-link">💡 Build sugerido: <button type="button" class="inline-link" data-open-combo="${linkedCombo.id}">${escapeHtml(linkedCombo.title)}</button></p>`;
     }
   } else {
     html += `
@@ -250,9 +284,7 @@ function openTutorial(id) {
 
   content.innerHTML = html;
   detail.classList.remove("hidden");
-  document.getElementById("combo-section")?.classList.add("hidden");
-  document.getElementById("map-section")?.classList.add("hidden");
-  document.getElementById("mode-section")?.classList.add("hidden");
+  setTutorialSectionsHidden(true);
   document.querySelector("#panel-tutorials .panel-hint")?.classList.add("hidden");
 
   content.querySelectorAll("[data-open-combo]").forEach((btn) => {
@@ -266,9 +298,7 @@ function hideTutorialDetail() {
   const detail = document.getElementById("tutorial-detail");
   if (!detail) return;
   detail.classList.add("hidden");
-  document.getElementById("combo-section")?.classList.remove("hidden");
-  document.getElementById("map-section")?.classList.remove("hidden");
-  document.getElementById("mode-section")?.classList.remove("hidden");
+  setTutorialSectionsHidden(false);
   document.querySelector("#panel-tutorials .panel-hint")?.classList.remove("hidden");
 }
 
