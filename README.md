@@ -11,6 +11,12 @@ Site de FAQs em português para iniciantes em **Bloons TD 6**. Sem IA, sem custo
 - Layout responsivo (mobile-friendly)
 - Hospedagem estática (GitHub Pages, Netlify, Vercel)
 
+## Site publicado
+
+**https://btd6-duvidas.vercel.app**
+
+Abra esse link no celular ou no PC — funciona sem instalar nada.
+
 ## Como rodar localmente
 
 ```bash
