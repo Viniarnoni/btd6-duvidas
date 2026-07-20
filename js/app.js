@@ -143,17 +143,37 @@ function renderTutorialLists() {
   const strategyList = document.getElementById("strategy-list");
   const modeList = document.getElementById("mode-list");
 
-  mapList.innerHTML = tutorialData.maps
-    .map(
-      (m) => `
-    <button type="button" class="tutorial-card tutorial-card-map" data-id="${m.id}" data-type="map">
+  const tierLabels = {
+    beginner: "🟢 Beginner — comece aqui",
+    intermediate: "🟡 Intermediate — depois do Hard nos fáceis",
+    advanced: "🟠 Advanced — espaço apertado e gimmicks",
+    expert: "🔴 Expert — só com experiência",
+  };
+  const tierOrder = ["beginner", "intermediate", "advanced", "expert"];
+  const mapsByTier = {};
+  tutorialData.maps.forEach((m) => {
+    const tier = m.tier || "beginner";
+    if (!mapsByTier[tier]) mapsByTier[tier] = [];
+    mapsByTier[tier].push(m);
+  });
+
+  mapList.innerHTML = tierOrder
+    .filter((tier) => mapsByTier[tier]?.length)
+    .map((tier) => {
+      const cards = mapsByTier[tier]
+        .map(
+          (m) => `
+    <button type="button" class="tutorial-card tutorial-card-map tier-${tier}" data-id="${m.id}" data-type="map">
       <span class="tutorial-badge">${escapeHtml(m.badge)}</span>
       <h3>${escapeHtml(m.title)}</h3>
       <p class="tutorial-difficulty">${escapeHtml(m.difficulty)} · ${escapeHtml(m.mode)}</p>
       <p class="tutorial-summary">${escapeHtml(m.summary)}</p>
       <span class="tutorial-cta">Toque para ver passo a passo →</span>
     </button>`
-    )
+        )
+        .join("");
+      return `<div class="tier-group"><h3 class="tier-heading">${tierLabels[tier]} <span class="tier-count">(${mapsByTier[tier].length})</span></h3>${cards}</div>`;
+    })
     .join("");
 
   if (strategyList && tutorialData.strategies) {
@@ -235,7 +255,14 @@ function openTutorial(id) {
   }
 
   if (isMap) {
+    const tierNames = {
+      beginner: "Beginner",
+      intermediate: "Intermediate",
+      advanced: "Advanced",
+      expert: "Expert",
+    };
     html += `
+      <p class="detail-meta"><strong>Categoria:</strong> ${escapeHtml(tierNames[item.tier] || item.tier || "—")}</p>
       <p class="detail-meta"><strong>Dificuldade:</strong> ${escapeHtml(item.difficulty)}</p>
       <p class="detail-meta"><strong>Modo sugerido:</strong> ${escapeHtml(item.mode)}</p>
       <p class="detail-summary">${escapeHtml(item.summary)}</p>`;

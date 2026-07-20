@@ -176,6 +176,43 @@ body {
   margin: -0.5rem 0 1rem;
 }
 
+.tier-group {
+  margin-bottom: 1.75rem;
+}
+
+.tier-heading {
+  font-size: 1rem;
+  font-weight: 800;
+  margin: 0.5rem 0 0.75rem;
+  padding: 0.65rem 0.85rem;
+  border-radius: var(--radius-sm);
+  background: #fff;
+  border: 2px solid var(--border);
+  color: var(--text);
+}
+
+.tier-count {
+  font-weight: 700;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.tutorial-card-map.tier-beginner {
+  border-left: 4px solid var(--green);
+}
+
+.tutorial-card-map.tier-intermediate {
+  border-left: 4px solid #f9a825;
+}
+
+.tutorial-card-map.tier-advanced {
+  border-left: 4px solid var(--orange);
+}
+
+.tutorial-card-map.tier-expert {
+  border-left: 4px solid #c62828;
+}
+
 .tutorial-section {
   margin-bottom: 2rem;
 }

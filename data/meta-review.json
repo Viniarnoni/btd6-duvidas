@@ -1,7 +1,7 @@
 {
   "lastReviewed": "2026-07-20",
   "reviewedGameVersion": "55.2",
-  "reviewPass": 9,
+  "reviewPass": 10,
   "reviewerNotes": "Revisão cruzada com Blooncyclopedia (v49–55), tier lists da comunidade e guias de iniciante 2026.",
   "sources": [
     "https://www.bloonswiki.com/",
@@ -116,6 +116,18 @@
         "+7 estratégias: High Finance, Cornfield, primeiro Expert, árvores Dark Castle, caminhos alternados, espaço apertado, trilha completa",
         "Trilha Expert: Infernal → Dark Castle (comunidade: Experts de entrada)",
         "Avisos claros em Advanced/Expert — não para o primeiro dia"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "version": "55.2",
+      "pass": 10,
+      "changes": [
+        "Cobertura quase completa: 85 mapas (23 Beginner, 27 Intermediate, 22 Advanced, 13 Expert)",
+        "Nomes/dificuldades oficiais corrigidos (Cubism, Hedge, Carved, End of the Road, Spring Spring, Lotus Island)",
+        "Advanced reclassificados: Peninsula, Off the Coast, Pat's Pond, Spillway, Geared",
+        "Roteiros Beginner/Intermediate/Advanced/Expert + build por dificuldade (meta v55.2)",
+        "UI: mapas agrupados e ordenados do fácil ao difícil"
       ]
     }
   ],
