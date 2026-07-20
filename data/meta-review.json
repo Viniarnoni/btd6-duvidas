@@ -1,7 +1,7 @@
 {
   "lastReviewed": "2026-07-20",
   "reviewedGameVersion": "55.2",
-  "reviewPass": 13,
+  "reviewPass": 14,
   "reviewerNotes": "Revisão cruzada com Blooncyclopedia (v49–55), tier lists da comunidade e guias de iniciante 2026.",
   "sources": [
     "https://www.bloonswiki.com/",
@@ -164,6 +164,17 @@
         "16 tutoriais CHIMPS Beginner (Meadow → Frozen Over)",
         "+4 FAQs (CHIMPS, fotos, diagramas, ícones)",
         "Autorização ampla do usuário para expansão contínua"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "version": "55.2",
+      "pass": 14,
+      "changes": [
+        "+18 CHIMPS Intermediate/água/Expert entrada (Balance → Dark Castle)",
+        "Estratégias: progressão CHIMPS Intermediate + Impoppable genérico",
+        "+4 FAQs modos CHIMPS/água/Expert/Impoppable",
+        "Ordenação modes: Beginner CHIMPS → Intermediate → Expert → outros"
       ]
     }
   ],

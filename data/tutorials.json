@@ -3508,6 +3508,70 @@
   ],
   "strategies": [
     {
+      "id": "estrategia-impoppable-mapa",
+      "title": "Impoppable em qualquer mapa",
+      "badge": "1 vida",
+      "difficulty": "Intermediário",
+      "summary": "Mesma build do Hard, zero margem. Pause antes dos rounds críticos.",
+      "useCombo": "combo-facil-ninja-alch",
+      "diagram": "curve",
+      "steps": [
+        {
+          "when": "Antes",
+          "do": "Vença Hard no mapa."
+        },
+        {
+          "when": "Round 1",
+          "do": "Herói imediatamente."
+        },
+        {
+          "when": "Round 12/20",
+          "do": "Ninja e Alch ANTES de apertar play nos rounds 24/28."
+        },
+        {
+          "when": "Round 46",
+          "do": "MOAB — upgrades tier 3+ prontos."
+        },
+        {
+          "when": "Diferença do CHIMPS",
+          "do": "Pode usar MK e powers (se quiser). CHIMPS é mais restrito."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — Impoppable = Hard com 1 vida; core igual."
+    },
+    {
+      "id": "estrategia-chimps-intermediate",
+      "title": "Quando passar para CHIMPS Intermediate",
+      "badge": "Progressão",
+      "difficulty": "Intermediário",
+      "summary": "Depois de 3–5 medalhas pretas Beginner. Quiet Street e Balance são os próximos passos naturais.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "diagram": "multipath",
+      "steps": [
+        {
+          "when": "Requisito",
+          "do": "Meadow + Tree Stump CHIMPS (ou equivalentes)."
+        },
+        {
+          "when": "Ordem",
+          "do": "Quiet Street → Balance → Bazaar → Downstream → Cracked."
+        },
+        {
+          "when": "Água",
+          "do": "Streambed → Spice Islands → Water Park (Obyn, não Sauda)."
+        },
+        {
+          "when": "Multi-path",
+          "do": "Karts → Rake → Four Circles (já feito?)."
+        },
+        {
+          "when": "Expert",
+          "do": "Só depois: Infernal → Dark Castle."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — progressão CHIMPS alinhada à dificuldade oficial."
+    },
+    {
       "id": "estrategia-diagramas",
       "title": "Como ler os diagramas de posição",
       "badge": "Visual",
@@ -4714,35 +4778,6 @@
       "metaStatus": "✅ v55.2 — caminho curto exige DPS concentrado."
     },
     {
-      "id": "chimps-four-circles",
-      "title": "CHIMPS: Four Circles",
-      "badge": "CHIMPS multi-path",
-      "difficulty": "Desafiador",
-      "summary": "4 círculos. Um forte primeiro, depois copie defesa barata nos outros.",
-      "useCombo": "combo-obyn-ninja-alch",
-      "mapRef": "four-circles",
-      "diagram": "multipath",
-      "steps": [
-        {
-          "when": "Erro clássico",
-          "do": "Dividir dinheiro nos 4 círculos no round 1."
-        },
-        {
-          "when": "Round 1–20",
-          "do": "Obyn + Ninja + Alch no círculo mais longo."
-        },
-        {
-          "when": "Round 25+",
-          "do": "Ninja básico nos outros 3 círculos."
-        },
-        {
-          "when": "Round 90+",
-          "do": "Spike no exit do círculo principal + cobertura mínima nos outros."
-        }
-      ],
-      "metaStatus": "✅ v55.2 — estratégia multi-path concentrada ainda meta."
-    },
-    {
       "id": "chimps-frozen-over",
       "title": "CHIMPS: Frozen Over",
       "badge": "CHIMPS · gelo",
@@ -4938,35 +4973,6 @@
       "metaStatus": "✅ v55.2 — Park Path CHIMPS padrão."
     },
     {
-      "id": "chimps-resort",
-      "title": "CHIMPS: Resort",
-      "badge": "CHIMPS · água leve",
-      "difficulty": "Desafiador",
-      "summary": "Terra + piscina. Ninja+Alch na terra; Sub opcional na água.",
-      "useCombo": "combo-obyn-ninja-alch",
-      "mapRef": "resort",
-      "diagram": "water",
-      "steps": [
-        {
-          "when": "Round 1",
-          "do": "Obyn na terra (não dependa só da água)."
-        },
-        {
-          "when": "Round 12–20",
-          "do": "Ninja + Alch na terra."
-        },
-        {
-          "when": "Opcional",
-          "do": "Sub 0-0-2 se a piscina cobrir bem o caminho."
-        },
-        {
-          "when": "Round 90+",
-          "do": "Spike no fim terrestre."
-        }
-      ],
-      "metaStatus": "✅ v55.2 — Resort: terra primeiro, Sub complementar."
-    },
-    {
       "id": "chimps-scrapyard",
       "title": "CHIMPS: Scrapyard",
       "badge": "CHIMPS Beginner",
@@ -5073,6 +5079,598 @@
       "tip": "Não coloque torres no toco (exceto Tack avançado). Anel ao redor.",
       "metaStatus": "✅ v55.2 — Tree Stump continua CHIMPS Beginner #1 da comunidade.",
       "diagram": "center"
+    },
+    {
+      "id": "chimps-adoras-temple",
+      "title": "CHIMPS: Adora's Temple",
+      "badge": "CHIMPS · Adora",
+      "difficulty": "Desafiador",
+      "summary": "Bom para treinar Adora. Ninja+Alch ainda é o core early.",
+      "useCombo": "combo-facil-ninja-alch",
+      "mapRef": "adoras-temple",
+      "diagram": "center",
+      "steps": [
+        {
+          "when": "Herói",
+          "do": "Adora se tiver; senão Obyn."
+        },
+        {
+          "when": "Round 12–20",
+          "do": "Ninja + Alch."
+        },
+        {
+          "when": "Late",
+          "do": "Alch perto da Adora — ela escala bem."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike + anti-DDT."
+        }
+      ],
+      "tip": "Adora não substitui camo/chumbo no early.",
+      "metaStatus": "✅ v55.2 — core Ninja+Alch/Obyn válido; ajuste posição ao layout do mapa."
+    },
+    {
+      "id": "chimps-balance",
+      "title": "CHIMPS: Balance",
+      "badge": "CHIMPS Intermediate",
+      "difficulty": "Desafiador",
+      "summary": "3 caminhos. Um forte primeiro (o do meio), depois cobertura mínima nas laterais.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "balance",
+      "diagram": "multipath",
+      "steps": [
+        {
+          "when": "Antes",
+          "do": "Vença Hard + 2–3 CHIMPS Beginner."
+        },
+        {
+          "when": "Round 1–20",
+          "do": "Obyn + Ninja + Alch no caminho CENTRAL."
+        },
+        {
+          "when": "Round 25+",
+          "do": "Ninja barato em cada lateral."
+        },
+        {
+          "when": "Round 46",
+          "do": "MOAB no lane principal — ability do Obyn."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike na saída do caminho principal."
+        }
+      ],
+      "tip": "Não divida o dinheiro em 3 no early.",
+      "metaStatus": "✅ v55.2 — core Ninja+Alch/Obyn válido; ajuste posição ao layout do mapa."
+    },
+    {
+      "id": "chimps-bazaar",
+      "title": "CHIMPS: Bazaar",
+      "badge": "CHIMPS Intermediate",
+      "difficulty": "Desafiador",
+      "summary": "Cruzamento central. Sauda/Obyn no centro = máximo valor.",
+      "useCombo": "combo-sauda-facil",
+      "mapRef": "bazaar",
+      "diagram": "center",
+      "steps": [
+        {
+          "when": "Round 1",
+          "do": "Sauda ou Obyn no cruzamento."
+        },
+        {
+          "when": "Round 12–20",
+          "do": "Ninja + Alch no anel interno."
+        },
+        {
+          "when": "Mid",
+          "do": "Melhore o núcleo — não espalhe nas bordas."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike perto da saída."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — core Ninja+Alch/Obyn válido; ajuste posição ao layout do mapa."
+    },
+    {
+      "id": "chimps-cracked",
+      "title": "CHIMPS: Cracked",
+      "badge": "CHIMPS Intermediate",
+      "difficulty": "Desafiador",
+      "summary": "Curvas boas. Sauda excelente.",
+      "useCombo": "combo-sauda-facil",
+      "mapRef": "cracked",
+      "diagram": "curve",
+      "steps": [
+        {
+          "when": "Round 1",
+          "do": "Sauda na melhor rachadura/curva."
+        },
+        {
+          "when": "Round 12–20",
+          "do": "Ninja + Alch."
+        },
+        {
+          "when": "Round 46",
+          "do": "Ability + Ninja upgradado."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no fim."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — core Ninja+Alch/Obyn válido; ajuste posição ao layout do mapa."
+    },
+    {
+      "id": "chimps-downstream",
+      "title": "CHIMPS: Downstream",
+      "badge": "CHIMPS Intermediate",
+      "difficulty": "Desafiador",
+      "summary": "Rio longo. Terra + Sub opcional. Ninja+Alch na margem principal.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "downstream",
+      "diagram": "water",
+      "steps": [
+        {
+          "when": "Round 1",
+          "do": "Obyn na melhor margem."
+        },
+        {
+          "when": "Round 12–20",
+          "do": "Ninja + Alch na mesma margem."
+        },
+        {
+          "when": "Opcional",
+          "do": "Sub 0-0-2 no rio se cobrir bem."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no fim."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — core Ninja+Alch/Obyn válido; ajuste posição ao layout do mapa."
+    },
+    {
+      "id": "chimps-encrypted",
+      "title": "CHIMPS: Encrypted",
+      "badge": "CHIMPS Intermediate",
+      "difficulty": "Desafiador",
+      "summary": "Espaço moderado. Upgrade > spam.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "encrypted",
+      "diagram": "curve",
+      "steps": [
+        {
+          "when": "Round 1–20",
+          "do": "Core Obyn + Ninja + Alch."
+        },
+        {
+          "when": "Mid",
+          "do": "Ninja 0-4-0 + Alch 4-2-0 quando puder."
+        },
+        {
+          "when": "Round 50+",
+          "do": "Village MIB se couber."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no fim."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — core Ninja+Alch/Obyn válido; ajuste posição ao layout do mapa."
+    },
+    {
+      "id": "chimps-firing-range",
+      "title": "CHIMPS: Firing Range",
+      "badge": "CHIMPS Intermediate",
+      "difficulty": "Desafiador",
+      "summary": "Campo aberto em U. Sniper central + Ninja para camo.",
+      "useCombo": "combo-sniper-alch",
+      "mapRef": "firing-range",
+      "diagram": "curve",
+      "steps": [
+        {
+          "when": "Round 1",
+          "do": "Obyn no fundo do U."
+        },
+        {
+          "when": "Round 6–12",
+          "do": "Sniper no centro + Ninja (camo)."
+        },
+        {
+          "when": "Round 20",
+          "do": "Alch entre eles."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike na saída + Sniper 0-2-5 se couber."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — core Ninja+Alch/Obyn válido; ajuste posição ao layout do mapa."
+    },
+    {
+      "id": "chimps-four-circles",
+      "title": "CHIMPS: Four Circles",
+      "badge": "CHIMPS multi-path",
+      "difficulty": "Desafiador",
+      "summary": "4 círculos. Um forte primeiro, depois copie defesa barata nos outros.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "four-circles",
+      "diagram": "multipath",
+      "steps": [
+        {
+          "when": "Erro clássico",
+          "do": "Dividir dinheiro nos 4 círculos no round 1."
+        },
+        {
+          "when": "Round 1–20",
+          "do": "Obyn + Ninja + Alch no círculo mais longo."
+        },
+        {
+          "when": "Round 25+",
+          "do": "Ninja básico nos outros 3 círculos."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no exit do círculo principal + cobertura mínima nos outros."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — estratégia multi-path concentrada ainda meta."
+    },
+    {
+      "id": "chimps-haunted",
+      "title": "CHIMPS: Haunted",
+      "badge": "CHIMPS · obstáculos",
+      "difficulty": "Desafiador",
+      "summary": "Névoa/obstáculos. Ninja > Dart. Sniper ajuda.",
+      "useCombo": "combo-sniper-alch",
+      "mapRef": "haunted",
+      "diagram": "obstacle",
+      "steps": [
+        {
+          "when": "Round 1",
+          "do": "Obyn em spot aberto."
+        },
+        {
+          "when": "Round 12",
+          "do": "Ninja (camo + ignora bloqueio)."
+        },
+        {
+          "when": "Round 20",
+          "do": "Alch + Sniper se precisar de MOAB DPS."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no fim."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — core Ninja+Alch/Obyn válido; ajuste posição ao layout do mapa."
+    },
+    {
+      "id": "chimps-karts",
+      "title": "CHIMPS: KartsNDarts",
+      "badge": "CHIMPS multi-path",
+      "difficulty": "Desafiador",
+      "summary": "2 pistas. Uma completa primeiro, depois a segunda.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "karts-and-darts",
+      "diagram": "multipath",
+      "steps": [
+        {
+          "when": "Round 1–20",
+          "do": "Core completo na pista 1."
+        },
+        {
+          "when": "Round 25",
+          "do": "Ninja na pista 2."
+        },
+        {
+          "when": "Erro",
+          "do": "Dividir early nas duas pistas."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike na saída da pista principal."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — core Ninja+Alch/Obyn válido; ajuste posição ao layout do mapa."
+    },
+    {
+      "id": "chimps-moon-landing",
+      "title": "CHIMPS: Moon Landing",
+      "badge": "CHIMPS Intermediate",
+      "difficulty": "Desafiador",
+      "summary": "Crateras. Core no anel da cratera principal.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "moon-landing",
+      "diagram": "curve",
+      "steps": [
+        {
+          "when": "Round 1–20",
+          "do": "Obyn + Ninja + Alch na cratera principal."
+        },
+        {
+          "when": "Posição",
+          "do": "Evite cantos sem caminho."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no fim."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — core Ninja+Alch/Obyn válido; ajuste posição ao layout do mapa."
+    },
+    {
+      "id": "chimps-quiet-street",
+      "title": "CHIMPS: Quiet Street",
+      "badge": "CHIMPS Intermediate",
+      "difficulty": "Desafiador",
+      "summary": "Primeiro Intermediate fácil. Mesmo core Beginner.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "quiet-street",
+      "diagram": "curve",
+      "steps": [
+        {
+          "when": "Round 1–20",
+          "do": "Obyn → Dart early → Ninja → Alch."
+        },
+        {
+          "when": "Mid",
+          "do": "Upgrades tier 3–4 nas torres principais."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no fim da rua."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — core Ninja+Alch/Obyn válido; ajuste posição ao layout do mapa."
+    },
+    {
+      "id": "chimps-rake",
+      "title": "CHIMPS: Rake",
+      "badge": "CHIMPS multi-path",
+      "difficulty": "Desafiador",
+      "summary": "Vários 'dentes'. Um lane forte, depois cópias baratas.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "rake",
+      "diagram": "multipath",
+      "steps": [
+        {
+          "when": "Round 1–20",
+          "do": "Core no dente mais longo/central."
+        },
+        {
+          "when": "Round 25+",
+          "do": "Ninja barato nos outros dentes."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no exit principal."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — core Ninja+Alch/Obyn válido; ajuste posição ao layout do mapa."
+    },
+    {
+      "id": "chimps-resort",
+      "title": "CHIMPS: Resort",
+      "badge": "CHIMPS · água leve",
+      "difficulty": "Desafiador",
+      "summary": "Terra + piscina. Ninja+Alch na terra; Sub opcional na água.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "resort",
+      "diagram": "water",
+      "steps": [
+        {
+          "when": "Round 1",
+          "do": "Obyn na terra (não dependa só da água)."
+        },
+        {
+          "when": "Round 12–20",
+          "do": "Ninja + Alch na terra."
+        },
+        {
+          "when": "Opcional",
+          "do": "Sub 0-0-2 se a piscina cobrir bem o caminho."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no fim terrestre."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — Resort: terra primeiro, Sub complementar."
+    },
+    {
+      "id": "chimps-spice-islands",
+      "title": "CHIMPS: Spice Islands",
+      "badge": "CHIMPS · água",
+      "difficulty": "Desafiador",
+      "summary": "Ilhas. Sub entre ilhas + Ninja/Alch na maior terra.",
+      "useCombo": "combo-sub-alch-agua",
+      "mapRef": "spice-islands",
+      "diagram": "water",
+      "steps": [
+        {
+          "when": "Round 1",
+          "do": "Obyn na maior ilha."
+        },
+        {
+          "when": "Round 10",
+          "do": "Sub 0-0-2 na água."
+        },
+        {
+          "when": "Round 20",
+          "do": "Alch + Ninja na ilha."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike na saída da ilha principal."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — core Ninja+Alch/Obyn válido; ajuste posição ao layout do mapa."
+    },
+    {
+      "id": "chimps-spring-spring",
+      "title": "CHIMPS: Spring Spring",
+      "badge": "CHIMPS · aceleração",
+      "difficulty": "Desafiador",
+      "summary": "Molas aceleram balões. Torres ANTES das molas.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "spring-trap",
+      "diagram": "fast",
+      "steps": [
+        {
+          "when": "Round 1",
+          "do": "Obyn no trecho LENTO (antes das molas)."
+        },
+        {
+          "when": "Round 12–20",
+          "do": "Ninja + Alch no mesmo trecho."
+        },
+        {
+          "when": "Erro",
+          "do": "Torres depois da aceleração — balões passam rápido demais."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no fim + DPS alto."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — core Ninja+Alch/Obyn válido; ajuste posição ao layout do mapa."
+    },
+    {
+      "id": "chimps-streambed",
+      "title": "CHIMPS: Streambed",
+      "badge": "CHIMPS Intermediate",
+      "difficulty": "Desafiador",
+      "summary": "Rio no meio. Defesa numa margem primeiro.",
+      "useCombo": "combo-sauda-facil",
+      "mapRef": "streambed",
+      "diagram": "water",
+      "steps": [
+        {
+          "when": "Round 1",
+          "do": "Sauda/Obyn na margem com melhor curva."
+        },
+        {
+          "when": "Round 12–20",
+          "do": "Ninja + Alch na mesma margem."
+        },
+        {
+          "when": "Round 30+",
+          "do": "Cobertura mínima na outra margem se precisar."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no fim."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — core Ninja+Alch/Obyn válido; ajuste posição ao layout do mapa."
+    },
+    {
+      "id": "chimps-water-park",
+      "title": "CHIMPS: Water Park",
+      "badge": "CHIMPS · água",
+      "difficulty": "Desafiador",
+      "summary": "Muita água. Sub core + Alch na terra. Evite Sauda como carry.",
+      "useCombo": "combo-sub-alch-agua",
+      "mapRef": "water-park",
+      "diagram": "water",
+      "steps": [
+        {
+          "when": "Antes",
+          "do": "Vença Peninsula/Resort em Hard."
+        },
+        {
+          "when": "Round 1",
+          "do": "Obyn na maior área seca."
+        },
+        {
+          "when": "Round 8–12",
+          "do": "Sub 0-0-2 (camo)."
+        },
+        {
+          "when": "Round 20",
+          "do": "Alch na terra + segundo Sub se precisar."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike em terra no fim, se couber."
+        }
+      ],
+      "tip": "Sauda é fraca aqui — Obyn/Quincy.",
+      "metaStatus": "✅ v55.2 — core Ninja+Alch/Obyn válido; ajuste posição ao layout do mapa."
+    },
+    {
+      "id": "chimps-dark-castle",
+      "title": "CHIMPS: Dark Castle",
+      "badge": "CHIMPS Expert",
+      "difficulty": "Desafiador",
+      "summary": "Segundo Expert de entrada. Caminho curto convergente. Árvores $1000.",
+      "useCombo": "combo-meta-avancado",
+      "mapRef": "dark-castle",
+      "diagram": "end",
+      "steps": [
+        {
+          "when": "Antes",
+          "do": "Infernal CHIMPS ou Hard em Dark Castle."
+        },
+        {
+          "when": "Round 1",
+          "do": "Herói no trecho convergente."
+        },
+        {
+          "when": "Árvores",
+          "do": "Remova 1–2 se balões ficarem imunes ($1000 cada)."
+        },
+        {
+          "when": "Round 12–30",
+          "do": "Ninja + Alch + MIB no convergente."
+        },
+        {
+          "when": "Late",
+          "do": "Spike no castelo (fim) — essencial."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — core Ninja+Alch/Obyn válido; ajuste posição ao layout do mapa."
+    },
+    {
+      "id": "chimps-infernal",
+      "title": "CHIMPS: Infernal (primeiro Expert)",
+      "badge": "CHIMPS Expert · entrada",
+      "difficulty": "Desafiador",
+      "summary": "Expert mais acessível. Caminhos longos alternados. Centro cobre os dois.",
+      "useCombo": "combo-meta-avancado",
+      "mapRef": "infernal",
+      "diagram": "multipath",
+      "steps": [
+        {
+          "when": "Antes",
+          "do": "Hard em Infernal + vários Intermediate CHIMPS."
+        },
+        {
+          "when": "Round 1",
+          "do": "Geraldo ou Obyn no centro entre os lanes."
+        },
+        {
+          "when": "Round 1–20",
+          "do": "Ninja + Alch cobrindo ambos (alternam por round)."
+        },
+        {
+          "when": "Mid",
+          "do": "Ninja GM + Perma Brew + MIB."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike + Glue/anti-DDT."
+        },
+        {
+          "when": "Aviso",
+          "do": "Se Intermediate CHIMPS ainda é apertado, espere."
+        }
+      ],
+      "tip": "Observe round ímpar vs par — os dois caminhos precisam de cobertura.",
+      "metaStatus": "✅ v55.2 — core Ninja+Alch/Obyn válido; ajuste posição ao layout do mapa."
     },
     {
       "id": "modo-boss-evento",

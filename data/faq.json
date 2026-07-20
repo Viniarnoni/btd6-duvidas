@@ -2418,6 +2418,54 @@
         "emoji",
         "visual"
       ]
+    },
+    {
+      "id": "chimps-intermediate-quando",
+      "category": "modos",
+      "question": "Quando tentar CHIMPS Intermediate?",
+      "answer": "Depois de algumas medalhas pretas Beginner (Meadow, Tree Stump). Comece por Quiet Street ou Balance. No site: Modos especiais → filtros CHIMPS Intermediate.",
+      "tags": [
+        "chimps",
+        "intermediate",
+        "balance",
+        "quiet street"
+      ]
+    },
+    {
+      "id": "chimps-agua",
+      "category": "modos",
+      "question": "CHIMPS em mapa com água — o que muda?",
+      "answer": "Evite Sauda como carry. Use Obyn/Quincy + Sub 0-0-2 na água + Alch na terra. Exemplos: Water Park, Spice Islands, Resort. Veja os tutoriais CHIMPS · água no site.",
+      "tags": [
+        "chimps",
+        "agua",
+        "sub",
+        "sauda"
+      ]
+    },
+    {
+      "id": "chimps-expert-primeiro",
+      "category": "modos",
+      "question": "Primeiro CHIMPS Expert — qual mapa?",
+      "answer": "Infernal (mais acessível), depois Dark Castle. Não comece em #Ouch, Quad ou Blons. Precisa de Ninja Grandmaster + Alch Permanent Brew + MIB + Spike.",
+      "tags": [
+        "chimps",
+        "expert",
+        "infernal",
+        "dark castle"
+      ]
+    },
+    {
+      "id": "diferenca-impoppable-chimps",
+      "category": "modos",
+      "question": "Impoppable e CHIMPS — qual a diferença?",
+      "answer": "Ambos têm 1 vida. CHIMPS também: sem vender torres, sem powers, sem Monkey Knowledge, sem habilidades de dinheiro. Impoppable permite MK e powers. Faça Impoppable antes do CHIMPS no mesmo mapa.",
+      "tags": [
+        "impoppable",
+        "chimps",
+        "diferenca",
+        "regras"
+      ]
     }
   ]
 }
