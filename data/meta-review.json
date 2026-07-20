@@ -1,7 +1,7 @@
 {
   "lastReviewed": "2026-07-20",
   "reviewedGameVersion": "55.2",
-  "reviewPass": 7,
+  "reviewPass": 8,
   "reviewerNotes": "Revisão cruzada com Blooncyclopedia (v49–55), tier lists da comunidade e guias de iniciante 2026.",
   "sources": [
     "https://www.bloonswiki.com/",
@@ -93,6 +93,18 @@
         "Nova seção Estratégias (curvas, multi-path, água, obstáculos, rounds 24/28/40, economia)",
         "UI reorganizada: Mapas → Estratégias → Combos → Modos (recolhido)",
         "Peninsula corrigido para combo Sub+Alch; Skull Tweak com alt Sniper"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "version": "55.2",
+      "pass": 8,
+      "changes": [
+        "+10 mapas: End of the Lane, Quiet Street, Park Path, One Two Tree, Lotus Valley, Snake Path, Dockside, Water Park, Spillway, Geared, Quad",
+        "+8 estratégias: caminho reto, loop interno, escolher herói, DDT, fortified, Village MIB, Geared, não apressar rounds",
+        "Logs e Cub enriquecidos com passos detalhados",
+        "Trilha Beginner→Expert com nextMap encadeado",
+        "Meta v55.2 revalidado — Etienne/Geared, Sub aquático, Sauda evitar em água"
       ]
     }
   ],
