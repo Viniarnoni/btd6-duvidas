@@ -1,7 +1,7 @@
 {
   "lastReviewed": "2026-07-20",
   "reviewedGameVersion": "55.2",
-  "reviewPass": 10,
+  "reviewPass": 11,
   "reviewerNotes": "Revisão cruzada com Blooncyclopedia (v49–55), tier lists da comunidade e guias de iniciante 2026.",
   "sources": [
     "https://www.bloonswiki.com/",
@@ -128,6 +128,18 @@
         "Advanced reclassificados: Peninsula, Off the Coast, Pat's Pond, Spillway, Geared",
         "Roteiros Beginner/Intermediate/Advanced/Expert + build por dificuldade (meta v55.2)",
         "UI: mapas agrupados e ordenados do fácil ao difícil"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "version": "55.2",
+      "pass": 11,
+      "changes": [
+        "Beginner completo: +Three Mines 'Round, Spa Pits, Tinkerton (26 Beginner)",
+        "+Blons (Expert secreto) com aviso forte para iniciantes",
+        "metaStatus em todos os mapas; passos extras em Beginner curtos",
+        "Estratégias: lista completa de mapas, progressão Easy→CHIMPS, Dan D'Monke v55",
+        "Monkey Meadow título oficial"
       ]
     }
   ],

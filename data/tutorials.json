@@ -1,7 +1,7 @@
 {
   "startHere": {
     "title": "Primeira vez aqui?",
-    "intro": "Este site cobre mapas do Beginner ao Expert com estratégias atualizadas (v55.2). Comece pelos fáceis e suba aos poucos.",
+    "intro": "Guia completo de mapas Bloons TD 6 (v55.2): do Beginner ao Expert, com estratégias atualizadas. Comece pelos verdes e suba aos poucos.",
     "steps": [
       {
         "icon": "1️⃣",
@@ -310,10 +310,15 @@
         {
           "when": "Round 40",
           "do": "MOAB em Hard vem round 46 — tenha Ninja melhorado antes."
+        },
+        {
+          "when": "Regra",
+          "do": "Poucas torres bem melhoradas > muitas torres fracas."
         }
       ],
       "nextMap": "Peninsula ou Off the Coast",
-      "tier": "beginner"
+      "tier": "beginner",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "candy-falls",
@@ -336,9 +341,14 @@
         {
           "when": "Round 40",
           "do": "MOAB Easy — Ninja tier 3 ajuda."
+        },
+        {
+          "when": "Regra",
+          "do": "Poucas torres bem melhoradas > muitas torres fracas."
         }
       ],
-      "nextMap": "Winter Park ou Frozen Over"
+      "nextMap": "Winter Park ou Frozen Over",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "carved-path",
@@ -364,10 +374,15 @@
         {
           "when": "Round 40",
           "do": "MOAB em Easy round 40 — melhore Ninja antes."
+        },
+        {
+          "when": "Regra",
+          "do": "Poucas torres bem melhoradas > muitas torres fracas."
         }
       ],
       "nextMap": "End of the Lane ou Quiet Street",
-      "tier": "beginner"
+      "tier": "beginner",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "cub",
@@ -404,7 +419,8 @@
         }
       ],
       "nextMap": "Logs ou mapas Intermediate",
-      "tier": "beginner"
+      "tier": "beginner",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "end-of-the-lane",
@@ -437,7 +453,8 @@
         }
       ],
       "nextMap": "Quiet Street ou Park Path",
-      "tier": "beginner"
+      "tier": "beginner",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "four-circles",
@@ -470,7 +487,8 @@
         }
       ],
       "nextMap": "Cub ou Balance",
-      "tier": "beginner"
+      "tier": "beginner",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "frozen-over",
@@ -494,9 +512,18 @@
         {
           "when": "Água",
           "do": "Se houver azul, Sub 0-0-2 complementa camo."
+        },
+        {
+          "when": "Round 40/46",
+          "do": "MOAB: use habilidade do herói. Em Hard o MOAB vem no 46."
+        },
+        {
+          "when": "Regra",
+          "do": "Poucas torres bem melhoradas > muitas torres fracas."
         }
       ],
-      "nextMap": "Cubism ou Hedge"
+      "nextMap": "Cubism ou Hedge",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "hedge-park",
@@ -522,10 +549,15 @@
         {
           "when": "Dica",
           "do": "Teste arrastar torre — se o alcance fica verde sem bloqueio, o spot é bom."
+        },
+        {
+          "when": "Round 40/46",
+          "do": "MOAB: use habilidade do herói. Em Hard o MOAB vem no 46."
         }
       ],
       "nextMap": "Bazaar ou Balance",
-      "tier": "beginner"
+      "tier": "beginner",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "in-the-loop",
@@ -551,10 +583,15 @@
         {
           "when": "Dica",
           "do": "Não encha o mapa de torres baratas — poucas torres fortes no centro valem mais."
+        },
+        {
+          "when": "Round 40/46",
+          "do": "MOAB: use habilidade do herói. Em Hard o MOAB vem no 46."
         }
       ],
       "nextMap": "Cub ou Logs",
-      "tier": "beginner"
+      "tier": "beginner",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "logs",
@@ -591,7 +628,8 @@
         }
       ],
       "nextMap": "Peninsula (se quiser aprender água)",
-      "tier": "beginner"
+      "tier": "beginner",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "lotus-valley",
@@ -618,10 +656,15 @@
         {
           "when": "Round 40",
           "do": "Melhore torres terrestres — core da defesa aqui."
+        },
+        {
+          "when": "Regra",
+          "do": "Poucas torres bem melhoradas > muitas torres fracas."
         }
       ],
       "nextMap": "Dockside ou Snake Path",
-      "tier": "beginner"
+      "tier": "beginner",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "middle-of-the-road",
@@ -648,13 +691,18 @@
         {
           "when": "Vitória",
           "do": "Easy round 40. Depois tente Medium."
+        },
+        {
+          "when": "Regra",
+          "do": "Poucas torres bem melhoradas > muitas torres fracas."
         }
       ],
-      "nextMap": "Scrapyard ou The Cabin"
+      "nextMap": "Scrapyard ou The Cabin",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "monkey-meadows",
-      "title": "Monkey Meadows",
+      "title": "Monkey Meadow",
       "badge": "Beginner · comece aqui",
       "difficulty": "Muito fácil",
       "mode": "Jogue em Easy primeiro",
@@ -676,10 +724,15 @@
         {
           "when": "Vitória",
           "do": "Pode parar no round 40 (Easy Win) ou ir até 100 para mais prática."
+        },
+        {
+          "when": "Regra",
+          "do": "Poucas torres bem melhoradas > muitas torres fracas."
         }
       ],
       "nextMap": "Skull Tweak ou Tree Stump",
-      "tier": "beginner"
+      "tier": "beginner",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "one-two-tree",
@@ -705,10 +758,19 @@
         {
           "when": "Árvore",
           "do": "Não coloque Dart atrás da árvore — use Ninja ou Sniper."
+        },
+        {
+          "when": "Round 40/46",
+          "do": "MOAB: use habilidade do herói. Em Hard o MOAB vem no 46."
+        },
+        {
+          "when": "Regra",
+          "do": "Poucas torres bem melhoradas > muitas torres fracas."
         }
       ],
       "nextMap": "Karts and Darts ou Balance",
-      "tier": "beginner"
+      "tier": "beginner",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "park-path",
@@ -734,10 +796,19 @@
         {
           "when": "Aprendizado",
           "do": "Use este mapa para VER a diferença de colocar torre em curva vs reto."
+        },
+        {
+          "when": "Round 40/46",
+          "do": "MOAB: use habilidade do herói. Em Hard o MOAB vem no 46."
+        },
+        {
+          "when": "Regra",
+          "do": "Poucas torres bem melhoradas > muitas torres fracas."
         }
       ],
       "nextMap": "Carved Path ou In the Loop",
-      "tier": "beginner"
+      "tier": "beginner",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "resort",
@@ -765,9 +836,14 @@
         {
           "when": "Dica",
           "do": "Sauda ainda funciona se houver terra boa nas curvas."
+        },
+        {
+          "when": "Round 40/46",
+          "do": "MOAB: use habilidade do herói. Em Hard o MOAB vem no 46."
         }
       ],
-      "nextMap": "Skates ou Candy Falls"
+      "nextMap": "Skates ou Candy Falls",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "scrapyard",
@@ -795,9 +871,14 @@
         {
           "when": "Dica",
           "do": "Se torre não atira, está bloqueada — mude de posição."
+        },
+        {
+          "when": "Round 40/46",
+          "do": "MOAB: use habilidade do herói. Em Hard o MOAB vem no 46."
         }
       ],
-      "nextMap": "The Cabin ou Resort"
+      "nextMap": "The Cabin ou Resort",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "skates",
@@ -820,9 +901,18 @@
         {
           "when": "Bloqueios",
           "do": "Só remova se atrapalhar — dinheiro é da defesa."
+        },
+        {
+          "when": "Round 40/46",
+          "do": "MOAB: use habilidade do herói. Em Hard o MOAB vem no 46."
+        },
+        {
+          "when": "Regra",
+          "do": "Poucas torres bem melhoradas > muitas torres fracas."
         }
       ],
-      "nextMap": "Candy Falls ou Winter Park"
+      "nextMap": "Candy Falls ou Winter Park",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "skull-tweak",
@@ -849,10 +939,50 @@
         {
           "when": "Dica",
           "do": "Evite colocar Dart/Sniper atrás do crânio — eles não enxergam através dele."
+        },
+        {
+          "when": "Round 40/46",
+          "do": "MOAB: use habilidade do herói. Em Hard o MOAB vem no 46."
         }
       ],
       "nextMap": "Tree Stump",
-      "tier": "beginner"
+      "tier": "beginner",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
+    },
+    {
+      "id": "spa-pits",
+      "title": "Spa Pits",
+      "badge": "Beginner · água",
+      "tier": "beginner",
+      "difficulty": "Fácil",
+      "mode": "Easy → Medium",
+      "summary": "Spas / piscinas. Contato leve com água. Terra ainda carrega Ninja+Alch; Sub opcional.",
+      "useCombo": "combo-facil-ninja-alch",
+      "altCombo": "combo-sub-alch-agua",
+      "steps": [
+        {
+          "when": "Round 1",
+          "do": "Quincy ou Obyn na terra."
+        },
+        {
+          "when": "Round 12–20",
+          "do": "Ninja + Alch na terra."
+        },
+        {
+          "when": "Opcional",
+          "do": "Sub 0-0-2 na piscina para praticar camo aquático."
+        },
+        {
+          "when": "Dica",
+          "do": "No Easy, terra sozinha costuma bastar."
+        },
+        {
+          "when": "Round 40/46",
+          "do": "MOAB: use habilidade do herói. Em Hard o MOAB vem no 46."
+        }
+      ],
+      "nextMap": "Tinkerton ou Resort",
+      "metaStatus": "✅ v55.2 — Beginner com água leve. Sauda ok se houver curvas na terra."
     },
     {
       "id": "the-cabin",
@@ -876,9 +1006,87 @@
         {
           "when": "Round 40",
           "do": "Habilidade do herói no MOAB."
+        },
+        {
+          "when": "Regra",
+          "do": "Poucas torres bem melhoradas > muitas torres fracas."
         }
       ],
-      "nextMap": "Resort ou Skates"
+      "nextMap": "Resort ou Skates",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
+    },
+    {
+      "id": "three-mines-round",
+      "title": "Three Mines 'Round",
+      "badge": "Beginner",
+      "tier": "beginner",
+      "difficulty": "Fácil",
+      "mode": "Easy → Medium",
+      "summary": "Três minas ao redor do caminho. Espaço bom, layout Beginner. Ninja+Alch padrão.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        {
+          "when": "Round 1",
+          "do": "Quincy perto do caminho principal."
+        },
+        {
+          "when": "Round 2–4",
+          "do": "Dart 0-2-0 na melhor curva."
+        },
+        {
+          "when": "Round 12–20",
+          "do": "Ninja + Alch (camo 24, chumbo 28)."
+        },
+        {
+          "when": "Posição",
+          "do": "Use o espaço entre as minas — não espalhe torres sem motivo."
+        },
+        {
+          "when": "Round 40",
+          "do": "MOAB Easy — habilidade do herói + Ninja melhorado."
+        }
+      ],
+      "nextMap": "Spa Pits ou Tinkerton",
+      "metaStatus": "✅ v55.2 — Beginner oficial. Core Ninja+Alch válido."
+    },
+    {
+      "id": "tinkerton",
+      "title": "Tinkerton",
+      "badge": "Beginner",
+      "tier": "beginner",
+      "difficulty": "Fácil",
+      "mode": "Easy → Medium",
+      "summary": "Vilarejo / oficina leve. Espaço amplo para aprender posição. Ideal antes de Intermediate.",
+      "useCombo": "combo-dart-boomerang",
+      "altCombo": "combo-facil-ninja-alch",
+      "steps": [
+        {
+          "when": "Round 1–8",
+          "do": "Herói + Dart 0-2-0 + Boomerang 2-0-0."
+        },
+        {
+          "when": "Round 12",
+          "do": "Ninja antes do round 24."
+        },
+        {
+          "when": "Round 20",
+          "do": "Alch antes do round 28."
+        },
+        {
+          "when": "Aprendizado",
+          "do": "Compare curva vs reto — veja onde o Ninja rende mais."
+        },
+        {
+          "when": "Round 40/46",
+          "do": "MOAB: use habilidade do herói. Em Hard o MOAB vem no 46."
+        },
+        {
+          "when": "Regra",
+          "do": "Poucas torres bem melhoradas > muitas torres fracas."
+        }
+      ],
+      "nextMap": "Quiet Street (Intermediate) ou Balance",
+      "metaStatus": "✅ v55.2 — Beginner oficial. Transição natural para Intermediate."
     },
     {
       "id": "town-center",
@@ -911,7 +1119,8 @@
         }
       ],
       "nextMap": "Quiet Street ou In the Loop",
-      "tier": "beginner"
+      "tier": "beginner",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "tree-stump",
@@ -937,10 +1146,19 @@
         {
           "when": "CHIMPS",
           "do": "Mapa popular para primeira medalha preta. Use combo Sauda ou Obyn+Ninja+Alch."
+        },
+        {
+          "when": "Round 40/46",
+          "do": "MOAB: use habilidade do herói. Em Hard o MOAB vem no 46."
+        },
+        {
+          "when": "Regra",
+          "do": "Poucas torres bem melhoradas > muitas torres fracas."
         }
       ],
       "nextMap": "Logs ou Cub",
-      "tier": "beginner"
+      "tier": "beginner",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "winter-park",
@@ -963,9 +1181,18 @@
         {
           "when": "Round 20",
           "do": "Alch antes do chumbo."
+        },
+        {
+          "when": "Round 40/46",
+          "do": "MOAB: use habilidade do herói. Em Hard o MOAB vem no 46."
+        },
+        {
+          "when": "Regra",
+          "do": "Poucas torres bem melhoradas > muitas torres fracas."
         }
       ],
-      "nextMap": "Frozen Over ou Lotus Island"
+      "nextMap": "Frozen Over ou Lotus Island",
+      "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados."
     },
     {
       "id": "adoras-temple",
@@ -990,7 +1217,8 @@
           "do": "Adora escala bem com buffs — Alch perto dela ajuda."
         }
       ],
-      "nextMap": "Spring Spring ou Firing Range"
+      "nextMap": "Spring Spring ou Firing Range",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "ancient-portal",
@@ -1015,7 +1243,8 @@
           "do": "Se o caminho mudar, posicione no centro."
         }
       ],
-      "nextMap": "Downstream ou Balance"
+      "nextMap": "Downstream ou Balance",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "balance",
@@ -1044,7 +1273,8 @@
         }
       ],
       "nextMap": "Four Circles ou Bazaar",
-      "tier": "intermediate"
+      "tier": "intermediate",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "bazaar",
@@ -1073,7 +1303,8 @@
         }
       ],
       "nextMap": "Alpine Run ou Logs",
-      "tier": "intermediate"
+      "tier": "intermediate",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "bloonarius-prime",
@@ -1098,7 +1329,8 @@
           "do": "MOAB — herói ability + Ninja melhorado."
         }
       ],
-      "nextMap": "Encrypted ou Adora's Temple"
+      "nextMap": "Encrypted ou Adora's Temple",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "chutes",
@@ -1127,7 +1359,8 @@
         }
       ],
       "nextMap": "Spring Trap ou High Finance",
-      "tier": "intermediate"
+      "tier": "intermediate",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "covered-garden",
@@ -1152,7 +1385,8 @@
           "do": "Teste alcance — plantas podem bloquear Dart."
         }
       ],
-      "nextMap": "Quarry ou Bloonarius Prime"
+      "nextMap": "Quarry ou Bloonarius Prime",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "cracked",
@@ -1177,7 +1411,8 @@
         }
       ],
       "nextMap": "Haunted ou Spice Islands",
-      "tier": "intermediate"
+      "tier": "intermediate",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "dockside",
@@ -1210,7 +1445,8 @@
         }
       ],
       "nextMap": "Water Park ou Off the Coast",
-      "tier": "intermediate"
+      "tier": "intermediate",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "downstream",
@@ -1240,7 +1476,8 @@
         }
       ],
       "nextMap": "Firing Range ou Rake",
-      "tier": "intermediate"
+      "tier": "intermediate",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "encrypted",
@@ -1265,7 +1502,8 @@
           "do": "Poucas torres fortes — espaço não é infinito."
         }
       ],
-      "nextMap": "Adora's Temple ou Spring Spring"
+      "nextMap": "Adora's Temple ou Spring Spring",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "firing-range",
@@ -1295,7 +1533,8 @@
         }
       ],
       "nextMap": "Moon Landing ou Cracked",
-      "tier": "intermediate"
+      "tier": "intermediate",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "haunted",
@@ -1325,7 +1564,8 @@
         }
       ],
       "nextMap": "Spice Islands ou Cargo",
-      "tier": "intermediate"
+      "tier": "intermediate",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "karts-and-darts",
@@ -1354,7 +1594,8 @@
         }
       ],
       "nextMap": "Four Circles",
-      "tier": "intermediate"
+      "tier": "intermediate",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "lost-crevasse",
@@ -1384,7 +1625,8 @@
           "do": "Não coloque torre sem ver o caminho."
         }
       ],
-      "nextMap": "Luminous Cove ou Sulfur Springs"
+      "nextMap": "Luminous Cove ou Sulfur Springs",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "luminous-cove",
@@ -1413,7 +1655,8 @@
           "do": "Segundo Sub se precisar."
         }
       ],
-      "nextMap": "Sulfur Springs ou Ancient Portal"
+      "nextMap": "Sulfur Springs ou Ancient Portal",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "moon-landing",
@@ -1442,7 +1685,8 @@
         }
       ],
       "nextMap": "Haunted ou Chutes",
-      "tier": "intermediate"
+      "tier": "intermediate",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "polyphemus",
@@ -1472,7 +1716,8 @@
           "do": "Tier 3 nas torres principais."
         }
       ],
-      "nextMap": "Covered Garden ou Quarry"
+      "nextMap": "Covered Garden ou Quarry",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "quarry",
@@ -1497,7 +1742,8 @@
           "do": "Reforce se balões escaparem por atalhos."
         }
       ],
-      "nextMap": "Bloonarius Prime ou Encrypted"
+      "nextMap": "Bloonarius Prime ou Encrypted",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "quiet-street",
@@ -1530,7 +1776,8 @@
         }
       ],
       "nextMap": "Park Path ou Tree Stump",
-      "tier": "intermediate"
+      "tier": "intermediate",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "rake",
@@ -1559,7 +1806,8 @@
         }
       ],
       "nextMap": "One Two Tree ou Karts and Darts",
-      "tier": "intermediate"
+      "tier": "intermediate",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "snake-path",
@@ -1588,7 +1836,8 @@
         }
       ],
       "nextMap": "Alpine Run ou Spillway",
-      "tier": "intermediate"
+      "tier": "intermediate",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "spice-islands",
@@ -1618,7 +1867,8 @@
         }
       ],
       "nextMap": "Dockside ou Peninsula",
-      "tier": "intermediate"
+      "tier": "intermediate",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "spring-trap",
@@ -1647,7 +1897,8 @@
         }
       ],
       "nextMap": "Karts and Darts",
-      "tier": "intermediate"
+      "tier": "intermediate",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "streambed",
@@ -1676,7 +1927,8 @@
         }
       ],
       "nextMap": "Peninsula",
-      "tier": "intermediate"
+      "tier": "intermediate",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "sulfur-springs",
@@ -1701,7 +1953,8 @@
           "do": "Tier 3 antes do MOAB."
         }
       ],
-      "nextMap": "Ancient Portal ou Polyphemus"
+      "nextMap": "Ancient Portal ou Polyphemus",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "water-park",
@@ -1734,7 +1987,8 @@
         }
       ],
       "nextMap": "Pat's Pond",
-      "tier": "intermediate"
+      "tier": "intermediate",
+      "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa."
     },
     {
       "id": "another-brick",
@@ -1763,7 +2017,8 @@
         }
       ],
       "nextMap": "Cargo ou X Factor",
-      "tier": "advanced"
+      "tier": "advanced",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "cargo",
@@ -1793,7 +2048,8 @@
         }
       ],
       "nextMap": "X Factor ou Infernal",
-      "tier": "advanced"
+      "tier": "advanced",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "castle-revenge",
@@ -1818,7 +2074,8 @@
           "do": "Spike perto da saída."
         }
       ],
-      "nextMap": "Enchanted Glade ou Party Parade"
+      "nextMap": "Enchanted Glade ou Party Parade",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "cornfield",
@@ -1848,7 +2105,8 @@
         }
       ],
       "nextMap": "Another Brick ou Cargo",
-      "tier": "advanced"
+      "tier": "advanced",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "dark-path",
@@ -1877,7 +2135,8 @@
           "do": "Village 0-2-0 radar se usar torres sem camo."
         }
       ],
-      "nextMap": "Sunken Columns ou Last Resort"
+      "nextMap": "Sunken Columns ou Last Resort",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "enchanted-glade",
@@ -1902,7 +2161,8 @@
           "do": "Wall of Trees no MOAB se precisar."
         }
       ],
-      "nextMap": "Party Parade ou Sunset Gulch"
+      "nextMap": "Party Parade ou Sunset Gulch",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "erosion",
@@ -1927,7 +2187,8 @@
           "do": "Spike no fim do caminho."
         }
       ],
-      "nextMap": "Dark Path ou Sunken Columns"
+      "nextMap": "Dark Path ou Sunken Columns",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "geared",
@@ -1960,7 +2221,8 @@
         }
       ],
       "nextMap": "Quad (Expert) ou Muddy Puddles",
-      "tier": "advanced"
+      "tier": "advanced",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "high-finance",
@@ -1993,7 +2255,8 @@
         }
       ],
       "nextMap": "Cornfield ou Another Brick",
-      "tier": "advanced"
+      "tier": "advanced",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "last-resort",
@@ -2022,7 +2285,8 @@
           "do": "Spike no fim."
         }
       ],
-      "nextMap": "Castle Revenge ou Enchanted Glade"
+      "nextMap": "Castle Revenge ou Enchanted Glade",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "mesa",
@@ -2051,7 +2315,8 @@
           "do": "Espaço apertado = upgrade, não quantidade."
         }
       ],
-      "nextMap": "Underground ou Midnight Mansion"
+      "nextMap": "Underground ou Midnight Mansion",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "midnight-mansion",
@@ -2077,7 +2342,8 @@
           "do": "Village MIB se houver espaço."
         }
       ],
-      "nextMap": "Erosion ou Dark Path"
+      "nextMap": "Erosion ou Dark Path",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "mushroom-grotto",
@@ -2102,7 +2368,8 @@
           "do": "Evite Dart atrás de cogumelos grandes."
         }
       ],
-      "nextMap": "Infernal (primeiro Expert)"
+      "nextMap": "Infernal (primeiro Expert)",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "off-the-coast",
@@ -2135,7 +2402,8 @@
         }
       ],
       "nextMap": "Pat's Pond ou Streambed",
-      "tier": "advanced"
+      "tier": "advanced",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "party-parade",
@@ -2160,7 +2428,8 @@
           "do": "Tier 3–4 antes do late."
         }
       ],
-      "nextMap": "Sunset Gulch ou Mushroom Grotto"
+      "nextMap": "Sunset Gulch ou Mushroom Grotto",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "pats-pond",
@@ -2193,7 +2462,8 @@
         }
       ],
       "nextMap": "Mapas Expert (só quando estiver muito confiante)",
-      "tier": "advanced"
+      "tier": "advanced",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "peninsula",
@@ -2226,7 +2496,8 @@
         }
       ],
       "nextMap": "Outros mapas Intermediate",
-      "tier": "advanced"
+      "tier": "advanced",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "spillway",
@@ -2256,7 +2527,8 @@
         }
       ],
       "nextMap": "Geared ou Bazaar",
-      "tier": "advanced"
+      "tier": "advanced",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "sunken-columns",
@@ -2285,7 +2557,8 @@
           "do": "Sauda como carry principal."
         }
       ],
-      "nextMap": "Last Resort ou Castle Revenge"
+      "nextMap": "Last Resort ou Castle Revenge",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "sunset-gulch",
@@ -2311,7 +2584,8 @@
           "do": "Alch."
         }
       ],
-      "nextMap": "Mushroom Grotto ou Infernal"
+      "nextMap": "Mushroom Grotto ou Infernal",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "underground",
@@ -2341,7 +2615,8 @@
           "do": "Dart no túnel sem visão."
         }
       ],
-      "nextMap": "Midnight Mansion ou Erosion"
+      "nextMap": "Midnight Mansion ou Erosion",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "x-factor",
@@ -2371,7 +2646,8 @@
         }
       ],
       "nextMap": "Infernal (primeiro Expert)",
-      "tier": "advanced"
+      "tier": "advanced",
+      "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub."
     },
     {
       "id": "ouch",
@@ -2400,7 +2676,38 @@
           "do": "Se você está lendo este site como iniciante: ignore este mapa por meses."
         }
       ],
-      "nextMap": "Glacial Trail ou Tricky Tracks"
+      "nextMap": "Glacial Trail ou Tricky Tracks",
+      "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT."
+    },
+    {
+      "id": "blons",
+      "title": "Blons",
+      "badge": "Expert · secreto",
+      "tier": "expert",
+      "difficulty": "Extremo",
+      "mode": "Só veteranos (mapa especial)",
+      "summary": "Mapa secreto/especial. Caminho CURTÍSSIMO. Um dos mais difíceis do jogo. Ignore se for iniciante.",
+      "useCombo": "combo-meta-avancado",
+      "steps": [
+        {
+          "when": "Antes",
+          "do": "Black border em vários Experts. Não é tutorial de aprendizado."
+        },
+        {
+          "when": "Layout",
+          "do": "Caminho extremamente curto — DPS e micro máximos."
+        },
+        {
+          "when": "Build",
+          "do": "Meta completo: herói S-tier + Ninja/Alch/MIB/Spike + anti-DDT."
+        },
+        {
+          "when": "Aviso",
+          "do": "Se você usa este site para aprender: pule Blons. Volte daqui a meses."
+        }
+      ],
+      "nextMap": "Você terminou a lista de mapas do site",
+      "metaStatus": "✅ v55.2 — Blons continua Expert especial/extremo. Core meta ainda se aplica."
     },
     {
       "id": "bloody-puddles",
@@ -2433,7 +2740,8 @@
           "do": "Expert hardcore — ignore se Intermediate ainda é difícil."
         }
       ],
-      "nextMap": "Ravine ou Sanctuary"
+      "nextMap": "Ravine ou Sanctuary",
+      "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT."
     },
     {
       "id": "dark-castle",
@@ -2470,7 +2778,8 @@
         }
       ],
       "nextMap": "Muddy Puddles ou Quad",
-      "tier": "expert"
+      "tier": "expert",
+      "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT."
     },
     {
       "id": "dark-dungeons",
@@ -2500,7 +2809,8 @@
           "do": "Spike e anti-DDT."
         }
       ],
-      "nextMap": "#Ouch ou Glacial Trail"
+      "nextMap": "#Ouch ou Glacial Trail",
+      "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT."
     },
     {
       "id": "flooded-valley",
@@ -2533,7 +2843,8 @@
           "do": "Vários Subs upgradados + suporte."
         }
       ],
-      "nextMap": "Bloody Puddles ou Ravine"
+      "nextMap": "Bloody Puddles ou Ravine",
+      "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT."
     },
     {
       "id": "glacial-trail",
@@ -2562,7 +2873,8 @@
           "do": "Ice opcional para stall — não substitua o core."
         }
       ],
-      "nextMap": "Tricky Tracks"
+      "nextMap": "Tricky Tracks",
+      "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT."
     },
     {
       "id": "infernal",
@@ -2600,7 +2912,8 @@
         }
       ],
       "nextMap": "Dark Castle",
-      "tier": "expert"
+      "tier": "expert",
+      "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT."
     },
     {
       "id": "muddy-puddles",
@@ -2633,7 +2946,8 @@
         }
       ],
       "nextMap": "Quad ou Geared",
-      "tier": "expert"
+      "tier": "expert",
+      "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT."
     },
     {
       "id": "quad",
@@ -2670,7 +2984,8 @@
         }
       ],
       "nextMap": "Infernal (Expert mais fácil) ou Dark Castle",
-      "tier": "expert"
+      "tier": "expert",
+      "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT."
     },
     {
       "id": "ravine",
@@ -2699,7 +3014,8 @@
           "do": "Spike no fim obrigatório."
         }
       ],
-      "nextMap": "Sanctuary ou Dark Dungeons"
+      "nextMap": "Sanctuary ou Dark Dungeons",
+      "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT."
     },
     {
       "id": "sanctuary",
@@ -2728,7 +3044,8 @@
           "do": "Não é mapa de aprendizado."
         }
       ],
-      "nextMap": "Dark Dungeons ou #Ouch"
+      "nextMap": "Dark Dungeons ou #Ouch",
+      "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT."
     },
     {
       "id": "tricky-tracks",
@@ -2757,7 +3074,8 @@
           "do": "Expert completo — último da trilha."
         }
       ],
-      "nextMap": "Parabéns — você cobriu o mapa Expert"
+      "nextMap": "Parabéns — você cobriu o mapa Expert",
+      "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT."
     },
     {
       "id": "workshop",
@@ -2790,10 +3108,106 @@
           "do": "Mapa Expert com gimmick — não é para iniciantes."
         }
       ],
-      "nextMap": "Flooded Valley ou Bloody Puddles"
+      "nextMap": "Flooded Valley ou Bloody Puddles",
+      "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT."
     }
   ],
   "strategies": [
+    {
+      "id": "estrategia-dan-dmonke",
+      "title": "Dan D'Monke (herói novo v55)",
+      "badge": "Herói v55",
+      "difficulty": "Intermediário",
+      "summary": "Herói novo do patch 55. Divertido, mas Quincy/Obyn/Sauda ainda são melhores para aprender.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        {
+          "when": "Quando usar",
+          "do": "Depois de vencer Hard em vários Beginner. Não é herói #1 de iniciante."
+        },
+        {
+          "when": "Core",
+          "do": "Continue com Ninja + Alch — o herói sozinho não substitui camo/chumbo."
+        },
+        {
+          "when": "Mapas",
+          "do": "Comece em Monkey Meadow / Tree Stump para aprender as habilidades."
+        },
+        {
+          "when": "Meta",
+          "do": "v55.2 trouxe bugfixes nele — use a versão atualizada do jogo."
+        }
+      ],
+      "tip": "Para medalhas e CHIMPS, Obyn/Sauda/Geraldo ainda são mais seguros.",
+      "metaStatus": "✅ v55.2 — Dan D'Monke jogável; core Ninja+Alch permanece."
+    },
+    {
+      "id": "estrategia-medalha-por-mapa",
+      "title": "Easy → Hard → Impoppable → CHIMPS",
+      "badge": "Progressão por mapa",
+      "difficulty": "Essencial",
+      "summary": "Em CADA mapa, suba as dificuldades. Não faça CHIMPS no primeiro try.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "steps": [
+        {
+          "when": "1. Easy",
+          "do": "Aprenda o layout e o timing camo/chumbo/MOAB."
+        },
+        {
+          "when": "2. Medium",
+          "do": "Mesma build, menos dinheiro — force upgrades certos."
+        },
+        {
+          "when": "3. Hard",
+          "do": "MOAB no 46. Ninja+Alch firmes. Medalha importante."
+        },
+        {
+          "when": "4. Impoppable",
+          "do": "1 vida. Mesma estratégia, zero erro."
+        },
+        {
+          "when": "5. CHIMPS",
+          "do": "Só depois de Hard. Sem vender, sem powers. Obyn ajuda."
+        },
+        {
+          "when": "Beginner tip",
+          "do": "Tree Stump e Monkey Meadow são ótimos primeiros CHIMPS."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — progressão clássica inalterada."
+    },
+    {
+      "id": "estrategia-lista-completa-mapas",
+      "title": "Lista completa: todos os mapas do site",
+      "badge": "Roteiro total",
+      "difficulty": "Essencial",
+      "summary": "Ordem sugerida cobrindo Beginner → Expert. Use como checklist de medalhas.",
+      "useCombo": "combo-facil-ninja-alch",
+      "steps": [
+        {
+          "when": "Beginner (26)",
+          "do": "Meadow → Town Center → Middle of the Road → End of the Road → Logs → Tree Stump → In the Loop → Cubism → Four Circles → Hedge → Park Path → Carved → Alpine Run → Scrapyard → Cabin → Three Mines → Spa Pits → Tinkerton → Resort → Skates → Lotus Island → Candy Falls → Winter Park → Frozen Over → Skull Tweak → One Two Tree."
+        },
+        {
+          "when": "Intermediate (25+)",
+          "do": "Quiet Street → Balance → Bazaar → Spring Spring → Downstream → Firing Range → Cracked → Moon Landing → Haunted → Streambed → Chutes → Rake → Karts → Spice Islands → Water Park → Polyphemus → Covered Garden → Quarry → Bloonarius Prime → Encrypted → Adora's Temple → Lost Crevasse → Luminous Cove → Sulfur Springs → Ancient Portal."
+        },
+        {
+          "when": "Advanced (22)",
+          "do": "High Finance → Cornfield → X Factor → Another Brick → Peninsula → Off the Coast → Cargo → Pat's Pond → Geared → Spillway → Mesa → Underground → Midnight Mansion → Erosion → Dark Path → Sunken Columns → Last Resort → Castle Revenge → Enchanted Glade → Party Parade → Sunset Gulch → Mushroom Grotto."
+        },
+        {
+          "when": "Expert (14)",
+          "do": "Infernal → Dark Castle → Workshop → Flooded Valley → Muddy Puddles → Quad → Bloody Puddles → Ravine → Sanctuary → Dark Dungeons → Glacial Trail → Tricky Tracks → #Ouch → Blons (por último)."
+        },
+        {
+          "when": "Regra de ouro",
+          "do": "Vença Hard na categoria atual antes de subir. Não pule para Expert."
+        }
+      ],
+      "tip": "Na aba Tutoriais os mapas já aparecem nessa ordem de dificuldade.",
+      "metaStatus": "✅ v55.2 — cobertura alinhada à lista oficial (+ extras Dockside/Snake Path)."
+    },
     {
       "id": "estrategia-curvas",
       "title": "Colocar torres em curvas",
