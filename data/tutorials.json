@@ -359,7 +359,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/Alpine_Run",
       "wikiAlt": "https://bloons.fandom.com/wiki/Alpine_Run",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "curve"
     },
     {
       "id": "candy-falls",
@@ -392,7 +393,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/Candy_Falls",
       "wikiAlt": "https://bloons.fandom.com/wiki/Candy_Falls",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "curve"
     },
     {
       "id": "carved-path",
@@ -429,7 +431,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/Carved",
       "wikiAlt": "https://bloons.fandom.com/wiki/Carved",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "curve"
     },
     {
       "id": "cub",
@@ -470,7 +473,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/Cubism",
       "wikiAlt": "https://bloons.fandom.com/wiki/Cubism",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "curve"
     },
     {
       "id": "end-of-the-lane",
@@ -507,7 +511,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/End_of_the_Road",
       "wikiAlt": "https://bloons.fandom.com/wiki/End_of_the_Road",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "straight"
     },
     {
       "id": "four-circles",
@@ -544,7 +549,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/Four_Circles",
       "wikiAlt": "https://bloons.fandom.com/wiki/Four_Circles",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "multipath"
     },
     {
       "id": "frozen-over",
@@ -582,7 +588,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/Frozen_Over",
       "wikiAlt": "https://bloons.fandom.com/wiki/Frozen_Over",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "curve"
     },
     {
       "id": "hedge-park",
@@ -619,7 +626,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/Hedge",
       "wikiAlt": "https://bloons.fandom.com/wiki/Hedge",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "obstacle"
     },
     {
       "id": "in-the-loop",
@@ -656,7 +664,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/In_the_Loop",
       "wikiAlt": "https://bloons.fandom.com/wiki/In_the_Loop",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "loop"
     },
     {
       "id": "logs",
@@ -697,7 +706,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/Logs",
       "wikiAlt": "https://bloons.fandom.com/wiki/Logs",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "straight"
     },
     {
       "id": "lotus-valley",
@@ -735,7 +745,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/Lotus_Island",
       "wikiAlt": "https://bloons.fandom.com/wiki/Lotus_Island",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "water"
     },
     {
       "id": "middle-of-the-road",
@@ -772,7 +783,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/Middle_of_the_Road",
       "wikiAlt": "https://bloons.fandom.com/wiki/Middle_of_the_Road",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "curve"
     },
     {
       "id": "monkey-meadows",
@@ -809,7 +821,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/Monkey_Meadow",
       "wikiAlt": "https://bloons.fandom.com/wiki/Monkey_Meadow",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "curve"
     },
     {
       "id": "one-two-tree",
@@ -850,7 +863,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/One_Two_Tree",
       "wikiAlt": "https://bloons.fandom.com/wiki/One_Two_Tree",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "multipath"
     },
     {
       "id": "park-path",
@@ -891,7 +905,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/Park_Path",
       "wikiAlt": "https://bloons.fandom.com/wiki/Park_Path",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "curve"
     },
     {
       "id": "resort",
@@ -929,7 +944,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/Resort",
       "wikiAlt": "https://bloons.fandom.com/wiki/Resort",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "water"
     },
     {
       "id": "scrapyard",
@@ -967,7 +983,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/Scrapyard",
       "wikiAlt": "https://bloons.fandom.com/wiki/Scrapyard",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "curve"
     },
     {
       "id": "skates",
@@ -1004,7 +1021,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/Skates",
       "wikiAlt": "https://bloons.fandom.com/wiki/Skates",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "curve"
     },
     {
       "id": "skull-tweak",
@@ -1042,7 +1060,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/Skull_Tweak",
       "wikiAlt": "https://bloons.fandom.com/wiki/Skull_Tweak",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "obstacle"
     },
     {
       "id": "spa-pits",
@@ -1080,7 +1099,8 @@
       "metaStatus": "✅ v55.2 — Beginner com água leve. Sauda ok se houver curvas na terra.",
       "wikiUrl": "https://www.bloonswiki.com/Spa_Pits",
       "wikiAlt": "https://bloons.fandom.com/wiki/Spa_Pits",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "water"
     },
     {
       "id": "the-cabin",
@@ -1114,7 +1134,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/The_Cabin",
       "wikiAlt": "https://bloons.fandom.com/wiki/The_Cabin",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "curve"
     },
     {
       "id": "three-mines-round",
@@ -1151,7 +1172,8 @@
       "metaStatus": "✅ v55.2 — Beginner oficial. Core Ninja+Alch válido.",
       "wikiUrl": "https://www.bloonswiki.com/Three_Mines_%27Round",
       "wikiAlt": "https://bloons.fandom.com/wiki/Three_Mines_%27Round",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "curve"
     },
     {
       "id": "tinkerton",
@@ -1193,7 +1215,8 @@
       "metaStatus": "✅ v55.2 — Beginner oficial. Transição natural para Intermediate.",
       "wikiUrl": "https://www.bloonswiki.com/Tinkerton",
       "wikiAlt": "https://bloons.fandom.com/wiki/Tinkerton",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "curve"
     },
     {
       "id": "town-center",
@@ -1230,7 +1253,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/Town_Center",
       "wikiAlt": "https://bloons.fandom.com/wiki/Town_Center",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "curve"
     },
     {
       "id": "tree-stump",
@@ -1271,7 +1295,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/Tree_Stump",
       "wikiAlt": "https://bloons.fandom.com/wiki/Tree_Stump",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "center"
     },
     {
       "id": "winter-park",
@@ -1308,7 +1333,8 @@
       "metaStatus": "✅ v55.2 — Beginner. Ninja+Alch / Dart early ainda recomendados.",
       "wikiUrl": "https://www.bloonswiki.com/Winter_Park",
       "wikiAlt": "https://bloons.fandom.com/wiki/Winter_Park",
-      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo."
+      "visualHint": "Mapa fácil: caminho longo ou espaço amplo. Procure curvas verdes no jogo.",
+      "diagram": "curve"
     },
     {
       "id": "adoras-temple",
@@ -1337,7 +1363,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Adora%27s_Temple",
       "wikiAlt": "https://bloons.fandom.com/wiki/Adora%27s_Temple",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "curve"
     },
     {
       "id": "ancient-portal",
@@ -1366,7 +1393,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Ancient_Portal",
       "wikiAlt": "https://bloons.fandom.com/wiki/Ancient_Portal",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "curve"
     },
     {
       "id": "balance",
@@ -1399,7 +1427,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Balance",
       "wikiAlt": "https://bloons.fandom.com/wiki/Balance",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "multipath"
     },
     {
       "id": "bazaar",
@@ -1432,7 +1461,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Bazaar",
       "wikiAlt": "https://bloons.fandom.com/wiki/Bazaar",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "center"
     },
     {
       "id": "bloonarius-prime",
@@ -1461,7 +1491,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Bloonarius_Prime",
       "wikiAlt": "https://bloons.fandom.com/wiki/Bloonarius_Prime",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "curve"
     },
     {
       "id": "chutes",
@@ -1494,7 +1525,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Chutes",
       "wikiAlt": "https://bloons.fandom.com/wiki/Chutes",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "fast"
     },
     {
       "id": "covered-garden",
@@ -1523,7 +1555,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Covered_Garden",
       "wikiAlt": "https://bloons.fandom.com/wiki/Covered_Garden",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "curve"
     },
     {
       "id": "cracked",
@@ -1552,7 +1585,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Cracked",
       "wikiAlt": "https://bloons.fandom.com/wiki/Cracked",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "curve"
     },
     {
       "id": "dockside",
@@ -1589,7 +1623,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Dockside",
       "wikiAlt": "https://bloons.fandom.com/wiki/Dockside",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "water"
     },
     {
       "id": "downstream",
@@ -1623,7 +1658,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Downstream",
       "wikiAlt": "https://bloons.fandom.com/wiki/Downstream",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "curve"
     },
     {
       "id": "encrypted",
@@ -1652,7 +1688,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Encrypted",
       "wikiAlt": "https://bloons.fandom.com/wiki/Encrypted",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "curve"
     },
     {
       "id": "firing-range",
@@ -1686,7 +1723,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Firing_Range",
       "wikiAlt": "https://bloons.fandom.com/wiki/Firing_Range",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "curve"
     },
     {
       "id": "haunted",
@@ -1720,7 +1758,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Haunted",
       "wikiAlt": "https://bloons.fandom.com/wiki/Haunted",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "obstacle"
     },
     {
       "id": "karts-and-darts",
@@ -1753,7 +1792,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Karts_and_Darts",
       "wikiAlt": "https://bloons.fandom.com/wiki/Karts_and_Darts",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "multipath"
     },
     {
       "id": "lost-crevasse",
@@ -1787,7 +1827,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Lost_Crevasse",
       "wikiAlt": "https://bloons.fandom.com/wiki/Lost_Crevasse",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "curve"
     },
     {
       "id": "luminous-cove",
@@ -1820,7 +1861,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Luminous_Cove",
       "wikiAlt": "https://bloons.fandom.com/wiki/Luminous_Cove",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "water"
     },
     {
       "id": "moon-landing",
@@ -1853,7 +1895,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Moon_Landing",
       "wikiAlt": "https://bloons.fandom.com/wiki/Moon_Landing",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "curve"
     },
     {
       "id": "polyphemus",
@@ -1887,7 +1930,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Polyphemus",
       "wikiAlt": "https://bloons.fandom.com/wiki/Polyphemus",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "obstacle"
     },
     {
       "id": "quarry",
@@ -1916,7 +1960,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Quarry",
       "wikiAlt": "https://bloons.fandom.com/wiki/Quarry",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "curve"
     },
     {
       "id": "quiet-street",
@@ -1953,7 +1998,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Quiet_Street",
       "wikiAlt": "https://bloons.fandom.com/wiki/Quiet_Street",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "curve"
     },
     {
       "id": "rake",
@@ -1986,7 +2032,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Rake",
       "wikiAlt": "https://bloons.fandom.com/wiki/Rake",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "multipath"
     },
     {
       "id": "snake-path",
@@ -2019,7 +2066,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Snake_Path",
       "wikiAlt": "https://bloons.fandom.com/wiki/Snake_Path",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "curve"
     },
     {
       "id": "spice-islands",
@@ -2053,7 +2101,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Spice_Islands",
       "wikiAlt": "https://bloons.fandom.com/wiki/Spice_Islands",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "water"
     },
     {
       "id": "spring-trap",
@@ -2086,7 +2135,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Spring_Spring",
       "wikiAlt": "https://bloons.fandom.com/wiki/Spring_Spring",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "fast"
     },
     {
       "id": "streambed",
@@ -2119,7 +2169,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Streambed",
       "wikiAlt": "https://bloons.fandom.com/wiki/Streambed",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "curve"
     },
     {
       "id": "sulfur-springs",
@@ -2148,7 +2199,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Sulfur_Springs",
       "wikiAlt": "https://bloons.fandom.com/wiki/Sulfur_Springs",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "curve"
     },
     {
       "id": "water-park",
@@ -2185,7 +2237,8 @@
       "metaStatus": "✅ v55.2 — Intermediate. Core Ninja+Alch; multi-path e água conforme o mapa.",
       "wikiUrl": "https://www.bloonswiki.com/Water_Park",
       "wikiAlt": "https://bloons.fandom.com/wiki/Water_Park",
-      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo."
+      "visualHint": "Mapa médio: pode ter 2+ caminhos ou água. Observe 1 round antes de gastar tudo.",
+      "diagram": "water"
     },
     {
       "id": "another-brick",
@@ -2218,7 +2271,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Another_Brick",
       "wikiAlt": "https://bloons.fandom.com/wiki/Another_Brick",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "curve"
     },
     {
       "id": "cargo",
@@ -2252,7 +2306,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Cargo",
       "wikiAlt": "https://bloons.fandom.com/wiki/Cargo",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "curve"
     },
     {
       "id": "castle-revenge",
@@ -2281,7 +2336,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Castle_Revenge",
       "wikiAlt": "https://bloons.fandom.com/wiki/Castle_Revenge",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "curve"
     },
     {
       "id": "cornfield",
@@ -2315,7 +2371,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Cornfield",
       "wikiAlt": "https://bloons.fandom.com/wiki/Cornfield",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "obstacle"
     },
     {
       "id": "dark-path",
@@ -2348,7 +2405,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Dark_Path",
       "wikiAlt": "https://bloons.fandom.com/wiki/Dark_Path",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "curve"
     },
     {
       "id": "enchanted-glade",
@@ -2377,7 +2435,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Enchanted_Glade",
       "wikiAlt": "https://bloons.fandom.com/wiki/Enchanted_Glade",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "curve"
     },
     {
       "id": "erosion",
@@ -2406,7 +2465,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Erosion",
       "wikiAlt": "https://bloons.fandom.com/wiki/Erosion",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "curve"
     },
     {
       "id": "geared",
@@ -2443,7 +2503,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Geared",
       "wikiAlt": "https://bloons.fandom.com/wiki/Geared",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "special"
     },
     {
       "id": "high-finance",
@@ -2480,7 +2541,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/High_Finance",
       "wikiAlt": "https://bloons.fandom.com/wiki/High_Finance",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "special"
     },
     {
       "id": "last-resort",
@@ -2513,7 +2575,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Last_Resort",
       "wikiAlt": "https://bloons.fandom.com/wiki/Last_Resort",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "curve"
     },
     {
       "id": "mesa",
@@ -2546,7 +2609,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Mesa",
       "wikiAlt": "https://bloons.fandom.com/wiki/Mesa",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "curve"
     },
     {
       "id": "midnight-mansion",
@@ -2576,7 +2640,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Midnight_Mansion",
       "wikiAlt": "https://bloons.fandom.com/wiki/Midnight_Mansion",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "curve"
     },
     {
       "id": "mushroom-grotto",
@@ -2605,7 +2670,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Mushroom_Grotto",
       "wikiAlt": "https://bloons.fandom.com/wiki/Mushroom_Grotto",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "curve"
     },
     {
       "id": "off-the-coast",
@@ -2642,7 +2708,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Off_the_Coast",
       "wikiAlt": "https://bloons.fandom.com/wiki/Off_the_Coast",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "water"
     },
     {
       "id": "party-parade",
@@ -2671,7 +2738,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Party_Parade",
       "wikiAlt": "https://bloons.fandom.com/wiki/Party_Parade",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "curve"
     },
     {
       "id": "pats-pond",
@@ -2708,7 +2776,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Pat%27s_Pond",
       "wikiAlt": "https://bloons.fandom.com/wiki/Pat%27s_Pond",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "water"
     },
     {
       "id": "peninsula",
@@ -2745,7 +2814,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Peninsula",
       "wikiAlt": "https://bloons.fandom.com/wiki/Peninsula",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "water"
     },
     {
       "id": "spillway",
@@ -2779,7 +2849,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Spillway",
       "wikiAlt": "https://bloons.fandom.com/wiki/Spillway",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "curve"
     },
     {
       "id": "sunken-columns",
@@ -2812,7 +2883,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Sunken_Columns",
       "wikiAlt": "https://bloons.fandom.com/wiki/Sunken_Columns",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "water"
     },
     {
       "id": "sunset-gulch",
@@ -2842,7 +2914,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Sunset_Gulch",
       "wikiAlt": "https://bloons.fandom.com/wiki/Sunset_Gulch",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "curve"
     },
     {
       "id": "underground",
@@ -2876,7 +2949,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/Underground",
       "wikiAlt": "https://bloons.fandom.com/wiki/Underground",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "obstacle"
     },
     {
       "id": "x-factor",
@@ -2910,7 +2984,8 @@
       "metaStatus": "✅ v55.2 — Advanced. Ninja 0-4-0 + Alch 4-2-0 + MIB mais cedo. Água: Sub.",
       "wikiUrl": "https://www.bloonswiki.com/X_Factor",
       "wikiAlt": "https://bloons.fandom.com/wiki/X_Factor",
-      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes."
+      "visualHint": "Mapa difícil: pouco espaço ou gimmick. Poucas torres fortes.",
+      "diagram": "center"
     },
     {
       "id": "ouch",
@@ -2943,7 +3018,8 @@
       "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT.",
       "wikiUrl": "https://www.bloonswiki.com/Ouch",
       "wikiAlt": "https://bloons.fandom.com/wiki/Ouch",
-      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia."
+      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia.",
+      "diagram": "curve"
     },
     {
       "id": "blons",
@@ -2976,7 +3052,8 @@
       "metaStatus": "✅ v55.2 — Blons continua Expert especial/extremo. Core meta ainda se aplica.",
       "wikiUrl": "https://www.bloonswiki.com/Blons",
       "wikiAlt": "https://bloons.fandom.com/wiki/Blons",
-      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia."
+      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia.",
+      "diagram": "curve"
     },
     {
       "id": "bloody-puddles",
@@ -3013,7 +3090,8 @@
       "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT.",
       "wikiUrl": "https://www.bloonswiki.com/Bloody_Puddles",
       "wikiAlt": "https://bloons.fandom.com/wiki/Bloody_Puddles",
-      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia."
+      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia.",
+      "diagram": "multipath"
     },
     {
       "id": "dark-castle",
@@ -3054,7 +3132,8 @@
       "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT.",
       "wikiUrl": "https://www.bloonswiki.com/Dark_Castle",
       "wikiAlt": "https://bloons.fandom.com/wiki/Dark_Castle",
-      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia."
+      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia.",
+      "diagram": "end"
     },
     {
       "id": "dark-dungeons",
@@ -3088,7 +3167,8 @@
       "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT.",
       "wikiUrl": "https://www.bloonswiki.com/Dark_Dungeons",
       "wikiAlt": "https://bloons.fandom.com/wiki/Dark_Dungeons",
-      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia."
+      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia.",
+      "diagram": "curve"
     },
     {
       "id": "flooded-valley",
@@ -3125,7 +3205,8 @@
       "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT.",
       "wikiUrl": "https://www.bloonswiki.com/Flooded_Valley",
       "wikiAlt": "https://bloons.fandom.com/wiki/Flooded_Valley",
-      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia."
+      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia.",
+      "diagram": "water"
     },
     {
       "id": "glacial-trail",
@@ -3158,7 +3239,8 @@
       "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT.",
       "wikiUrl": "https://www.bloonswiki.com/Glacial_Trail",
       "wikiAlt": "https://bloons.fandom.com/wiki/Glacial_Trail",
-      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia."
+      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia.",
+      "diagram": "curve"
     },
     {
       "id": "infernal",
@@ -3200,7 +3282,8 @@
       "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT.",
       "wikiUrl": "https://www.bloonswiki.com/Infernal",
       "wikiAlt": "https://bloons.fandom.com/wiki/Infernal",
-      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia."
+      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia.",
+      "diagram": "multipath"
     },
     {
       "id": "muddy-puddles",
@@ -3237,7 +3320,8 @@
       "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT.",
       "wikiUrl": "https://www.bloonswiki.com/Muddy_Puddles",
       "wikiAlt": "https://bloons.fandom.com/wiki/Muddy_Puddles",
-      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia."
+      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia.",
+      "diagram": "multipath"
     },
     {
       "id": "quad",
@@ -3278,7 +3362,8 @@
       "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT.",
       "wikiUrl": "https://www.bloonswiki.com/Quad",
       "wikiAlt": "https://bloons.fandom.com/wiki/Quad",
-      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia."
+      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia.",
+      "diagram": "multipath"
     },
     {
       "id": "ravine",
@@ -3311,7 +3396,8 @@
       "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT.",
       "wikiUrl": "https://www.bloonswiki.com/Ravine",
       "wikiAlt": "https://bloons.fandom.com/wiki/Ravine",
-      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia."
+      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia.",
+      "diagram": "curve"
     },
     {
       "id": "sanctuary",
@@ -3344,7 +3430,8 @@
       "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT.",
       "wikiUrl": "https://www.bloonswiki.com/Sanctuary",
       "wikiAlt": "https://bloons.fandom.com/wiki/Sanctuary",
-      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia."
+      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia.",
+      "diagram": "curve"
     },
     {
       "id": "tricky-tracks",
@@ -3377,7 +3464,8 @@
       "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT.",
       "wikiUrl": "https://www.bloonswiki.com/Tricky_Tracks",
       "wikiAlt": "https://bloons.fandom.com/wiki/Tricky_Tracks",
-      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia."
+      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia.",
+      "diagram": "curve"
     },
     {
       "id": "workshop",
@@ -3414,10 +3502,47 @@
       "metaStatus": "✅ v55.2 — Expert. Kit completo: GM + Perma Brew + MIB + Perma-Spike + anti-DDT.",
       "wikiUrl": "https://www.bloonswiki.com/Workshop",
       "wikiAlt": "https://bloons.fandom.com/wiki/Workshop",
-      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia."
+      "visualHint": "Mapa Expert: leia o tutorial inteiro antes de jogar. Não é para o primeiro dia.",
+      "diagram": "curve"
     }
   ],
   "strategies": [
+    {
+      "id": "estrategia-diagramas",
+      "title": "Como ler os diagramas de posição",
+      "badge": "Visual",
+      "difficulty": "Essencial",
+      "summary": "Cada mapa pode mostrar um desenho simples. Cores = tipos de spot. Não é o mapa real — é um guia de ideia.",
+      "useCombo": "combo-facil-ninja-alch",
+      "diagram": "curve",
+      "steps": [
+        {
+          "when": "Vermelho / curva",
+          "do": "Melhor lugar: balões demoram mais no alcance."
+        },
+        {
+          "when": "Azul / água",
+          "do": "Só torres de água (Sub). Terra = Ninja/Alch."
+        },
+        {
+          "when": "Roxo / fim",
+          "do": "Spike Factory no último pedaço do caminho."
+        },
+        {
+          "when": "Vários caminhos",
+          "do": "Fortifique UM primeiro, depois copie."
+        },
+        {
+          "when": "Loop",
+          "do": "Torres no MIOLA do círculo."
+        },
+        {
+          "when": "Obstáculo",
+          "do": "Ninja/Sniper; evite Dart atrás do bloqueio."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — diagramas educativos do site (não oficiais)."
+    },
     {
       "id": "estrategia-reconhecer-torres",
       "title": "Como reconhecer as torres no jogo",
@@ -3579,7 +3704,8 @@
         }
       ],
       "tip": "Logs é reto — aí o caminho LONGO compensa. Em mapas curtos, curva é ainda mais importante.",
-      "metaStatus": "✅ v55.2 — princípio universal, não muda com patch."
+      "metaStatus": "✅ v55.2 — princípio universal, não muda com patch.",
+      "diagram": "curve"
     },
     {
       "id": "estrategia-multi-caminho",
@@ -3607,7 +3733,8 @@
         }
       ],
       "tip": "Four Circles = mesma lógica, mas 4 círculos. Um de cada vez.",
-      "metaStatus": "✅ v55.2 — economia concentrada ainda meta em multi-path."
+      "metaStatus": "✅ v55.2 — economia concentrada ainda meta em multi-path.",
+      "diagram": "multipath"
     },
     {
       "id": "estrategia-agua",
@@ -3635,7 +3762,8 @@
         }
       ],
       "tip": "Arraste torre sobre água — se ficar azul claro, pode colocar.",
-      "metaStatus": "✅ v55.2 — Sub camo intacto. Sauda fraca em água confirmado."
+      "metaStatus": "✅ v55.2 — Sub camo intacto. Sauda fraca em água confirmado.",
+      "diagram": "water"
     },
     {
       "id": "estrategia-obstaculos",
@@ -3662,7 +3790,8 @@
           "do": "Mortar 0-2-0 — bom em mapas com obstáculo central (avançado)."
         }
       ],
-      "metaStatus": "✅ v55.2 — Skull Tweak mapa novo v55, Ninja/Sniper estratégia padrão."
+      "metaStatus": "✅ v55.2 — Skull Tweak mapa novo v55, Ninja/Sniper estratégia padrão.",
+      "diagram": "obstacle"
     },
     {
       "id": "estrategia-round-camo",
@@ -3799,7 +3928,8 @@
           "do": "Cruzamento denso = 1 torre forte no centro vale por 3 nas bordas."
         }
       ],
-      "metaStatus": "✅ v55.2 — Tree Stump ainda mapa CHIMPS favorito."
+      "metaStatus": "✅ v55.2 — Tree Stump ainda mapa CHIMPS favorito.",
+      "diagram": "center"
     },
     {
       "id": "estrategia-spike-final",
@@ -3827,7 +3957,8 @@
         }
       ],
       "tip": "Spikes no meio do mapa são menos eficientes — sempre no final.",
-      "metaStatus": "✅ v55.2 — Perma-Spike 0-2-5 meta CHIMPS intacto."
+      "metaStatus": "✅ v55.2 — Perma-Spike 0-2-5 meta CHIMPS intacto.",
+      "diagram": "end"
     },
     {
       "id": "estrategia-caminho-reto",
@@ -3855,7 +3986,8 @@
         }
       ],
       "tip": "Em reta, Sniper no fim do mapa também funciona — alcance longo pega tudo.",
-      "metaStatus": "✅ v55.2 — Sniper 0-2-5 forte em mapas retos."
+      "metaStatus": "✅ v55.2 — Sniper 0-2-5 forte em mapas retos.",
+      "diagram": "straight"
     },
     {
       "id": "estrategia-loop-interno",
@@ -3882,7 +4014,8 @@
           "do": "Colocar torres fora do loop/perímetro externo — perde a vantagem."
         }
       ],
-      "metaStatus": "✅ v55.2 — princípio de loop permanente."
+      "metaStatus": "✅ v55.2 — princípio de loop permanente.",
+      "diagram": "loop"
     },
     {
       "id": "estrategia-escolher-heroi",
@@ -4033,7 +4166,8 @@
           "do": "Vença Spillway e 10+ Intermediate Hard."
         }
       ],
-      "metaStatus": "✅ v55.2 — Geared estratégia Sub+herói móvel ainda padrão."
+      "metaStatus": "✅ v55.2 — Geared estratégia Sub+herói móvel ainda padrão.",
+      "diagram": "special"
     },
     {
       "id": "estrategia-nao-apressar",
@@ -4088,7 +4222,8 @@
           "do": "Com defesa estável, compre spots para Spike/Village."
         }
       ],
-      "metaStatus": "✅ v55.2 — High Finance Advanced padrão; Ninja+Alch no espaço inicial ainda vale."
+      "metaStatus": "✅ v55.2 — High Finance Advanced padrão; Ninja+Alch no espaço inicial ainda vale.",
+      "diagram": "special"
     },
     {
       "id": "estrategia-cornfield",
@@ -4430,144 +4565,294 @@
   ],
   "modes": [
     {
-      "id": "modo-chimps-primeira",
-      "title": "CHIMPS — sua primeira medalha preta",
-      "badge": "Modo especial",
-      "difficulty": "Desafiador (vale a pena!)",
-      "summary": "CHIMPS = sem vender, sem dinheiro extra, sem habilidades fortes, 1 vida. Medalha preta no mapa. Tente só depois de vencer Hard.",
-      "useCombo": "combo-obyn-ninja-alch",
-      "steps": [
-        {
-          "when": "Antes de começar",
-          "do": "Vença o mapa em Hard primeiro. Escolha Monkey Meadows ou Tree Stump."
-        },
-        {
-          "when": "Regras",
-          "do": "1 vida só. Não pode vender torres. Sem poderes. Sem Monkey Knowledge. Herói É permitido — use Obyn ou Sauda."
-        },
-        {
-          "when": "Round 1–30",
-          "do": "Siga o combo Obyn + Ninja + Alch. Não venda nenhuma torre!"
-        },
-        {
-          "when": "Round 40/46",
-          "do": "MOAB — use habilidade do Obyn (Wall of Trees) se precisar."
-        },
-        {
-          "when": "Round 90+",
-          "do": "DDTs — tenha Spike Factory 0-2-5 ou Glue. Paciência!"
-        },
-        {
-          "when": "Vitória",
-          "do": "Medalha preta no mapa. Parabéns — você dominou o básico do jogo."
-        }
-      ],
-      "tip": "Primeira tentativa pode falhar — normal. Veja em qual round morreu e ajuste.",
-      "metaStatus": "✅ v55.2 — Tree Stump e Monkey Meadows ainda mapas CHIMPS iniciante padrão."
-    },
-    {
-      "id": "modo-impoppable",
-      "title": "Impoppable — quando subir de Hard",
-      "badge": "Modo difícil",
-      "difficulty": "Difícil",
-      "summary": "1 vida só, menos dinheiro, bloons mais fortes. Próximo passo depois de Hard. Mesmas torres, mais cuidado.",
-      "useCombo": "combo-facil-ninja-alch",
+      "id": "chimps-alpine-run",
+      "title": "CHIMPS: Alpine Run",
+      "badge": "CHIMPS Beginner",
+      "difficulty": "Desafiador",
+      "summary": "Muitas curvas na montanha. Sauda brilha. Ninja+Alch nas curvas do meio.",
+      "useCombo": "combo-sauda-facil",
+      "mapRef": "alpine-run",
+      "diagram": "curve",
       "steps": [
         {
           "when": "Antes",
-          "do": "Vença Hard no mapa. Impoppable usa a mesma estratégia, mas sem margem de erro."
+          "do": "Vença Hard. Meadow ou Tree Stump CHIMPS ajuda."
         },
         {
           "when": "Round 1",
-          "do": "Herói round 1 — obrigatório. Quincy, Obyn ou Sauda."
+          "do": "Sauda na curva mais apertada."
+        },
+        {
+          "when": "Round 1–10",
+          "do": "Habilidade da Sauda sempre que estiver pronta."
         },
         {
           "when": "Round 12–20",
-          "do": "Ninja + Alch no timing normal (antes do 24 e 28)."
+          "do": "Ninja + Alch nas próximas curvas."
         },
         {
           "when": "Round 46",
-          "do": "MOAB vem no round 46 em Impoppable — prepare upgrades tier 3+."
+          "do": "MOAB — ability + Ninja tier 3+."
         },
         {
-          "when": "Dica",
-          "do": "Não apresse rounds — monte defesa com calma. 1 vida = qualquer escape mata."
+          "when": "Round 90+",
+          "do": "Spike no fim da trilha."
         }
       ],
-      "tip": "Se falhar no round 46, melhore Ninja antes do MOAB na próxima tentativa.",
-      "metaStatus": "✅ v55.2 — Ninja+Alch continua suficiente para Impoppable em mapas Beginner."
+      "metaStatus": "✅ v55.2 — Alpine Run CHIMPS com Sauda+Ninja+Alch válido."
     },
     {
-      "id": "modo-boss-evento",
-      "title": "Boss Event — básico para iniciantes",
-      "badge": "Evento semanal",
-      "difficulty": "Variável",
-      "summary": "Bosses gigantes aparecem em rounds especiais. Cada boss precisa de estratégia diferente. Co-op ajuda muito.",
-      "useCombo": "combo-meta-avancado",
+      "id": "chimps-candy-falls",
+      "title": "CHIMPS: Candy Falls",
+      "badge": "CHIMPS Beginner",
+      "difficulty": "Desafiador",
+      "summary": "Beginner colorido. Mesmo core Obyn+Ninja+Alch.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "candy-falls",
+      "diagram": "curve",
       "steps": [
         {
-          "when": "Antes",
-          "do": "Boss Events aparecem no menu principal quando ativos. Normal mode ou co-op."
-        },
-        {
-          "when": "Bloonarius",
-          "do": "Boss de muito HP — precisa dano constante. Ninja-Alch + Sniper 0-2-5."
-        },
-        {
-          "when": "Lych",
-          "do": "Boss voador que revive bloons — Shattering Shells (Mortar) remove regrow no v55.2. Ezili ajuda."
-        },
-        {
-          "when": "Vortex",
-          "do": "Puxa projéteis — torres de ataque rápido (Ninja) funcionam melhor que projéteis lentos."
-        },
-        {
-          "when": "Dreadbloon",
-          "do": "Escudos de chumbo — Alch e MIB essenciais."
-        },
-        {
-          "when": "Phayze",
-          "do": "Jam radar — Village MIB e torres sem depender de radar."
-        },
-        {
-          "when": "Dica",
-          "do": "Iniciante? Jogue co-op — outro jogador ajuda na defesa normal enquanto você foca no boss."
-        }
-      ],
-      "tip": "Não precisa vencer boss no primeiro evento. Participe pela recompensa e experiência.",
-      "metaStatus": "✅ v55.2 — Shattering Shells agora remove regrow (buff vs Lych). Boss balance pass v55.2."
-    },
-    {
-      "id": "modo-deflation",
-      "title": "Deflation — pouco dinheiro, muita estratégia",
-      "badge": "Modo avançado",
-      "difficulty": "Difícil",
-      "summary": "Você começa com dinheiro limitado e ganha pouco por round. Precisa de combos baratos e eficientes.",
-      "useCombo": "combo-sniper-alch",
-      "steps": [
-        {
-          "when": "Antes",
-          "do": "Só tente depois de vencer Impoppable em alguns mapas. Não é para iniciantes."
-        },
-        {
-          "when": "Round 1",
-          "do": "Cada dollar conta. Sniper ($300) ou Ninja ($400) — escolha 1 torre forte."
-        },
-        {
-          "when": "Round 6–10",
-          "do": "Alch o mais cedo possível — buff vale ouro em Deflation."
+          "when": "Round 1–20",
+          "do": "Obyn → Ninja → Alch nas curvas."
         },
         {
           "when": "Mid",
-          "do": "Não compre torres extras sem necessidade. Upgrade > quantidade."
+          "do": "Upgrades tier 3–4, não spam."
         },
         {
-          "when": "Round 40+",
-          "do": "Sniper 0-2-5 ou Ninja 0-4-0 — carries baratos com Alch 4-2-0."
+          "when": "Round 90+",
+          "do": "Spike no fim."
         }
       ],
-      "tip": "Deflation ensina economia. Perder é parte do aprendizado.",
-      "metaStatus": "✅ v55.2 — Sniper+Alch e Ninja+Alch ainda meta Deflation budget."
+      "metaStatus": "✅ v55.2 — Candy Falls CHIMPS beginner-friendly."
+    },
+    {
+      "id": "chimps-carved",
+      "title": "CHIMPS: Carved",
+      "badge": "CHIMPS Beginner",
+      "difficulty": "Desafiador",
+      "summary": "Caminho estreito — cada quadrado vale. Poucas torres fortes.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "carved-path",
+      "diagram": "curve",
+      "steps": [
+        {
+          "when": "Round 1",
+          "do": "Obyn na melhor curva disponível."
+        },
+        {
+          "when": "Round 12–20",
+          "do": "Ninja + Alch — sem gastar em cantos ruins."
+        },
+        {
+          "when": "Regra",
+          "do": "Espaço apertado = upgrade, não quantidade."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no fim."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — Carved CHIMPS space-management."
+    },
+    {
+      "id": "chimps-cubism",
+      "title": "CHIMPS: Cubism",
+      "badge": "CHIMPS Beginner",
+      "difficulty": "Desafiador",
+      "summary": "Caminho em cubo. 4 curvas — 2 torres fortes nas melhores curvas.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "cub",
+      "steps": [
+        {
+          "when": "Round 1",
+          "do": "Obyn numa das 4 curvas (a mais longa)."
+        },
+        {
+          "when": "Round 12–20",
+          "do": "Ninja + Alch nessa curva / curva oposta."
+        },
+        {
+          "when": "Erro",
+          "do": "Uma torre fraca em cada lado do cubo — concentra poder."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike perto da saída do cubo."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — Cubism CHIMPS com Ninja+Alch válido.",
+      "diagram": "curve"
+    },
+    {
+      "id": "chimps-logs-hard",
+      "title": "CHIMPS: End of the Road",
+      "badge": "CHIMPS Beginner",
+      "difficulty": "Desafiador",
+      "summary": "Caminho curto/reto. Concentre no meio. Spike na saída.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "end-of-the-lane",
+      "diagram": "straight",
+      "steps": [
+        {
+          "when": "Round 1",
+          "do": "Obyn no meio do caminho."
+        },
+        {
+          "when": "Round 12–20",
+          "do": "Ninja + Alch no mesmo trecho central."
+        },
+        {
+          "when": "Erro",
+          "do": "Torre só no início — balões escapam no fim."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike na saída."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — caminho curto exige DPS concentrado."
+    },
+    {
+      "id": "chimps-four-circles",
+      "title": "CHIMPS: Four Circles",
+      "badge": "CHIMPS multi-path",
+      "difficulty": "Desafiador",
+      "summary": "4 círculos. Um forte primeiro, depois copie defesa barata nos outros.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "four-circles",
+      "diagram": "multipath",
+      "steps": [
+        {
+          "when": "Erro clássico",
+          "do": "Dividir dinheiro nos 4 círculos no round 1."
+        },
+        {
+          "when": "Round 1–20",
+          "do": "Obyn + Ninja + Alch no círculo mais longo."
+        },
+        {
+          "when": "Round 25+",
+          "do": "Ninja básico nos outros 3 círculos."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no exit do círculo principal + cobertura mínima nos outros."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — estratégia multi-path concentrada ainda meta."
+    },
+    {
+      "id": "chimps-frozen-over",
+      "title": "CHIMPS: Frozen Over",
+      "badge": "CHIMPS · gelo",
+      "difficulty": "Desafiador",
+      "summary": "Gelo/água. Core terrestre + Sub se houver azul.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "frozen-over",
+      "diagram": "water",
+      "steps": [
+        {
+          "when": "Round 1–20",
+          "do": "Obyn + Ninja + Alch na terra firme."
+        },
+        {
+          "when": "Água",
+          "do": "Sub 0-0-2 se o caminho passar bem na água."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no fim."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — Frozen Over: terra core, Sub opcional."
+    },
+    {
+      "id": "chimps-hedge",
+      "title": "CHIMPS: Hedge",
+      "badge": "CHIMPS Beginner",
+      "difficulty": "Desafiador",
+      "summary": "Sebes bloqueiam visão. Prefira Ninja/Sniper. Alch para chumbo.",
+      "useCombo": "combo-sniper-alch",
+      "mapRef": "hedge-park",
+      "diagram": "obstacle",
+      "steps": [
+        {
+          "when": "Round 1",
+          "do": "Obyn em spot aberto (teste o verde)."
+        },
+        {
+          "when": "Round 10–12",
+          "do": "Ninja ou Sniper — Dart sofre com sebe."
+        },
+        {
+          "when": "Round 20",
+          "do": "Alch + Ninja se usou Sniper (camo)."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no fim."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — Hedge CHIMPS: Ninja/Sniper > Dart atrás de sebe."
+    },
+    {
+      "id": "chimps-in-the-loop",
+      "title": "CHIMPS: In the Loop",
+      "badge": "CHIMPS Beginner",
+      "difficulty": "Desafiador",
+      "summary": "Loop = torres no MIOLA atacam 2 vezes. Muito eficiente em CHIMPS.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "in-the-loop",
+      "steps": [
+        {
+          "when": "Round 1",
+          "do": "Obyn na entrada do loop."
+        },
+        {
+          "when": "Round 12–20",
+          "do": "Ninja + Alch DENTRO do círculo."
+        },
+        {
+          "when": "Erro",
+          "do": "Torres fora do loop — perde a vantagem."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no fim, depois do loop."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — In the Loop CHIMPS favorece miolo do loop.",
+      "diagram": "loop"
+    },
+    {
+      "id": "chimps-logs",
+      "title": "CHIMPS: Logs",
+      "badge": "CHIMPS Beginner",
+      "difficulty": "Desafiador",
+      "summary": "Caminho reto e longo. Espalhe Ninja/Alch ao longo; Spike no fim.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "logs",
+      "steps": [
+        {
+          "when": "Round 1",
+          "do": "Obyn no início ou 1º terço."
+        },
+        {
+          "when": "Round 12–20",
+          "do": "Ninja no meio + Alch colado."
+        },
+        {
+          "when": "Posição",
+          "do": "Caminho reto = cobertura contínua início→meio→fim."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no ÚLTIMO pedaço de madeira (saída)."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — Logs CHIMPS clássico; caminho longo perdoa erros mid.",
+      "diagram": "straight"
     },
     {
       "id": "chimps-monkey-meadow",
@@ -4624,7 +4909,128 @@
         }
       ],
       "tip": "Morreu no 24? Faltou Ninja. No 28? Faltou Alch. No 46? Faltou upgrade/ability.",
-      "metaStatus": "✅ v55.2 — Meadow CHIMPS budget Obyn+Ninja+Alch ainda padrão."
+      "metaStatus": "✅ v55.2 — Meadow CHIMPS budget Obyn+Ninja+Alch ainda padrão.",
+      "diagram": "curve"
+    },
+    {
+      "id": "chimps-park-path",
+      "title": "CHIMPS: Park Path",
+      "badge": "CHIMPS Beginner",
+      "difficulty": "Desafiador",
+      "summary": "Espaço amplo. Bom para praticar posição em CHIMPS.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "park-path",
+      "diagram": "curve",
+      "steps": [
+        {
+          "when": "Round 1–20",
+          "do": "Core Obyn + Ninja + Alch na melhor curva."
+        },
+        {
+          "when": "Dica",
+          "do": "Pause e compare 2 spots antes de upgradar."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike na saída."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — Park Path CHIMPS padrão."
+    },
+    {
+      "id": "chimps-resort",
+      "title": "CHIMPS: Resort",
+      "badge": "CHIMPS · água leve",
+      "difficulty": "Desafiador",
+      "summary": "Terra + piscina. Ninja+Alch na terra; Sub opcional na água.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "resort",
+      "diagram": "water",
+      "steps": [
+        {
+          "when": "Round 1",
+          "do": "Obyn na terra (não dependa só da água)."
+        },
+        {
+          "when": "Round 12–20",
+          "do": "Ninja + Alch na terra."
+        },
+        {
+          "when": "Opcional",
+          "do": "Sub 0-0-2 se a piscina cobrir bem o caminho."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no fim terrestre."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — Resort: terra primeiro, Sub complementar."
+    },
+    {
+      "id": "chimps-scrapyard",
+      "title": "CHIMPS: Scrapyard",
+      "badge": "CHIMPS Beginner",
+      "difficulty": "Desafiador",
+      "summary": "Obstáculos leves. Ninja resolve melhor que Dart bloqueado.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "scrapyard",
+      "diagram": "obstacle",
+      "steps": [
+        {
+          "when": "Round 1",
+          "do": "Obyn em spot com visão."
+        },
+        {
+          "when": "Round 12",
+          "do": "Ninja (não Dart atrás de ferro-velho)."
+        },
+        {
+          "when": "Round 20",
+          "do": "Alch."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no fim."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — Scrapyard CHIMPS: cuidado com LoS."
+    },
+    {
+      "id": "chimps-town-center",
+      "title": "CHIMPS: Town Center",
+      "badge": "CHIMPS Beginner",
+      "difficulty": "Desafiador",
+      "summary": "Mapa do tutorial oficial. CHIMPS tranquilo depois de Meadow.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "mapRef": "town-center",
+      "steps": [
+        {
+          "when": "Antes",
+          "do": "Hard neste mapa + Meadow CHIMPS."
+        },
+        {
+          "when": "Round 1",
+          "do": "Obyn ou Quincy na praça / curva."
+        },
+        {
+          "when": "Round 1–10",
+          "do": "Dart 0-2-0 + Boomerang se quiser."
+        },
+        {
+          "when": "Round 12–20",
+          "do": "Ninja + Alch."
+        },
+        {
+          "when": "Mid",
+          "do": "Upgrades > torres novas."
+        },
+        {
+          "when": "Round 90+",
+          "do": "Spike no final da rua."
+        }
+      ],
+      "metaStatus": "✅ v55.2 — Town Center CHIMPS beginner-friendly.",
+      "diagram": "curve"
     },
     {
       "id": "chimps-tree-stump",
@@ -4665,127 +5071,148 @@
         }
       ],
       "tip": "Não coloque torres no toco (exceto Tack avançado). Anel ao redor.",
-      "metaStatus": "✅ v55.2 — Tree Stump continua CHIMPS Beginner #1 da comunidade."
+      "metaStatus": "✅ v55.2 — Tree Stump continua CHIMPS Beginner #1 da comunidade.",
+      "diagram": "center"
     },
     {
-      "id": "chimps-town-center",
-      "title": "CHIMPS: Town Center",
-      "badge": "CHIMPS Beginner",
-      "difficulty": "Desafiador",
-      "summary": "Mapa do tutorial oficial. CHIMPS tranquilo depois de Meadow.",
-      "useCombo": "combo-obyn-ninja-alch",
-      "mapRef": "town-center",
+      "id": "modo-boss-evento",
+      "title": "Boss Event — básico para iniciantes",
+      "badge": "Evento semanal",
+      "difficulty": "Variável",
+      "summary": "Bosses gigantes aparecem em rounds especiais. Cada boss precisa de estratégia diferente. Co-op ajuda muito.",
+      "useCombo": "combo-meta-avancado",
       "steps": [
         {
           "when": "Antes",
-          "do": "Hard neste mapa + Meadow CHIMPS."
+          "do": "Boss Events aparecem no menu principal quando ativos. Normal mode ou co-op."
+        },
+        {
+          "when": "Bloonarius",
+          "do": "Boss de muito HP — precisa dano constante. Ninja-Alch + Sniper 0-2-5."
+        },
+        {
+          "when": "Lych",
+          "do": "Boss voador que revive bloons — Shattering Shells (Mortar) remove regrow no v55.2. Ezili ajuda."
+        },
+        {
+          "when": "Vortex",
+          "do": "Puxa projéteis — torres de ataque rápido (Ninja) funcionam melhor que projéteis lentos."
+        },
+        {
+          "when": "Dreadbloon",
+          "do": "Escudos de chumbo — Alch e MIB essenciais."
+        },
+        {
+          "when": "Phayze",
+          "do": "Jam radar — Village MIB e torres sem depender de radar."
+        },
+        {
+          "when": "Dica",
+          "do": "Iniciante? Jogue co-op — outro jogador ajuda na defesa normal enquanto você foca no boss."
+        }
+      ],
+      "tip": "Não precisa vencer boss no primeiro evento. Participe pela recompensa e experiência.",
+      "metaStatus": "✅ v55.2 — Shattering Shells agora remove regrow (buff vs Lych). Boss balance pass v55.2."
+    },
+    {
+      "id": "modo-chimps-primeira",
+      "title": "CHIMPS — sua primeira medalha preta",
+      "badge": "Modo especial",
+      "difficulty": "Desafiador (vale a pena!)",
+      "summary": "CHIMPS = sem vender, sem dinheiro extra, sem habilidades fortes, 1 vida. Medalha preta no mapa. Tente só depois de vencer Hard.",
+      "useCombo": "combo-obyn-ninja-alch",
+      "steps": [
+        {
+          "when": "Antes de começar",
+          "do": "Vença o mapa em Hard primeiro. Escolha Monkey Meadows ou Tree Stump."
+        },
+        {
+          "when": "Regras",
+          "do": "1 vida só. Não pode vender torres. Sem poderes. Sem Monkey Knowledge. Herói É permitido — use Obyn ou Sauda."
+        },
+        {
+          "when": "Round 1–30",
+          "do": "Siga o combo Obyn + Ninja + Alch. Não venda nenhuma torre!"
+        },
+        {
+          "when": "Round 40/46",
+          "do": "MOAB — use habilidade do Obyn (Wall of Trees) se precisar."
+        },
+        {
+          "when": "Round 90+",
+          "do": "DDTs — tenha Spike Factory 0-2-5 ou Glue. Paciência!"
+        },
+        {
+          "when": "Vitória",
+          "do": "Medalha preta no mapa. Parabéns — você dominou o básico do jogo."
+        }
+      ],
+      "tip": "Primeira tentativa pode falhar — normal. Veja em qual round morreu e ajuste.",
+      "metaStatus": "✅ v55.2 — Tree Stump e Monkey Meadows ainda mapas CHIMPS iniciante padrão."
+    },
+    {
+      "id": "modo-deflation",
+      "title": "Deflation — pouco dinheiro, muita estratégia",
+      "badge": "Modo avançado",
+      "difficulty": "Difícil",
+      "summary": "Você começa com dinheiro limitado e ganha pouco por round. Precisa de combos baratos e eficientes.",
+      "useCombo": "combo-sniper-alch",
+      "steps": [
+        {
+          "when": "Antes",
+          "do": "Só tente depois de vencer Impoppable em alguns mapas. Não é para iniciantes."
         },
         {
           "when": "Round 1",
-          "do": "Obyn ou Quincy na praça / curva."
+          "do": "Cada dollar conta. Sniper ($300) ou Ninja ($400) — escolha 1 torre forte."
         },
         {
-          "when": "Round 1–10",
-          "do": "Dart 0-2-0 + Boomerang se quiser."
-        },
-        {
-          "when": "Round 12–20",
-          "do": "Ninja + Alch."
+          "when": "Round 6–10",
+          "do": "Alch o mais cedo possível — buff vale ouro em Deflation."
         },
         {
           "when": "Mid",
-          "do": "Upgrades > torres novas."
+          "do": "Não compre torres extras sem necessidade. Upgrade > quantidade."
         },
         {
-          "when": "Round 90+",
-          "do": "Spike no final da rua."
+          "when": "Round 40+",
+          "do": "Sniper 0-2-5 ou Ninja 0-4-0 — carries baratos com Alch 4-2-0."
         }
       ],
-      "metaStatus": "✅ v55.2 — Town Center CHIMPS beginner-friendly."
+      "tip": "Deflation ensina economia. Perder é parte do aprendizado.",
+      "metaStatus": "✅ v55.2 — Sniper+Alch e Ninja+Alch ainda meta Deflation budget."
     },
     {
-      "id": "chimps-cubism",
-      "title": "CHIMPS: Cubism",
-      "badge": "CHIMPS Beginner",
-      "difficulty": "Desafiador",
-      "summary": "Caminho em cubo. 4 curvas — 2 torres fortes nas melhores curvas.",
-      "useCombo": "combo-obyn-ninja-alch",
-      "mapRef": "cub",
+      "id": "modo-impoppable",
+      "title": "Impoppable — quando subir de Hard",
+      "badge": "Modo difícil",
+      "difficulty": "Difícil",
+      "summary": "1 vida só, menos dinheiro, bloons mais fortes. Próximo passo depois de Hard. Mesmas torres, mais cuidado.",
+      "useCombo": "combo-facil-ninja-alch",
       "steps": [
         {
+          "when": "Antes",
+          "do": "Vença Hard no mapa. Impoppable usa a mesma estratégia, mas sem margem de erro."
+        },
+        {
           "when": "Round 1",
-          "do": "Obyn numa das 4 curvas (a mais longa)."
+          "do": "Herói round 1 — obrigatório. Quincy, Obyn ou Sauda."
         },
         {
           "when": "Round 12–20",
-          "do": "Ninja + Alch nessa curva / curva oposta."
+          "do": "Ninja + Alch no timing normal (antes do 24 e 28)."
         },
         {
-          "when": "Erro",
-          "do": "Uma torre fraca em cada lado do cubo — concentra poder."
+          "when": "Round 46",
+          "do": "MOAB vem no round 46 em Impoppable — prepare upgrades tier 3+."
         },
         {
-          "when": "Round 90+",
-          "do": "Spike perto da saída do cubo."
+          "when": "Dica",
+          "do": "Não apresse rounds — monte defesa com calma. 1 vida = qualquer escape mata."
         }
       ],
-      "metaStatus": "✅ v55.2 — Cubism CHIMPS com Ninja+Alch válido."
-    },
-    {
-      "id": "chimps-logs",
-      "title": "CHIMPS: Logs",
-      "badge": "CHIMPS Beginner",
-      "difficulty": "Desafiador",
-      "summary": "Caminho reto e longo. Espalhe Ninja/Alch ao longo; Spike no fim.",
-      "useCombo": "combo-obyn-ninja-alch",
-      "mapRef": "logs",
-      "steps": [
-        {
-          "when": "Round 1",
-          "do": "Obyn no início ou 1º terço."
-        },
-        {
-          "when": "Round 12–20",
-          "do": "Ninja no meio + Alch colado."
-        },
-        {
-          "when": "Posição",
-          "do": "Caminho reto = cobertura contínua início→meio→fim."
-        },
-        {
-          "when": "Round 90+",
-          "do": "Spike no ÚLTIMO pedaço de madeira (saída)."
-        }
-      ],
-      "metaStatus": "✅ v55.2 — Logs CHIMPS clássico; caminho longo perdoa erros mid."
-    },
-    {
-      "id": "chimps-in-the-loop",
-      "title": "CHIMPS: In the Loop",
-      "badge": "CHIMPS Beginner",
-      "difficulty": "Desafiador",
-      "summary": "Loop = torres no MIOLA atacam 2 vezes. Muito eficiente em CHIMPS.",
-      "useCombo": "combo-obyn-ninja-alch",
-      "mapRef": "in-the-loop",
-      "steps": [
-        {
-          "when": "Round 1",
-          "do": "Obyn na entrada do loop."
-        },
-        {
-          "when": "Round 12–20",
-          "do": "Ninja + Alch DENTRO do círculo."
-        },
-        {
-          "when": "Erro",
-          "do": "Torres fora do loop — perde a vantagem."
-        },
-        {
-          "when": "Round 90+",
-          "do": "Spike no fim, depois do loop."
-        }
-      ],
-      "metaStatus": "✅ v55.2 — In the Loop CHIMPS favorece miolo do loop."
+      "tip": "Se falhar no round 46, melhore Ninja antes do MOAB na próxima tentativa.",
+      "metaStatus": "✅ v55.2 — Ninja+Alch continua suficiente para Impoppable em mapas Beginner."
     }
   ],
   "towerGuide": [
@@ -4858,6 +5285,48 @@
       "icon": "🔮",
       "color": "#5e35b1",
       "tip": "Fogo derrete chumbo (2-0-0). Alternativa ao Alch no early."
+    }
+  ],
+  "roundChecklist": [
+    {
+      "round": "1",
+      "label": "Herói no caminho",
+      "icon": "⭐"
+    },
+    {
+      "round": "1–4",
+      "label": "Dart 0-2-0 na curva",
+      "icon": "🎯"
+    },
+    {
+      "round": "12",
+      "label": "Ninja (antes do camo)",
+      "icon": "🥷"
+    },
+    {
+      "round": "20",
+      "label": "Alquimista (antes do chumbo)",
+      "icon": "🧪"
+    },
+    {
+      "round": "24",
+      "label": "Camo — Ninja resolve",
+      "icon": "👻"
+    },
+    {
+      "round": "28",
+      "label": "Chumbo — Alch resolve",
+      "icon": "🪨"
+    },
+    {
+      "round": "40/46",
+      "label": "MOAB — habilidade do herói",
+      "icon": "🎈"
+    },
+    {
+      "round": "90+",
+      "label": "Spike no fim (DDT)",
+      "icon": "📌"
     }
   ]
 }

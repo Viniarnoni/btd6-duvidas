@@ -79,6 +79,144 @@ function renderTowerGuide() {
     .join("");
 }
 
+function renderRoundChecklist() {
+  const el = document.getElementById("round-checklist");
+  if (!el || !tutorialData.roundChecklist) return;
+  el.innerHTML = tutorialData.roundChecklist
+    .map(
+      (item) => `
+    <li>
+      <span class="check-icon">${item.icon}</span>
+      <div>
+        <strong>Round ${escapeHtml(item.round)}</strong>
+        <p>${escapeHtml(item.label)}</p>
+      </div>
+    </li>`
+    )
+    .join("");
+}
+
+function renderDiagram(type) {
+  if (!type) return "";
+  const diagrams = {
+    curve: {
+      title: "Posição em curva",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M10 100 Q60 100 80 50 T150 20" fill="none" stroke="#8d6e63" stroke-width="14" stroke-linecap="round"/>
+        <circle cx="95" cy="55" r="12" fill="#c62828"/>
+        <text x="95" y="59" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">N</text>
+        <circle cx="112" cy="48" r="10" fill="#7cb342"/>
+        <text x="112" y="52" text-anchor="middle" fill="#fff" font-size="9" font-weight="bold">A</text>
+        <text x="20" y="20" fill="#2d2a26" font-size="11" font-weight="bold">Curva = mais tempo de tiro</text>
+      </svg>`,
+    },
+    water: {
+      title: "Mapa com água",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="10" y="40" width="180" height="50" rx="8" fill="#81d4fa"/>
+        <path d="M20 65 H180" fill="none" stroke="#5d4037" stroke-width="10"/>
+        <circle cx="50" cy="30" r="11" fill="#37474f"/>
+        <text x="50" y="34" text-anchor="middle" fill="#fff" font-size="9" font-weight="bold">N</text>
+        <circle cx="70" cy="30" r="10" fill="#7cb342"/>
+        <text x="70" y="34" text-anchor="middle" fill="#fff" font-size="9" font-weight="bold">A</text>
+        <circle cx="120" cy="65" r="11" fill="#0288d1"/>
+        <text x="120" y="69" text-anchor="middle" fill="#fff" font-size="9" font-weight="bold">S</text>
+        <text x="20" y="18" fill="#2d2a26" font-size="11" font-weight="bold">Terra: Ninja+Alch · Água: Sub</text>
+      </svg>`,
+    },
+    end: {
+      title: "Spike no fim do caminho",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M15 60 H155" fill="none" stroke="#8d6e63" stroke-width="14" stroke-linecap="round"/>
+        <polygon points="155,45 185,60 155,75" fill="#6a1b9a"/>
+        <text x="162" y="64" fill="#fff" font-size="10" font-weight="bold">SP</text>
+        <circle cx="70" cy="40" r="10" fill="#37474f"/>
+        <text x="70" y="44" text-anchor="middle" fill="#fff" font-size="9" font-weight="bold">N</text>
+        <text x="20" y="20" fill="#2d2a26" font-size="11" font-weight="bold">Spike sempre no FINAL</text>
+      </svg>`,
+    },
+    multipath: {
+      title: "Vários caminhos",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M20 30 H160" fill="none" stroke="#bdbdbd" stroke-width="10"/>
+        <path d="M20 60 H160" fill="none" stroke="#8d6e63" stroke-width="12"/>
+        <path d="M20 90 H160" fill="none" stroke="#bdbdbd" stroke-width="10"/>
+        <circle cx="90" cy="60" r="12" fill="#c62828"/>
+        <text x="90" y="64" text-anchor="middle" fill="#fff" font-size="9" font-weight="bold">1º</text>
+        <text x="20" y="18" fill="#2d2a26" font-size="11" font-weight="bold">Fortifique 1 caminho primeiro</text>
+      </svg>`,
+    },
+    loop: {
+      title: "Loop / miolo",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="100" cy="65" r="38" fill="none" stroke="#8d6e63" stroke-width="12"/>
+        <circle cx="100" cy="65" r="14" fill="#c62828"/>
+        <text x="100" y="69" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">N+A</text>
+        <text x="20" y="20" fill="#2d2a26" font-size="11" font-weight="bold">Torres DENTRO do loop</text>
+      </svg>`,
+    },
+    obstacle: {
+      title: "Obstáculo / visão",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M15 80 H185" fill="none" stroke="#8d6e63" stroke-width="12"/>
+        <rect x="85" y="35" width="30" height="40" rx="4" fill="#5d4037"/>
+        <text x="100" y="58" text-anchor="middle" fill="#fff" font-size="9">▓</text>
+        <circle cx="55" cy="55" r="11" fill="#37474f"/>
+        <text x="55" y="59" text-anchor="middle" fill="#fff" font-size="9" font-weight="bold">N</text>
+        <circle cx="145" cy="30" r="10" fill="#546e7a"/>
+        <text x="145" y="34" text-anchor="middle" fill="#fff" font-size="8" font-weight="bold">SN</text>
+        <text x="20" y="18" fill="#2d2a26" font-size="11" font-weight="bold">Ninja ao lado · Sniper por cima</text>
+      </svg>`,
+    },
+    straight: {
+      title: "Caminho reto",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M15 70 H185" fill="none" stroke="#8d6e63" stroke-width="14"/>
+        <circle cx="50" cy="48" r="9" fill="#f7941d"/>
+        <circle cx="100" cy="48" r="11" fill="#37474f"/>
+        <circle cx="150" cy="48" r="9" fill="#7cb342"/>
+        <text x="20" y="20" fill="#2d2a26" font-size="11" font-weight="bold">Cubra início · meio · fim</text>
+      </svg>`,
+    },
+    center: {
+      title: "Cruzamento / centro",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M100 15 V105 M30 60 H170" fill="none" stroke="#8d6e63" stroke-width="12"/>
+        <circle cx="100" cy="60" r="16" fill="#c62828"/>
+        <text x="100" y="64" text-anchor="middle" fill="#fff" font-size="9" font-weight="bold">HERÓI</text>
+        <text x="20" y="18" fill="#2d2a26" font-size="11" font-weight="bold">Centro atinge vários trechos</text>
+      </svg>`,
+    },
+    fast: {
+      title: "Aceleração (chute/mola)",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M15 70 H90" fill="none" stroke="#8d6e63" stroke-width="12"/>
+        <path d="M110 70 H185" fill="none" stroke="#ef6c00" stroke-width="12"/>
+        <polygon points="90,55 115,70 90,85" fill="#ef6c00"/>
+        <circle cx="50" cy="48" r="12" fill="#c62828"/>
+        <text x="50" y="52" text-anchor="middle" fill="#fff" font-size="9" font-weight="bold">AQUI</text>
+        <text x="20" y="20" fill="#2d2a26" font-size="11" font-weight="bold">Torres ANTES da aceleração</text>
+      </svg>`,
+    },
+    special: {
+      title: "Mapa especial / gimmick",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="100" cy="65" r="40" fill="none" stroke="#f7941d" stroke-width="4" stroke-dasharray="8 6"/>
+        <text x="100" y="60" text-anchor="middle" fill="#2d2a26" font-size="12" font-weight="bold">Observe 1–2</text>
+        <text x="100" y="76" text-anchor="middle" fill="#2d2a26" font-size="12" font-weight="bold">rounds primeiro</text>
+        <text x="20" y="20" fill="#2d2a26" font-size="11" font-weight="bold">Geared / High Finance / etc.</text>
+      </svg>`,
+    },
+  };
+  const d = diagrams[type];
+  if (!d) return "";
+  return `<figure class="position-diagram">
+    <figcaption>${escapeHtml(d.title)}</figcaption>
+    ${d.svg}
+    <p class="diagram-legend">N = Ninja · A = Alch · S = Sub · SP = Spike · SN = Sniper</p>
+  </figure>`;
+}
+
 function setupWelcome() {
   const sh = tutorialData.startHere;
   document.getElementById("welcome-intro").textContent = sh.intro;
@@ -96,6 +234,7 @@ function setupWelcome() {
     )
     .join("");
   renderTowerGuide();
+  renderRoundChecklist();
 }
 
 function setupTabs() {
@@ -309,6 +448,7 @@ function openTutorial(id) {
       html += `<p class="wiki-links">📷 <a href="${escapeHtml(item.wikiUrl)}" target="_blank" rel="noopener">Ver foto do mapa na Wiki</a>
         <span class="wiki-note">(abre em nova aba — imagens oficiais do jogo)</span></p>`;
     }
+    html += renderDiagram(item.diagram);
     html += `
       <p class="detail-meta"><strong>Categoria:</strong> ${escapeHtml(tierNames[item.tier] || item.tier || "—")}</p>
       <p class="detail-meta"><strong>Dificuldade:</strong> ${escapeHtml(item.difficulty)}</p>
@@ -329,6 +469,7 @@ function openTutorial(id) {
     html += `
       <p class="detail-meta"><strong>Nível:</strong> ${escapeHtml(item.difficulty)}</p>
       <p class="detail-summary">${escapeHtml(item.summary)}</p>`;
+    html += renderDiagram(item.diagram);
     const linkedCombo = tutorialData.combos.find((c) => c.id === item.useCombo);
     if (linkedCombo) {
       html += `<p class="detail-combo-link">💡 Build sugerido: <button type="button" class="inline-link" data-open-combo="${linkedCombo.id}">${escapeHtml(linkedCombo.title)}</button></p>`;

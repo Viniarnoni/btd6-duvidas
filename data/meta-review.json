@@ -1,7 +1,7 @@
 {
   "lastReviewed": "2026-07-20",
   "reviewedGameVersion": "55.2",
-  "reviewPass": 12,
+  "reviewPass": 13,
   "reviewerNotes": "Revisão cruzada com Blooncyclopedia (v49–55), tier lists da comunidade e guias de iniciante 2026.",
   "sources": [
     "https://www.bloonswiki.com/",
@@ -152,6 +152,18 @@
         "Preview visual por categoria de mapa (Beginner→Expert)",
         "6 tutoriais CHIMPS: Meadow, Tree Stump, Town Center, Cubism, Logs, In the Loop",
         "Estratégia reconhecer torres para iniciantes"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "version": "55.2",
+      "pass": 13,
+      "changes": [
+        "Diagramas SVG de posição (curva, água, fim, multi-path, loop, obstáculo, reto, centro, aceleração, especial)",
+        "Checklist de rounds na home",
+        "16 tutoriais CHIMPS Beginner (Meadow → Frozen Over)",
+        "+4 FAQs (CHIMPS, fotos, diagramas, ícones)",
+        "Autorização ampla do usuário para expansão contínua"
       ]
     }
   ],
